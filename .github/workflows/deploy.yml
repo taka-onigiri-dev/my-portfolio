@@ -1,0 +1,43 @@
+# GitHub Actionsのワークフロー：push時に自動でGitHub Pagesへデプロイする
+name: Deploy to GitHub Pages
+
+# mainブランチにpushされたときに実行
+on:
+  push:
+    branches:
+      - main
+
+# リポジトリの書き込み権限を許可（gh-pagesブランチにpushするために必要）
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    # GitHubが用意する最新のUbuntu環境で実行
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. リポジトリをチェックアウト
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. Node.jsのセットアップ（最新安定版を使用）
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24 # あなたのプロジェクトに合わせてバージョン指定
+
+      # 3. 依存パッケージのインストール（package-lock.jsonを厳密に再現）
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Viteでビルド
+      - name: Build
+        run: npm run build
+
+      # 5. peaceiris/actions-gh-pagesを使ってdistフォルダをgh-pagesブランチにデプロイ
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # GitHubが自動で用意してくれるトークン
+          publish_dir: ./dist # ビルド成果物の出力ディレクトリ
