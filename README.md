@@ -1,38 +1,38 @@
 # my-portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+このテンプレートは、ViteでVue 3の開発を始めるのに役立ちます。
 
-## Recommended IDE Setup
+## 推奨IDEセットアップ
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)（Veturは無効化してください）。
 
-## Type Support for `.vue` Imports in TS
+## `.vue` インポートの型サポート（TypeScript）
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+TypeScriptはデフォルトで`.vue`インポートの型情報を扱えないため、型チェックには`tsc` CLIの代わりに`vue-tsc`を使用します。エディタでは[Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)が必要です。
 
-## Customize configuration
+## 設定のカスタマイズ
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+[Vite公式ドキュメント](https://vite.dev/config/) を参照してください。
 
-## Project Setup
+## プロジェクトセットアップ
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 開発用サーバーの起動（ホットリロード対応）
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### 本番用ビルド（型チェック・コンパイル・最小化）
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### [ESLint](https://eslint.org/)によるリント
 
 ```sh
 npm run lint
