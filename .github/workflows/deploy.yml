@@ -25,7 +25,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 24 # あなたのプロジェクトに合わせてバージョン指定
+          node-version: 24
 
       # 3. 依存パッケージのインストール（package-lock.jsonを厳密に再現）
       - name: Install dependencies
