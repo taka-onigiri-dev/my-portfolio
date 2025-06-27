@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import ReadmeViewer from './components/ReadmeViewer.vue'
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView />
+  <ReadmeViewer />
 </template>
 
 <style scoped>
