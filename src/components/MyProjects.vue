@@ -11,16 +11,18 @@
             <strong>概要：</strong><br />
             日本語と韓国語の字幕における相性の良さと言語的な類似性に着目し、オタクコンテンツを通じてファン同士が学習データや解説を共有・蓄積できる語学学習サイトを開発中。
           </p>
-          <div class="mb-2">
-            <span class="badge bg-success me-1"><i class="bi bi-cpu me-1"></i>Python (Django)</span>
-            <span class="badge bg-info text-dark me-1"
-              ><i class="bi bi-window me-1"></i>TypeScript, Vue.js</span
-            >
-            <span class="badge bg-primary me-1"><i class="bi bi-database me-1"></i>PostgreSQL</span>
-            <span class="badge bg-secondary me-1"
-              ><i class="bi bi-box-seam me-1"></i>Docker, Nginx</span
-            >
-          </div>
+          <ul class="mb-2">
+            <li>
+              <strong>バックエンド：</strong>Python (Django) -
+              大学時代にYouTube字幕分析ツールでPythonを使用していた経験と、YouTube関連情報がPythonで多く見つかるため。
+            </li>
+            <li>
+              <strong>フロントエンド：</strong>TypeScript, Vue.js -
+              Vue.jsは業務未経験だったため、個人開発での習得目的で選定。
+            </li>
+            <li><strong>データベース：</strong>PostgreSQL</li>
+            <li><strong>その他技術：</strong>Docker, Nginx</li>
+          </ul>
           <span class="badge bg-secondary"><i class="bi bi-play-btn me-1"></i>デモはGifで用意</span>
         </div>
       </div>

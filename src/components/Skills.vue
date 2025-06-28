@@ -8,22 +8,25 @@
             <h3 class="h5"><i class="bi bi-code-slash me-2 text-primary"></i>プログラミング言語</h3>
             <ul class="list-group mb-3">
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <i class="bi bi-cup-hot me-1 text-warning"></i>Java（7 年）
-                <span class="badge bg-warning text-dark">★★★★★</span>
+                Java（7 年）<span class="badge bg-warning text-dark">★★★★★</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <i class="bi bi-filetype-tsx me-1 text-info"></i>TypeScript（2 年）
-                <span class="badge bg-info text-dark">★★★★☆</span>
+                TypeScript（2 年）<span class="badge bg-info text-dark">★★★★☆</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <i class="bi bi-filetype-py me-1 text-success"></i>Python（5 年）
-                <span class="badge bg-success">★★★★☆</span>
+                Python（5 年）<span class="badge bg-success">★★★★☆</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <i class="bi bi-cpu me-1 text-secondary"></i>Rust（1 年）
-                <span class="badge bg-secondary">★★★☆☆</span>
+                Rust（1 年）<span class="badge bg-secondary">★★★☆☆</span>
               </li>
             </ul>
+            <small class="text-muted"
+              >Java: Spring
+              Boot中心にバックエンドやバッチ処理の経験が豊富。業務での利用がメイン。<br />
+              TypeScript: Vue.jsを使った管理画面開発の経験。個人開発で利用。<br />
+              Python: 個人開発やスクリプト作成で幅広く利用。<br />
+              Rust: 業務でのバックエンド開発で利用。まだ発展途上。</small
+            >
           </div>
         </div>
         <div class="card mb-3">
@@ -31,14 +34,16 @@
             <h3 class="h5"><i class="bi bi-database me-2 text-primary"></i>データベース</h3>
             <ul class="list-group mb-3">
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <i class="bi bi-database-check me-1 text-success"></i>PostgreSQL（2 年）
-                <span class="badge bg-success">★★★★☆</span>
+                PostgreSQL（2 年）<span class="badge bg-success">★★★★☆</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <i class="bi bi-database-dash me-1 text-secondary"></i>Oracle/MySQL（各 3 カ月）
-                <span class="badge bg-secondary">★☆☆☆☆</span>
+                Oracle/MySQL（各 3 カ月）<span class="badge bg-secondary">★☆☆☆☆</span>
               </li>
             </ul>
+            <small class="text-muted"
+              >PostgreSQL: 業務や個人開発で使用。SQLの基本操作は問題なし。<br />
+              Oracle/MySQL: 基本操作の習得段階。業務経験は限定的。</small
+            >
           </div>
         </div>
         <div class="card mb-3">
@@ -46,14 +51,16 @@
             <h3 class="h5"><i class="bi bi-hdd-network me-2 text-info"></i>インフラ・ツール</h3>
             <ul class="list-group mb-3">
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <i class="bi bi-box-seam me-1 text-secondary"></i>Docker（2 年）
-                <span class="badge bg-secondary">★★★☆☆</span>
+                Docker（2 年）<span class="badge bg-secondary">★★★☆☆</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <i class="bi bi-cloud me-1 text-primary"></i>AWS
-                <span class="badge bg-primary">★★☆☆☆</span>
+                AWS<span class="badge bg-primary">★★☆☆☆</span>
               </li>
             </ul>
+            <small class="text-muted"
+              >Docker: 基本的な環境構築が可能。<br />
+              AWS: 基本的なサービスの利用経験あり。より深い知識を習得中。</small
+            >
           </div>
         </div>
         <div class="card mb-3">
@@ -61,10 +68,7 @@
             <h3 class="h5"><i class="bi bi-translate me-2 text-success"></i>言語能力</h3>
             <div class="mb-3">
               <strong
-                ><i class="bi bi-chat-dots me-1 text-info"></i>韓国語（TOPIK1 級相当）：<span
-                  class="badge bg-info text-dark"
-                  >★★☆☆☆</span
-                ></strong
+                >韓国語（TOPIK1 級相当）：<span class="badge bg-info text-dark">★★☆☆☆</span></strong
               >
               <p class="mb-1">軽い会話・自己紹介が可能。独学継続中。</p>
               <small class="text-muted"
@@ -75,8 +79,7 @@
             </div>
             <div class="mb-3">
               <strong
-                ><i class="bi bi-chat-dots me-1 text-warning"></i>中国語（HSK1 級相当）：<span
-                  class="badge bg-warning text-dark"
+                >中国語（HSK1 級相当）：<span class="badge bg-warning text-dark"
                   >★★☆☆☆</span
                 ></strong
               >
@@ -89,12 +92,7 @@
               >
             </div>
             <div>
-              <strong
-                ><i class="bi bi-chat-dots me-1 text-primary"></i>英語（学習中）：<span
-                  class="badge bg-primary"
-                  >★☆☆☆☆</span
-                ></strong
-              >
+              <strong>英語（学習中）：<span class="badge bg-primary">★☆☆☆☆</span></strong>
               <p class="mb-1">聞き流し中心に英語環境に慣れている段階。</p>
               <small class="text-muted"
                 >中学から英語を学習していたが、学生時代には本格的な勉強には取り組まず。現在は
