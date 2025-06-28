@@ -33,7 +33,6 @@
           </li>
         </ul>
       </div>
-      <span class="ms-3">{{ $t('message.hello') }}</span>
     </div>
   </header>
 </template>
