@@ -38,5 +38,9 @@
         "frontend": "Reason: Chose Vue.js for personal development to learn it, as I had no professional experience with it."
       }
     }
+  },
+  "accordion": {
+    "open": "Show details",
+    "close": "Hide details"
   }
 }

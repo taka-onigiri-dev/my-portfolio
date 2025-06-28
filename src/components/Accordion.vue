@@ -6,7 +6,7 @@
       type="button"
       @click="open = !open"
     >
-      <small>{{ open ? closeText : openText }}</small>
+      <small>{{ open ? closeTextComputed : openTextComputed }}</small>
     </button>
     <div v-show="open">
       <small class="text-muted">
@@ -17,11 +17,15 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { defineProps } from 'vue'
+const { t } = useI18n()
 const props = defineProps({
-  openText: { type: String, default: '詳細を見る' },
-  closeText: { type: String, default: '詳細を閉じる' },
+  openText: { type: String, default: '' },
+  closeText: { type: String, default: '' },
 })
 const open = ref(false)
+const openTextComputed = computed(() => props.openText || t('accordion.open'))
+const closeTextComputed = computed(() => props.closeText || t('accordion.close'))
 </script>
