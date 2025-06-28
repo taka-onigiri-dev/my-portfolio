@@ -93,34 +93,52 @@
                 <span>韓国語</span>
                 <span class="badge bg-light text-dark border">★★☆☆☆</span>
               </div>
-              <small class="text-muted"
-                >大学時代に第二外国語として韓国語を学習し、社会人になってからは韓国のバーチャルアイドルグループ「이세계아이돌」に興味を持ったことをきっかけに、独学で再び学習を開始。日本語と文法・語彙に類似点が多く、字幕を活用した学習のしやすさにも魅力を感じている。YouTube
-                視聴や VRChat、Maum
-                での交流が中心で、軽い自己紹介程度の会話が可能。ハングルの読み（発音）はある程度できるが、語彙は限定的で、オタク系の用語にやや偏りがある。</small
-              >
+              <div>軽い会話・自己紹介が可能。独学継続中。</div>
+              <button class="btn btn-link p-0" type="button" @click="openDetail('ko')">
+                <small>{{ showDetail.ko ? '詳細を閉じる' : '詳細を見る' }}</small>
+              </button>
+              <div v-show="showDetail.ko">
+                <small class="text-muted">
+                  大学時代に第二外国語として韓国語を学習し、社会人になってからは韓国のバーチャルアイドルグループ「이세계아이돌」に興味を持ったことをきっかけに、独学で再び学習を開始。日本語と文法・語彙に類似点が多く、字幕を活用した学習のしやすさにも魅力を感じている。YouTube
+                  視聴や VRChat、Maum
+                  での交流が中心で、軽い自己紹介程度の会話が可能。ハングルの読み（発音）はある程度できるが、語彙は限定的で、オタク系の用語にやや偏りがある。
+                </small>
+              </div>
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>中国語</span>
                 <span class="badge bg-light text-dark border">★★☆☆☆</span>
               </div>
-              <small class="text-muted"
-                >学習歴は数ヶ月。ピンインは一部読めるようになってきたが、正確な発音にはまだ課題がある。Hello
-                Talk
-                を利用して日本語話者の中国の友人と実践的に学習中。「仕事に行く」「ご飯を食べる」などの簡単な日常表現の理解が進んでいる。読解は少しずつ理解が深まっていますが、話す・聞く・書くのスキルは今後の課題です。HSK4
-                級レベルまでの語彙を読み中心にインプットし、覚えた語句を会話で実践的に使う形で学習中。</small
-              >
+              <div>基本的な日常表現の理解あり。発音と会話は学習中。</div>
+              <button class="btn btn-link p-0" type="button" @click="openDetail('zh')">
+                <small>{{ showDetail.zh ? '詳細を閉じる' : '詳細を見る' }}</small>
+              </button>
+              <div v-show="showDetail.zh">
+                <small class="text-muted">
+                  学習歴は数ヶ月。ピンインは一部読めるようになってきたが、正確な発音にはまだ課題がある。Hello
+                  Talk
+                  を利用して日本語話者の中国の友人と実践的に学習中。「仕事に行く」「ご飯を食べる」などの簡単な日常表現の理解が進んでいる。読解は少しずつ理解が深まっていますが、話す・聞く・書くのスキルは今後の課題です。HSK4
+                  級レベルまでの語彙を読み中心にインプットし、覚えた語句を会話で実践的に使う形で学習中。
+                </small>
+              </div>
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>英語</span>
                 <span class="badge bg-light text-dark border">★☆☆☆☆</span>
               </div>
-              <small class="text-muted"
-                >中学から英語を学習していたが、学生時代には本格的な勉強には取り組まず。現在は
-                NIJISANJI EN などの英語 VTuber
-                をきっかけに、リスニングを中心とした「聞き流し」スタイルで英語に触れている。体系的な学習は行っていないが、興味のあるコンテンツを通して、少しずつ英語への理解を深めることを目指している。</small
-              >
+              <div>聞き流し中心に英語環境に慣れている段階。</div>
+              <button class="btn btn-link p-0" type="button" @click="openDetail('en')">
+                <small>{{ showDetail.en ? '詳細を閉じる' : '詳細を見る' }}</small>
+              </button>
+              <div v-show="showDetail.en">
+                <small class="text-muted">
+                  中学から英語を学習していたが、学生時代には本格的な勉強には取り組まず。現在は
+                  NIJISANJI EN などの英語 VTuber
+                  をきっかけに、リスニングを中心とした「聞き流し」スタイルで英語に触れている。体系的な学習は行っていないが、興味のあるコンテンツを通して、少しずつ英語への理解を深めることを目指している。
+                </small>
+              </div>
             </li>
           </ul>
         </div>
@@ -130,7 +148,14 @@
 </template>
 
 <script setup lang="ts">
+import { reactive } from 'vue'
 import Section from './Section.vue'
+
+type LangKey = 'ko' | 'zh' | 'en'
+const showDetail: Record<LangKey, boolean> = reactive({ ko: false, zh: false, en: false })
+function openDetail(lang: LangKey) {
+  showDetail[lang] = !showDetail[lang]
+}
 </script>
 
 <style scoped>
