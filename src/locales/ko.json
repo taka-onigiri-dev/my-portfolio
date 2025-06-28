@@ -5,5 +5,10 @@
     "projects": "프로젝트 소개",
     "skills": "스킬 목록",
     "contact": "연락처"
+  },
+  "section": {
+    "about": "자기소개",
+    "projects": "프로젝트 소개",
+    "skills": "스킬 목록"
   }
 }

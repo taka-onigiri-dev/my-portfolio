@@ -1,6 +1,6 @@
 <template>
   <Section>
-    <template #title> スキル一覧 </template>
+    <template #title> {{ $t('section.skills') }} </template>
     <div class="mb-4">
       <div class="card mb-3 bg-white border-0">
         <div class="card-body">

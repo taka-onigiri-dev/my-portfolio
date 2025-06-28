@@ -5,5 +5,10 @@
     "projects": "My Projects",
     "skills": "Skills",
     "contact": "Contact"
+  },
+  "section": {
+    "about": "About Me",
+    "projects": "My Projects",
+    "skills": "Skills"
   }
 }

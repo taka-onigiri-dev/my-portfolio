@@ -1,6 +1,6 @@
 <template>
   <Section>
-    <template #title> プロジェクト紹介 </template>
+    <template #title>{{ $t('section.projects') }}</template>
     <p class="card-text text-dark">YouTube 字幕と生成AIを活用した多言語学習支援 Web アプリ</p>
     <p class="mb-1 text-dark">
       <strong>概要：</strong><br />
