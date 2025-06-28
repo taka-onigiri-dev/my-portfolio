@@ -1,6 +1,6 @@
 <template>
   <Section>
-    <template #title> <i class="bi bi-person-lines-fill me-2"></i>自己紹介（About Me） </template>
+    <template #title> 自己紹介（About Me） </template>
     <p class="mb-2 text-dark">
       大阪生まれ大阪育ち、東京都在住。大学では理工学部情報学科卒、自然言語処理研究室に所属。<br />
       Webアプリケーション開発を中心に、バックエンド・フロントエンド・バッチ処理まで幅広く経験。<br />

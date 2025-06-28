@@ -1,8 +1,6 @@
 <template>
   <Section>
-    <template #title>
-      <i class="bi bi-lightbulb me-2"></i>YouTube 字幕 × 生成 AI 語学学習アプリ
-    </template>
+    <template #title> プロジェクト紹介（My Projects） </template>
     <p class="card-text text-dark">YouTube 字幕と生成 AI を活用した多言語学習支援 Web アプリ</p>
     <p class="mb-1 text-dark">
       <strong>概要：</strong><br />

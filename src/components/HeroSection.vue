@@ -1,6 +1,5 @@
 <template>
   <Section>
-    <template #title> <i class="bi bi-person-circle me-2"></i>taka-onigiri-dev </template>
     <div class="text-center">
       <img
         src="@/assets/onigiri.PNG"

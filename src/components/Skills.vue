@@ -1,6 +1,6 @@
 <template>
   <Section>
-    <template #title> <i class="bi bi-tools me-2"></i>スキル一覧（Skills） </template>
+    <template #title> スキル一覧（Skills） </template>
     <div class="mb-4">
       <div class="card mb-3 bg-white border-0">
         <div class="card-body">
