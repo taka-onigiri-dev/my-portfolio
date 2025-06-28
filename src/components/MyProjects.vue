@@ -7,18 +7,34 @@
       ><br />
       {{ t('projects.ytgenai.desc') }}
     </p>
-    <ul class="mb-2">
-      <li>
-        {{ t('projects.ytgenai.stack.0') }}<br />
-        {{ t('projects.ytgenai.stackReason.backend') }}
-      </li>
-      <li>
-        {{ t('projects.ytgenai.stack.1') }}<br />
-        {{ t('projects.ytgenai.stackReason.frontend') }}
-      </li>
-      <li>{{ t('projects.ytgenai.stack.2') }}</li>
-      <li>{{ t('projects.ytgenai.stack.3') }}</li>
-    </ul>
+    <div class="mb-2">
+      <div class="mb-2">
+        <div>
+          <strong>{{ t('projects.ytgenai.stack.0') }}</strong>
+        </div>
+        <div class="text-muted small">
+          {{ t('projects.ytgenai.stackReason.backend') }}
+        </div>
+      </div>
+      <div class="mb-2">
+        <div>
+          <strong>{{ t('projects.ytgenai.stack.1') }}</strong>
+        </div>
+        <div class="text-muted small">
+          {{ t('projects.ytgenai.stackReason.frontend') }}
+        </div>
+      </div>
+      <div class="mb-2">
+        <div>
+          <strong>{{ t('projects.ytgenai.stack.2') }}</strong>
+        </div>
+      </div>
+      <div class="mb-2">
+        <div>
+          <strong>{{ t('projects.ytgenai.stack.3') }}</strong>
+        </div>
+      </div>
+    </div>
     <div class="mb-3">
       <img
         src="/src/assets/demo.gif"
