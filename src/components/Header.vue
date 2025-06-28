@@ -7,13 +7,6 @@
         class="rounded-circle me-3"
         style="width: 40px; height: 40px; object-fit: cover"
       />
-      <div>
-        <p>t関数の型: {{ typeof t }}</p>
-        <p>tの中身: {{ t }}</p>
-        <!-- 'function' ならOK -->
-        <p>t('message.hello'): {{ t('message.hello') }}</p>
-        <!-- 翻訳文字列が出るはず -->
-      </div>
       <h1 class="h3 mb-0 text-white">taka-onigiri-dev</h1>
       <div class="dropdown ms-auto">
         <button
@@ -45,17 +38,10 @@
 </template>
 
 <script setup lang="ts">
-import { defineComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-const { t, messages, locale } = useI18n()
+const { locale } = useI18n()
 
-console.log('🗣 現在のロケール:', locale.value)
-console.log('🗂 読み込まれた messages オブジェクト:', messages.value)
-console.log('🧪 現在のロケールの中身:', messages.value[locale.value])
-// messages.value[locale.value] を一旦 any や Record<string, any> として扱う例
-const currentMessages = messages.value[locale.value] as Record<string, any>
-console.log('🔍 "message.hello" に対応する値:', currentMessages?.message?.hello)
 const setLocale = (lang: string) => {
   locale.value = lang
 }
