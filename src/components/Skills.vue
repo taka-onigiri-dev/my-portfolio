@@ -1,8 +1,8 @@
 <template>
   <section class="skills py-5">
     <div class="d-flex justify-content-center align-items-center flex-column">
-      <div class="mb-4 w-100" style="max-width: 800px">
-        <div class="card mb-3 bg-white border-0 mx-auto">
+      <div class="mb-4">
+        <div class="card mb-3 bg-white border-0">
           <div class="card-body">
             <h3 class="h5 text-dark"><i class="bi bi-code-slash me-2"></i>プログラミング言語</h3>
             <ul class="list-group mb-3">
@@ -36,7 +36,7 @@
             >
           </div>
         </div>
-        <div class="card mb-3 bg-white border-0 mx-auto">
+        <div class="card mb-3 bg-white border-0">
           <div class="card-body">
             <h3 class="h5 text-dark"><i class="bi bi-database me-2"></i>データベース</h3>
             <ul class="list-group mb-3">
@@ -57,7 +57,7 @@
             >
           </div>
         </div>
-        <div class="card mb-3 bg-white border-0 mx-auto">
+        <div class="card mb-3 bg-white border-0">
           <div class="card-body">
             <h3 class="h5 text-dark"><i class="bi bi-hdd-network me-2"></i>インフラ・ツール</h3>
             <ul class="list-group mb-3">
@@ -78,7 +78,7 @@
             >
           </div>
         </div>
-        <div class="card mb-3 bg-white border-0 mx-auto">
+        <div class="card mb-3 bg-white border-0">
           <div class="card-body">
             <h3 class="h5 text-dark"><i class="bi bi-translate me-2"></i>言語能力</h3>
             <div class="mb-3">

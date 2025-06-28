@@ -1,7 +1,7 @@
 <template>
   <section class="about-me py-5">
     <div class="d-flex justify-content-center align-items-center flex-column">
-      <div class="card shadow-sm p-4 w-100 bg-white border-0 mx-auto" style="max-width: 600px">
+      <div class="card shadow-sm p-4 bg-white border-0">
         <h2 class="h5 mb-3 text-dark">
           <i class="bi bi-person-lines-fill me-2"></i>自己紹介（About Me）
         </h2>

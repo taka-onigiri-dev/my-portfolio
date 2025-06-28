@@ -1,7 +1,7 @@
 <template>
   <section class="my-projects py-5 bg-white">
     <div class="d-flex justify-content-center align-items-center flex-column">
-      <div class="card mb-3 shadow-sm w-100 bg-white border-0 mx-auto" style="max-width: 800px">
+      <div class="card mb-3 shadow-sm bg-white border-0">
         <div class="card-body">
           <h3 class="h5 card-title text-dark">
             <i class="bi bi-lightbulb me-2"></i>YouTube 字幕 × 生成 AI 語学学習アプリ
