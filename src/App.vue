@@ -8,10 +8,10 @@ import Skills from './components/Skills.vue'
 </script>
 
 <template>
-  <div id="app" class="d-flex flex-column min-vh-100 bg-white">
+  <div id="app" class="d-flex flex-column min-vh-100 bg-white" style="padding: 0">
     <Header />
     <main class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-      <div class="container-fluid px-0">
+      <div class="m-0 p-0">
         <HeroSection />
         <AboutMe />
         <MyProjects />
