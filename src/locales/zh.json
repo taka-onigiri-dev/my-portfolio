@@ -29,10 +29,17 @@
       "desc": "关注日语和韩语字幕的亲和性及语言相似性，通过二次元内容让粉丝们可以共享和积累学习数据与解说的语言学习网站正在开发中。",
       "stackLabel": "技术栈",
       "stack": [
-        "后端：Python（Django）",
-        "前端：TypeScript、Vue.js",
-        "数据库：PostgreSQL",
-        "其他：Docker、Nginx"
+        { "title": "技术栈" },
+        {
+          "name": "后端：Python（Django）",
+          "reason": "理由：大学期间使用Python开发YouTube字幕分析工具，并且与YouTube相关的信息多为Python。"
+        },
+        {
+          "name": "前端：TypeScript、Vue.js",
+          "reason": "理由：Vue.js在工作中未使用过，为了在个人开发中学习而选择。"
+        },
+        { "name": "数据库：PostgreSQL" },
+        { "name": "其他：Docker、Nginx" }
       ],
       "stackReason": {
         "backend": "选定理由：大学时代曾用Python开发YouTube字幕分析工具，且Python有丰富的YouTube相关资料。",

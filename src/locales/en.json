@@ -29,10 +29,17 @@
       "desc": "Focusing on the affinity and linguistic similarity between Japanese and Korean subtitles, developing a language learning site where fans can share and accumulate learning data and explanations through otaku content.",
       "stackLabel": "Tech Stack",
       "stack": [
-        "Backend: Python (Django)",
-        "Frontend: TypeScript, Vue.js",
-        "Database: PostgreSQL",
-        "Other: Docker, Nginx"
+        { "title": "Tech Stack" },
+        {
+          "name": "Backend: Python (Django)",
+          "reason": "Reason: Experience with Python for YouTube subtitle analysis tools in university, and abundant Python resources for YouTube."
+        },
+        {
+          "name": "Frontend: TypeScript, Vue.js",
+          "reason": "Reason: Chose Vue.js for personal development to gain experience, as it was not used in my job."
+        },
+        { "name": "Database: PostgreSQL" },
+        { "name": "Other: Docker, Nginx" }
       ],
       "stackReason": {
         "backend": "Reason: Used Python for YouTube subtitle analysis tools at university, and Python has abundant resources for YouTube integration.",

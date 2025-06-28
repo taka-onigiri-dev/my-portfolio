@@ -29,10 +29,17 @@
       "desc": "일본어와 한국어 자막의 친화성과 언어적 유사성에 주목하여, 오타쿠 콘텐츠를 통해 팬들이 학습 데이터와 해설을 공유·축적할 수 있는 언어학습 사이트를 개발 중입니다.",
       "stackLabel": "기술 스택",
       "stack": [
-        "백엔드: Python(Django)",
-        "프론트엔드: TypeScript, Vue.js",
-        "데이터베이스: PostgreSQL",
-        "기타: Docker, Nginx"
+        { "title": "기술 스택" },
+        {
+          "name": "백엔드: Python (Django)",
+          "reason": "이유: 대학 시절 YouTube 자막 분석 도구에 Python을 사용한 경험이 있고, YouTube 관련 정보가 Python으로 많이 제공되기 때문."
+        },
+        {
+          "name": "프론트엔드: TypeScript, Vue.js",
+          "reason": "이유: Vue.js는 업무에서 사용해본 적이 없어 개인 개발을 통해 습득하고자 선택."
+        },
+        { "name": "데이터베이스: PostgreSQL" },
+        { "name": "기타: Docker, Nginx" }
       ],
       "stackReason": {
         "backend": "선정 이유: 대학 시절 YouTube 자막 분석 도구에 Python을 사용한 경험이 있고, YouTube 관련 자료가 Python에 많기 때문.",
