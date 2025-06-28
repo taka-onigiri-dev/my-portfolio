@@ -46,6 +46,9 @@ const setLocale = (lang: string) => {
   locale.value = lang
 }
 console.log('現在の言語:', locale.value)
+
+const { t } = useI18n()
+console.log('翻訳値:', t('message.hello'))
 const languageLabel = (lang: string) => {
   switch (lang) {
     case 'ja':
