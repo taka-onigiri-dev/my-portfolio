@@ -1,6 +1,6 @@
 <template>
   <Section>
-    <template #title> 自己紹介（About Me） </template>
+    <template #title> 自己紹介 </template>
     <p class="mb-2 text-dark">
       大阪生まれ大阪育ち、現在は東京都在住。<br />
       大学では理工学部情報学科に在籍し、自然言語処理研究室に所属。<br />
