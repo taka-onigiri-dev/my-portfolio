@@ -9,6 +9,7 @@
       />
       <div>
         <p>t関数の型: {{ typeof t }}</p>
+        <p>tの中身: {{ t }}</p>
         <!-- 'function' ならOK -->
         <p>t('message.hello'): {{ t('message.hello') }}</p>
         <!-- 翻訳文字列が出るはず -->
