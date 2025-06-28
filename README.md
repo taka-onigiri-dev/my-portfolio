@@ -4,6 +4,8 @@
 
 ## 1. トップセクション
 
+src\components\HeroSection.vue
+
 - アイコン / 写真：`src/assets/onigiri.PNG`
 - SNS リンク：
   - GitHub: https://github.com/taka-onigiri-dev
