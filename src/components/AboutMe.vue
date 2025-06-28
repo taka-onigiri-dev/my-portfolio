@@ -1,7 +1,7 @@
 <template>
   <section class="about-me py-5">
     <div class="container d-flex justify-content-center">
-      <div class="card shadow-sm p-4" style="max-width: 600px; width: 100%">
+      <div class="card shadow-sm p-4 w-100" style="max-width: 600px">
         <h2 class="h5 mb-3"><i class="bi bi-person-lines-fill me-2"></i>自己紹介（About Me）</h2>
         <p class="mb-2">
           大阪生まれ大阪育ち、東京都在住。<br />

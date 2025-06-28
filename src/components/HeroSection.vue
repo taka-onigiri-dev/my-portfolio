@@ -3,7 +3,6 @@
     <div class="container d-flex justify-content-center">
       <div class="card shadow-sm p-4" style="max-width: 400px; width: 100%">
         <div class="text-center">
-          <i class="bi bi-emoji-smile fs-1 mb-2 text-primary"></i>
           <img
             src="@/assets/onigiri.PNG"
             alt="アイコン"
