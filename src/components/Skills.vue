@@ -6,75 +6,82 @@
         <div class="card-body">
           <h3 class="h5 text-dark"><i class="bi bi-code-slash me-2"></i>プログラミング言語</h3>
           <ul class="list-group mb-3">
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
-            >
-              Java（7 年）<span class="badge bg-light text-dark border">★★★★★</span>
+            <li class="list-group-item bg-white text-dark border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>Java（7 年）</span>
+                <span class="badge bg-light text-dark border">★★★★★</span>
+              </div>
+              <small class="text-muted"
+                >Spring
+                Boot中心にバックエンドやバッチ処理の経験が豊富。業務での利用がメイン。</small
+              >
             </li>
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
-            >
-              TypeScript（2 年）<span class="badge bg-light text-dark border">★★★★☆</span>
+            <li class="list-group-item bg-white text-dark border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>TypeScript（2 年）</span>
+                <span class="badge bg-light text-dark border">★★★★☆</span>
+              </div>
+              <small class="text-muted">Vue.jsを使った管理画面開発の経験。個人開発で利用。</small>
             </li>
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
-            >
-              Python（5 年）<span class="badge bg-light text-dark border">★★★★☆</span>
+            <li class="list-group-item bg-white text-dark border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>Python（5 年）</span>
+                <span class="badge bg-light text-dark border">★★★★☆</span>
+              </div>
+              <small class="text-muted">個人開発やスクリプト作成で幅広く利用。</small>
             </li>
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
-            >
-              Rust（1 年）<span class="badge bg-light text-dark border">★★★☆☆</span>
+            <li class="list-group-item bg-white text-dark border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>Rust（1 年）</span>
+                <span class="badge bg-light text-dark border">★★★☆☆</span>
+              </div>
+              <small class="text-muted">業務でのバックエンド開発で利用。まだ発展途上。</small>
             </li>
           </ul>
-          <small class="text-muted"
-            >Java: Spring Boot中心にバックエンドやバッチ処理の経験が豊富。業務での利用がメイン。<br />
-            TypeScript: Vue.jsを使った管理画面開発の経験。個人開発で利用。<br />
-            Python: 個人開発やスクリプト作成で幅広く利用。<br />
-            Rust: 業務でのバックエンド開発で利用。まだ発展途上。</small
-          >
         </div>
       </div>
       <div class="card mb-3 bg-white border-0">
         <div class="card-body">
           <h3 class="h5 text-dark"><i class="bi bi-database me-2"></i>データベース</h3>
           <ul class="list-group mb-3">
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
-            >
-              PostgreSQL（2 年）<span class="badge bg-light text-dark border">★★★★☆</span>
+            <li class="list-group-item bg-white text-dark border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>PostgreSQL（2 年）</span>
+                <span class="badge bg-light text-dark border">★★★★☆</span>
+              </div>
+              <small class="text-muted">業務や個人開発で使用。SQLの基本操作は問題なし。</small>
             </li>
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
-            >
-              Oracle/MySQL（各 3 カ月）<span class="badge bg-light text-dark border">★☆☆☆☆</span>
+            <li class="list-group-item bg-white text-dark border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>Oracle/MySQL（各 3 カ月）</span>
+                <span class="badge bg-light text-dark border">★☆☆☆☆</span>
+              </div>
+              <small class="text-muted">基本操作の習得段階。業務経験は限定的。</small>
             </li>
           </ul>
-          <small class="text-muted"
-            >PostgreSQL: 業務や個人開発で使用。SQLの基本操作は問題なし。<br />
-            Oracle/MySQL: 基本操作の習得段階。業務経験は限定的。</small
-          >
         </div>
       </div>
       <div class="card mb-3 bg-white border-0">
         <div class="card-body">
           <h3 class="h5 text-dark"><i class="bi bi-hdd-network me-2"></i>インフラ・ツール</h3>
           <ul class="list-group mb-3">
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
-            >
-              Docker（2 年）<span class="badge bg-light text-dark border">★★★☆☆</span>
+            <li class="list-group-item bg-white text-dark border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>Docker（2 年）</span>
+                <span class="badge bg-light text-dark border">★★★☆☆</span>
+              </div>
+              <small class="text-muted">基本的な環境構築が可能。</small>
             </li>
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
-            >
-              AWS<span class="badge bg-light text-dark border">★★☆☆☆</span>
+            <li class="list-group-item bg-white text-dark border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>AWS</span>
+                <span class="badge bg-light text-dark border">★★☆☆☆</span>
+              </div>
+              <small class="text-muted"
+                >基本的なサービスの利用経験あり。より深い知識を習得中。</small
+              >
             </li>
           </ul>
-          <small class="text-muted"
-            >Docker: 基本的な環境構築が可能。<br />
-            AWS: 基本的なサービスの利用経験あり。より深い知識を習得中。</small
-          >
         </div>
       </div>
       <div class="card mb-3 bg-white border-0">
