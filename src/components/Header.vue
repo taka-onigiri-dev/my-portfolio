@@ -46,6 +46,9 @@ const { t, messages, locale } = useI18n()
 console.log('🗣 現在のロケール:', locale.value)
 console.log('🗂 読み込まれた messages オブジェクト:', messages.value)
 console.log('🧪 現在のロケールの中身:', messages.value[locale.value])
+// messages.value[locale.value] を一旦 any や Record<string, any> として扱う例
+const currentMessages = messages.value[locale.value] as Record<string, any>
+console.log('🔍 "message.hello" に対応する値:', currentMessages?.message?.hello)
 const setLocale = (lang: string) => {
   locale.value = lang
 }
