@@ -1,0 +1,9 @@
+{
+  "message": {
+    "hello": "Hello!",
+    "about": "About Me",
+    "projects": "My Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  }
+}
