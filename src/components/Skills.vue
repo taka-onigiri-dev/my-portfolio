@@ -8,34 +8,35 @@
           <ul class="list-group mb-3">
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
-                <span>Java（7 年）</span>
+                <span>Java（7年）</span>
                 <span class="badge bg-light text-dark border">★★★★★</span>
               </div>
               <small class="text-muted"
-                >Spring
-                Boot中心にバックエンドやバッチ処理の経験が豊富。業務での利用がメイン。</small
+                >Spring Boot を中心に、バックエンドやバッチ処理の経験が豊富。主に業務で使用。</small
               >
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
-                <span>TypeScript（2 年）</span>
+                <span>TypeScript（2年）</span>
                 <span class="badge bg-light text-dark border">★★★★☆</span>
               </div>
-              <small class="text-muted">Vue.jsを使った管理画面開発の経験。個人開発で利用。</small>
+              <small class="text-muted"
+                >業務で Vue.js を用いた管理画面の開発を担当。個人開発でも使用。</small
+              >
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
-                <span>Python（5 年）</span>
+                <span>Python（5年）</span>
                 <span class="badge bg-light text-dark border">★★★★☆</span>
               </div>
-              <small class="text-muted">個人開発やスクリプト作成で幅広く利用。</small>
+              <small class="text-muted">個人開発やスクリプト作成で幅広く活用。</small>
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
-                <span>Rust（1 年）</span>
+                <span>Rust（1年）</span>
                 <span class="badge bg-light text-dark border">★★★☆☆</span>
               </div>
-              <small class="text-muted">業務でのバックエンド開発で利用。まだ発展途上。</small>
+              <small class="text-muted">業務でのバックエンド開発に使用。現在も習得中。</small>
             </li>
           </ul>
         </div>
@@ -46,17 +47,19 @@
           <ul class="list-group mb-3">
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
-                <span>PostgreSQL（2 年）</span>
+                <span>PostgreSQL（2年）</span>
                 <span class="badge bg-light text-dark border">★★★★☆</span>
               </div>
-              <small class="text-muted">業務や個人開発で使用。SQLの基本操作は問題なし。</small>
+              <small class="text-muted"
+                >業務および個人開発で使用。基本的な SQL 操作に問題なし。</small
+              >
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
-                <span>Oracle/MySQL（各 3 カ月）</span>
+                <span>Oracle / MySQL（各 3カ月）</span>
                 <span class="badge bg-light text-dark border">★☆☆☆☆</span>
               </div>
-              <small class="text-muted">基本操作の習得段階。業務経験は限定的。</small>
+              <small class="text-muted">業務で基本操作を使用した経験あり。</small>
             </li>
           </ul>
         </div>
@@ -67,7 +70,7 @@
           <ul class="list-group mb-3">
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
-                <span>Docker（2 年）</span>
+                <span>Docker（2年）</span>
                 <span class="badge bg-light text-dark border">★★★☆☆</span>
               </div>
               <small class="text-muted">基本的な環境構築が可能。</small>
@@ -78,7 +81,7 @@
                 <span class="badge bg-light text-dark border">★★☆☆☆</span>
               </div>
               <small class="text-muted"
-                >基本的なサービスの利用経験あり。より深い知識を習得中。</small
+                >基本的なサービスの利用経験あり。現在、より深い知識を習得中。</small
               >
             </li>
           </ul>
@@ -93,7 +96,7 @@
                 <span>韓国語</span>
                 <span class="badge bg-light text-dark border">★★☆☆☆</span>
               </div>
-              <div>軽い会話・自己紹介が可能。独学継続中。</div>
+              <div>簡単な会話や自己紹介が可能。独学で継続学習中。</div>
               <button
                 class="btn btn-link p-0 text-secondary"
                 style="font-size: 0.85em; text-decoration: underline dotted"
@@ -104,9 +107,9 @@
               </button>
               <div v-show="showDetail.ko">
                 <small class="text-muted">
-                  大学時代に第二外国語として韓国語を学習し、社会人になってからは韓国のバーチャルアイドルグループ「이세계아이돌」に興味を持ったことをきっかけに、独学で再び学習を開始。日本語と文法・語彙に類似点が多く、字幕を活用した学習のしやすさにも魅力を感じている。YouTube
+                  大学で第二外国語として韓国語を学び、社会人になってから韓国のバーチャルアイドルグループ「이세계아이돌」に興味を持ったことをきっかけに、独学を再開。日本語との文法・語彙の類似性や、字幕を活用した学習のしやすさに魅力を感じている。YouTube
                   視聴や VRChat、Maum
-                  での交流が中心で、軽い自己紹介程度の会話が可能。ハングルの読み（発音）はある程度できるが、語彙は限定的で、オタク系の用語にやや偏りがある。
+                  での交流を通じて学習を進めており、軽い自己紹介程度の会話が可能。ハングルの読みや発音にはある程度慣れているが、語彙は限定的で、オタク系の用語にやや偏りがある。
                 </small>
               </div>
             </li>
@@ -126,10 +129,9 @@
               </button>
               <div v-show="showDetail.zh">
                 <small class="text-muted">
-                  学習歴は数ヶ月。ピンインは一部読めるようになってきたが、正確な発音にはまだ課題がある。Hello
+                  学習歴は数ヶ月。ピンインの一部を読めるようになってきたが、正確な発音には課題がある。Hello
                   Talk
-                  を利用して日本語話者の中国の友人と実践的に学習中。「仕事に行く」「ご飯を食べる」などの簡単な日常表現の理解が進んでいる。読解は少しずつ理解が深まっていますが、話す・聞く・書くのスキルは今後の課題です。HSK4
-                  級レベルまでの語彙を読み中心にインプットし、覚えた語句を会話で実践的に使う形で学習中。
+                  を活用し、日本語話者の中国人友人との交流を通じて実践的に学習中。「仕事に行く」「ご飯を食べる」などの簡単な表現の理解が進んでいる。読解力は向上中だが、話す・聞く・書くのスキルは今後の課題。HSK4級レベルの語彙を中心にインプットし、会話でアウトプットする学習スタイルを取っている。
                 </small>
               </div>
             </li>
