@@ -7,7 +7,7 @@
         class="rounded-circle me-3"
         style="width: 40px; height: 40px; object-fit: cover"
       />
-      <h1 class="h3 mb-0 text-white">My Portfolio</h1>
+      <h1 class="h3 mb-0 text-white">taka-onigiri-dev</h1>
     </div>
   </header>
 </template>
