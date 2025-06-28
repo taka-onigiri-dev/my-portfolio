@@ -27,6 +27,7 @@
       "catch": "A multilingual learning web app using YouTube subtitles and generative AI",
       "summaryLabel": "Summary:",
       "desc": "Focusing on the affinity and linguistic similarity between Japanese and Korean subtitles, developing a language learning site where fans can share and accumulate learning data and explanations through otaku content.",
+      "stackLabel": "Tech Stack",
       "stack": [
         "Backend: Python (Django)",
         "Frontend: TypeScript, Vue.js",

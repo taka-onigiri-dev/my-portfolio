@@ -1,38 +1,40 @@
 <template>
   <Section>
     <template #title>{{ t('section.projects') }}</template>
-    <p class="card-text text-dark">{{ t('projects.ytgenai.catch') }}</p>
-    <p class="mb-1 text-dark">
-      <strong>{{ t('projects.ytgenai.summaryLabel') || '概要：' }}</strong
-      ><br />
-      {{ t('projects.ytgenai.desc') }}
-    </p>
-    <div class="mb-2">
-      <div class="mb-2">
-        <div>
-          <strong>{{ t('projects.ytgenai.stack.0') }}</strong>
-        </div>
-        <div class="text-muted small">
-          {{ t('projects.ytgenai.stackReason.backend') }}
-        </div>
-      </div>
-      <div class="mb-2">
-        <div>
-          <strong>{{ t('projects.ytgenai.stack.1') }}</strong>
-        </div>
-        <div class="text-muted small">
-          {{ t('projects.ytgenai.stackReason.frontend') }}
-        </div>
-      </div>
-      <div class="mb-2">
-        <div>
-          <strong>{{ t('projects.ytgenai.stack.2') }}</strong>
-        </div>
-      </div>
-      <div class="mb-2">
-        <div>
-          <strong>{{ t('projects.ytgenai.stack.3') }}</strong>
-        </div>
+    <div class="card mb-3 bg-white border-0">
+      <div class="card-body">
+        <h3 class="h5 text-dark mb-3">{{ t('projects.ytgenai.catch') }}</h3>
+        <h3 class="h5 text-dark mb-3">{{ t('projects.ytgenai.summaryLabel') }}</h3>
+        <p class="mb-3">{{ t('projects.ytgenai.desc') }}</p>
+        <h3 class="h5 text-dark mb-3">{{ t('projects.ytgenai.stackLabel') }}</h3>
+        <ul class="list-group mb-3">
+          <li class="list-group-item bg-white text-dark border-0">
+            <div>
+              <div>
+                <strong>{{ t('projects.ytgenai.stack.0') }}</strong>
+              </div>
+              <small class="text-muted">{{ t('projects.ytgenai.stackReason.backend') }}</small>
+            </div>
+          </li>
+          <li class="list-group-item bg-white text-dark border-0">
+            <div>
+              <div>
+                <strong>{{ t('projects.ytgenai.stack.1') }}</strong>
+              </div>
+              <small class="text-muted">{{ t('projects.ytgenai.stackReason.frontend') }}</small>
+            </div>
+          </li>
+          <li class="list-group-item bg-white text-dark border-0">
+            <div>
+              <strong>{{ t('projects.ytgenai.stack.2') }}</strong>
+            </div>
+          </li>
+          <li class="list-group-item bg-white text-dark border-0">
+            <div>
+              <strong>{{ t('projects.ytgenai.stack.3') }}</strong>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
     <div class="mb-3">
