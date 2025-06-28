@@ -23,10 +23,10 @@
             <a class="dropdown-item" href="#" @click.prevent="setLocale('ja')">日本語</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#" @click.prevent="setLocale('en')">English</a>
+            <a class="dropdown-item" href="#" @click.prevent="setLocale('ko')">한국어</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#" @click.prevent="setLocale('ko')">한국어</a>
+            <a class="dropdown-item" href="#" @click.prevent="setLocale('en')">English</a>
           </li>
           <li>
             <a class="dropdown-item" href="#" @click.prevent="setLocale('zh')">中文</a>
@@ -50,10 +50,10 @@ const languageLabel = (lang: string) => {
   switch (lang) {
     case 'ja':
       return '日本語'
-    case 'en':
-      return 'English'
     case 'ko':
       return '한국어'
+    case 'en':
+      return 'English'
     case 'zh':
       return '中文'
     default:
