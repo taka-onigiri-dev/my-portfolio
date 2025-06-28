@@ -11,6 +11,7 @@ async function loadLocale(lang: string) {
     const res = await fetch(url)
     if (!res.ok) throw new Error(`Failed to load locale: ${lang} (${res.status})`)
     const messages = await res.json()
+    console.log('Loaded messages for', lang, messages)
     loadedLanguages[lang] = messages
     return messages
   } catch (e) {
@@ -27,6 +28,7 @@ export async function createI18nAsync() {
   for (const lang of supportedLocales) {
     messages[lang] = await loadLocale(lang)
   }
+  console.log('All loaded messages:', messages)
   const i18n = createI18n({
     legacy: false,
     locale: defaultLocale,
@@ -42,5 +44,6 @@ export async function createI18nAsync() {
   }
   // setLocaleをグローバルに追加
   ;(i18n as any).setLocale = setLocale
+  console.log('i18n.global.messages:', i18n.global.messages)
   return i18n
 }
