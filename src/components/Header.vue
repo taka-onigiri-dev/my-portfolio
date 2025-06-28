@@ -16,7 +16,7 @@
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          {{ languageLabel(locale) }}
+          <i class="bi bi-translate me-1"></i>{{ languageLabel(locale) }}
         </button>
         <ul class="dropdown-menu" aria-labelledby="langDropdown">
           <li>
