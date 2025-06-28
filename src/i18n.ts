@@ -6,7 +6,7 @@ const loadedLanguages: Record<string, any> = {}
 async function loadLocale(lang: string) {
   if (loadedLanguages[lang]) return loadedLanguages[lang]
   const base = import.meta.env.BASE_URL || '/'
-  const res = await fetch(`${base}locales/${lang}.json`)
+  const res = await fetch(`${base}src/locales/${lang}.json`)
   if (!res.ok) throw new Error(`Failed to load locale: ${lang}`)
   const messages = await res.json()
   loadedLanguages[lang] = messages
