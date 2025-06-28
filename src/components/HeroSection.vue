@@ -7,6 +7,7 @@
         class="rounded-circle mb-3 d-block mx-auto"
         style="width: 120px; height: 120px; object-fit: cover"
       />
+      <h1 class="h4 mb-2"><i class="bi bi-person-circle me-2"></i>taka-onigiri-dev</h1>
       <div class="mb-3">
         <a
           href="https://github.com/taka-onigiri-dev"
