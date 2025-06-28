@@ -6,17 +6,11 @@ const loadedLanguages: Record<string, any> = {}
 async function loadLocale(lang: string) {
   if (loadedLanguages[lang]) return loadedLanguages[lang]
   const base = import.meta.env.BASE_URL || '/'
-  const url = `${base}locales/${lang}.json`
-  try {
-    const res = await fetch(url)
-    if (!res.ok) throw new Error(`Failed to load locale: ${lang} (${res.status})`)
-    const messages = await res.json()
-    loadedLanguages[lang] = messages
-    return messages
-  } catch (e) {
-    console.error('Locale fetch error:', url, e)
-    return {}
-  }
+  const res = await fetch(`${base}locales/${lang}.json`)
+  if (!res.ok) throw new Error(`Failed to load locale: ${lang}`)
+  const messages = await res.json()
+  loadedLanguages[lang] = messages
+  return messages
 }
 
 export async function createI18nAsync() {
