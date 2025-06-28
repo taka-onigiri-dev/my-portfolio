@@ -7,7 +7,12 @@
         class="rounded-circle me-3"
         style="width: 40px; height: 40px; object-fit: cover"
       />
-      {{ t('message.hello') }}
+      <div>
+        <p>t関数の型: {{ typeof t }}</p>
+        <!-- 'function' ならOK -->
+        <p>t('message.hello'): {{ t('message.hello') }}</p>
+        <!-- 翻訳文字列が出るはず -->
+      </div>
       <h1 class="h3 mb-0 text-white">taka-onigiri-dev</h1>
       <div class="dropdown ms-auto">
         <button
