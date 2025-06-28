@@ -97,21 +97,13 @@
                 <StarLevel :level="2" />
               </div>
               <div>簡単な会話や自己紹介が可能。独学で継続学習中。</div>
-              <button
-                class="btn btn-link p-0 text-secondary"
-                style="font-size: 0.85em; text-decoration: underline dotted"
-                type="button"
-                @click="openDetail('ko')"
-              >
-                <small>{{ showDetail.ko ? '詳細を閉じる' : '詳細を見る' }}</small>
-              </button>
-              <div v-show="showDetail.ko">
+              <Accordion id="lang-detail-ko">
                 <small class="text-muted">
                   大学で第二外国語として韓国語を学び、社会人になってから韓国のバーチャルアイドルグループ「이세계아이돌」に興味を持ったことをきっかけに、独学を再開。日本語との文法・語彙の類似性や、字幕を活用した学習のしやすさに魅力を感じている。YouTube
                   視聴や VRChat、Maum
                   での交流を通じて学習を進めており、軽い自己紹介程度の会話が可能。ハングルの読みや発音にはある程度慣れているが、語彙は限定的で、オタク系の用語にやや偏りがある。
                 </small>
-              </div>
+              </Accordion>
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
@@ -119,21 +111,13 @@
                 <StarLevel :level="2" />
               </div>
               <div>基本的な日常表現の理解あり。発音と会話は学習中。</div>
-              <button
-                class="btn btn-link p-0 text-secondary"
-                style="font-size: 0.85em; text-decoration: underline dotted"
-                type="button"
-                @click="openDetail('zh')"
-              >
-                <small>{{ showDetail.zh ? '詳細を閉じる' : '詳細を見る' }}</small>
-              </button>
-              <div v-show="showDetail.zh">
+              <Accordion id="lang-detail-zh">
                 <small class="text-muted">
                   学習歴は数ヶ月。ピンインの一部を読めるようになってきたが、正確な発音には課題がある。Hello
                   Talk
                   を活用し、日本語話者の中国人友人との交流を通じて実践的に学習中。「仕事に行く」「ご飯を食べる」などの簡単な表現の理解が進んでいる。読解力は向上中だが、話す・聞く・書くのスキルは今後の課題。HSK4級レベルの語彙を中心にインプットし、会話でアウトプットする学習スタイルを取っている。
                 </small>
-              </div>
+              </Accordion>
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
@@ -141,21 +125,13 @@
                 <StarLevel :level="1" />
               </div>
               <div>聞き流し中心に英語環境に慣れている段階。</div>
-              <button
-                class="btn btn-link p-0 text-secondary"
-                style="font-size: 0.85em; text-decoration: underline dotted"
-                type="button"
-                @click="openDetail('en')"
-              >
-                <small>{{ showDetail.en ? '詳細を閉じる' : '詳細を見る' }}</small>
-              </button>
-              <div v-show="showDetail.en">
+              <Accordion id="lang-detail-en">
                 <small class="text-muted">
                   中学から英語を学習していたが、学生時代には本格的な勉強には取り組まず。現在は
                   NIJISANJI EN などの英語 VTuber
                   をきっかけに、リスニングを中心とした「聞き流し」スタイルで英語に触れている。体系的な学習は行っていないが、興味のあるコンテンツを通して、少しずつ英語への理解を深めることを目指している。
                 </small>
-              </div>
+              </Accordion>
             </li>
           </ul>
         </div>
@@ -168,6 +144,7 @@
 import { reactive } from 'vue'
 import Section from './Section.vue'
 import StarLevel from './StarLevel.vue'
+import Accordion from './Accordion.vue'
 
 type LangKey = 'ko' | 'zh' | 'en'
 const showDetail: Record<LangKey, boolean> = reactive({ ko: false, zh: false, en: false })
