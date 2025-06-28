@@ -1,23 +1,31 @@
 <template>
   <section class="skills py-5">
     <div class="container">
-      <h2 class="h2 mb-4"><i class="bi bi-tools me-2"></i>スキル一覧（Skills）</h2>
+      <h2 class="h2 mb-4 text-dark"><i class="bi bi-tools me-2"></i>スキル一覧（Skills）</h2>
       <div class="mb-4">
-        <div class="card mb-3">
+        <div class="card mb-3 bg-white border-0">
           <div class="card-body">
-            <h3 class="h5"><i class="bi bi-code-slash me-2 text-primary"></i>プログラミング言語</h3>
+            <h3 class="h5 text-dark"><i class="bi bi-code-slash me-2"></i>プログラミング言語</h3>
             <ul class="list-group mb-3">
-              <li class="list-group-item d-flex justify-content-between align-items-center">
-                Java（7 年）<span class="badge bg-warning text-dark">★★★★★</span>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
+              >
+                Java（7 年）<span class="badge bg-light text-dark border">★★★★★</span>
               </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center">
-                TypeScript（2 年）<span class="badge bg-info text-dark">★★★★☆</span>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
+              >
+                TypeScript（2 年）<span class="badge bg-light text-dark border">★★★★☆</span>
               </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center">
-                Python（5 年）<span class="badge bg-success">★★★★☆</span>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
+              >
+                Python（5 年）<span class="badge bg-light text-dark border">★★★★☆</span>
               </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center">
-                Rust（1 年）<span class="badge bg-secondary">★★★☆☆</span>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
+              >
+                Rust（1 年）<span class="badge bg-light text-dark border">★★★☆☆</span>
               </li>
             </ul>
             <small class="text-muted"
@@ -29,15 +37,19 @@
             >
           </div>
         </div>
-        <div class="card mb-3">
+        <div class="card mb-3 bg-white border-0">
           <div class="card-body">
-            <h3 class="h5"><i class="bi bi-database me-2 text-primary"></i>データベース</h3>
+            <h3 class="h5 text-dark"><i class="bi bi-database me-2"></i>データベース</h3>
             <ul class="list-group mb-3">
-              <li class="list-group-item d-flex justify-content-between align-items-center">
-                PostgreSQL（2 年）<span class="badge bg-success">★★★★☆</span>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
+              >
+                PostgreSQL（2 年）<span class="badge bg-light text-dark border">★★★★☆</span>
               </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center">
-                Oracle/MySQL（各 3 カ月）<span class="badge bg-secondary">★☆☆☆☆</span>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
+              >
+                Oracle/MySQL（各 3 カ月）<span class="badge bg-light text-dark border">★☆☆☆☆</span>
               </li>
             </ul>
             <small class="text-muted"
@@ -46,15 +58,19 @@
             >
           </div>
         </div>
-        <div class="card mb-3">
+        <div class="card mb-3 bg-white border-0">
           <div class="card-body">
-            <h3 class="h5"><i class="bi bi-hdd-network me-2 text-info"></i>インフラ・ツール</h3>
+            <h3 class="h5 text-dark"><i class="bi bi-hdd-network me-2"></i>インフラ・ツール</h3>
             <ul class="list-group mb-3">
-              <li class="list-group-item d-flex justify-content-between align-items-center">
-                Docker（2 年）<span class="badge bg-secondary">★★★☆☆</span>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
+              >
+                Docker（2 年）<span class="badge bg-light text-dark border">★★★☆☆</span>
               </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center">
-                AWS<span class="badge bg-primary">★★☆☆☆</span>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-white text-dark border-0"
+              >
+                AWS<span class="badge bg-light text-dark border">★★☆☆☆</span>
               </li>
             </ul>
             <small class="text-muted"
@@ -63,12 +79,14 @@
             >
           </div>
         </div>
-        <div class="card mb-3">
+        <div class="card mb-3 bg-white border-0">
           <div class="card-body">
-            <h3 class="h5"><i class="bi bi-translate me-2 text-success"></i>言語能力</h3>
+            <h3 class="h5 text-dark"><i class="bi bi-translate me-2"></i>言語能力</h3>
             <div class="mb-3">
               <strong
-                >韓国語（TOPIK1 級相当）：<span class="badge bg-info text-dark">★★☆☆☆</span></strong
+                >韓国語（TOPIK1 級相当）：<span class="badge bg-light text-dark border"
+                  >★★☆☆☆</span
+                ></strong
               >
               <p class="mb-1">軽い会話・自己紹介が可能。独学継続中。</p>
               <small class="text-muted"
@@ -79,7 +97,7 @@
             </div>
             <div class="mb-3">
               <strong
-                >中国語（HSK1 級相当）：<span class="badge bg-warning text-dark"
+                >中国語（HSK1 級相当）：<span class="badge bg-light text-dark border"
                   >★★☆☆☆</span
                 ></strong
               >
@@ -92,7 +110,9 @@
               >
             </div>
             <div>
-              <strong>英語（学習中）：<span class="badge bg-primary">★☆☆☆☆</span></strong>
+              <strong
+                >英語（学習中）：<span class="badge bg-light text-dark border">★☆☆☆☆</span></strong
+              >
               <p class="mb-1">聞き流し中心に英語環境に慣れている段階。</p>
               <small class="text-muted"
                 >中学から英語を学習していたが、学生時代には本格的な勉強には取り組まず。現在は
