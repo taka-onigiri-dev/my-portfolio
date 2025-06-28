@@ -41,7 +41,7 @@
   - データベース：PostgreSQL
   - その他技術：Docker, Nginx
 
-- デモはGifで用意
+- デモGif；src\assets\demo.gif
 
 ---
 

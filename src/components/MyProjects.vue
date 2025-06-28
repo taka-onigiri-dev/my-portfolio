@@ -25,9 +25,14 @@
             <li><strong>データベース：</strong>PostgreSQL</li>
             <li><strong>その他技術：</strong>Docker, Nginx</li>
           </ul>
-          <span class="badge bg-light text-dark border"
-            ><i class="bi bi-play-btn me-1"></i>デモはGifで用意</span
-          >
+          <div class="mb-3">
+            <img
+              src="/src/assets/demo.gif"
+              alt="アプリデモGif"
+              class="img-fluid rounded border w-100"
+              style="height: auto"
+            />
+          </div>
         </div>
       </div>
     </div>
