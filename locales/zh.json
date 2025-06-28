@@ -1,0 +1,89 @@
+{
+  "message": {
+    "hello": "你好！",
+    "about": "自我介绍",
+    "projects": "项目介绍",
+    "skills": "技能列表",
+    "contact": "联系方式"
+  },
+  "section": {
+    "about": "自我介绍",
+    "projects": "项目介绍",
+    "skills": "技能列表"
+  },
+  "about": {
+    "intro": "出生并成长于大阪，目前居住在东京。\n大学主修信息科学，专攻自然语言处理。\n拥有Web应用、后端、前端和批处理等广泛开发经验。\n学生时代起就对自然语言处理感兴趣，目前正在个人开发结合YouTube字幕和生成式AI的语言学习应用。",
+    "interest": {
+      "title": "兴趣领域：",
+      "nlp": "自然语言处理",
+      "genai": "生成式AI",
+      "lang": "外语",
+      "illust": "数字插画",
+      "vtuber": "VTuber"
+    }
+  },
+  "projects": {
+    "ytgenai": {
+      "catch": "利用YouTube字幕和生成式AI的多语言学习支持Web应用",
+      "summaryLabel": "概要：",
+      "desc": "关注日语和韩语字幕的亲和性及语言相似性，通过二次元内容让粉丝们可以共享和积累学习数据与解说的语言学习网站正在开发中。",
+      "stack": [
+        "后端：Python（Django）",
+        "前端：TypeScript、Vue.js",
+        "数据库：PostgreSQL",
+        "其他：Docker、Nginx"
+      ],
+      "stackReason": {
+        "backend": "选定理由：大学时代曾用Python开发YouTube字幕分析工具，且Python有丰富的YouTube相关资料。",
+        "frontend": "选定理由：Vue.js在工作中没有用过，为了在个人开发中学习而选择。"
+      }
+    }
+  },
+  "accordion": {
+    "open": "显示详情",
+    "close": "收起详情"
+  },
+  "skills": {
+    "languages": "编程语言",
+    "languagesList": [
+      {
+        "name": "Java（7年）",
+        "detail": "以Spring Boot为主，拥有丰富的后端和批处理经验。主要在工作中使用。"
+      },
+      {
+        "name": "TypeScript（2年）",
+        "detail": "在工作中负责使用Vue.js开发管理后台。个人开发中也有使用。"
+      },
+      { "name": "Python（5年）", "detail": "广泛用于个人开发和脚本编写。" },
+      { "name": "Rust（1年）", "detail": "用于后端开发，目前仍在学习中。" }
+    ],
+    "databases": "数据库",
+    "databasesList": [
+      { "name": "PostgreSQL（2年）", "detail": "在工作和个人开发中使用。基本SQL操作没有问题。" },
+      { "name": "Oracle / MySQL（各3个月）", "detail": "在工作中有基本操作经验。" }
+    ],
+    "infra": "基础设施与工具",
+    "infraList": [
+      { "name": "Docker（2年）", "detail": "能够进行基本的环境构建。" },
+      { "name": "AWS", "detail": "有基本服务的使用经验，目前正在学习更深入的知识。" }
+    ],
+    "languageskill": "语言能力",
+    "languageskillList": [
+      {
+        "name": "韩语",
+        "summary": "可以进行简单的会话和自我介绍。持续自学中。",
+        "detail": "大学时作为第二外语学习韩语，工作后因对韩国虚拟偶像团体‘이세계아이돌’产生兴趣而重新开始自学。被与日语的语法和词汇相似性以及利用字幕学习的便利性所吸引。通过YouTube、VRChat、Maum等进行学习，可以进行简单的自我介绍。对韩文的阅读和发音有一定的适应，但词汇有限，且偏向二次元用语。"
+      },
+      {
+        "name": "中文",
+        "summary": "能理解基本的日常表达。正在学习发音和会话。",
+        "detail": "学习了几个月。已经能读部分拼音，但准确发音还有难题。通过Hello Talk与会日语的中国朋友交流进行实际学习。‘去上班’、‘吃饭’等简单表达的理解在进步。阅读能力在提升，但说、听、写仍是今后的课题。以HSK4级词汇为主输入，通过会话输出。"
+      },
+      {
+        "name": "英语",
+        "summary": "以听力为主，正在适应英语环境。",
+        "detail": "从初中开始学习英语，但学生时代没有认真学习。现在以NIJISANJI EN等英语VTuber为契机，主要通过‘听力’方式接触英语。没有系统学习，但希望通过感兴趣的内容逐步加深对英语的理解。"
+      }
+    ]
+  }
+}

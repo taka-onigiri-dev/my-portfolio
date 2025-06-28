@@ -1,0 +1,101 @@
+{
+  "message": {
+    "hello": "Hello!",
+    "about": "About Me",
+    "projects": "My Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "section": {
+    "about": "About Me",
+    "projects": "My Projects",
+    "skills": "Skills"
+  },
+  "about": {
+    "intro": "Born and raised in Osaka, now living in Tokyo.\nStudied information science and NLP at university.\nExperienced in web app, backend, frontend, and batch processing.\nInterested in NLP since student days, now developing a language learning app using YouTube subtitles and generative AI.",
+    "interest": {
+      "title": "Interests:",
+      "nlp": "Natural Language Processing",
+      "genai": "Generative AI",
+      "lang": "Foreign Languages",
+      "illust": "Digital Illustration",
+      "vtuber": "VTuber"
+    }
+  },
+  "projects": {
+    "ytgenai": {
+      "catch": "A multilingual learning web app using YouTube subtitles and generative AI",
+      "summaryLabel": "Summary:",
+      "desc": "Focusing on the affinity and linguistic similarity between Japanese and Korean subtitles, developing a language learning site where fans can share and accumulate learning data and explanations through otaku content.",
+      "stack": [
+        "Backend: Python (Django)",
+        "Frontend: TypeScript, Vue.js",
+        "Database: PostgreSQL",
+        "Other: Docker, Nginx"
+      ],
+      "stackReason": {
+        "backend": "Reason: Used Python for YouTube subtitle analysis tools at university, and Python has abundant resources for YouTube integration.",
+        "frontend": "Reason: Chose Vue.js for personal development to learn it, as I had no professional experience with it."
+      }
+    }
+  },
+  "accordion": {
+    "open": "Show details",
+    "close": "Hide details"
+  },
+  "skills": {
+    "languages": "Programming Languages",
+    "languagesList": [
+      {
+        "name": "Java (7 years)",
+        "detail": "Extensive experience in backend and batch processing, mainly using Spring Boot. Used primarily in work."
+      },
+      {
+        "name": "TypeScript (2 years)",
+        "detail": "Developed admin panels with Vue.js at work. Also used in personal projects."
+      },
+      {
+        "name": "Python (5 years)",
+        "detail": "Used widely for personal development and scripting."
+      },
+      { "name": "Rust (1 year)", "detail": "Used for backend development at work. Still learning." }
+    ],
+    "databases": "Databases",
+    "databasesList": [
+      {
+        "name": "PostgreSQL (2 years)",
+        "detail": "Used in both work and personal projects. No issues with basic SQL operations."
+      },
+      {
+        "name": "Oracle / MySQL (3 months each)",
+        "detail": "Experience with basic operations at work."
+      }
+    ],
+    "infra": "Infrastructure & Tools",
+    "infraList": [
+      { "name": "Docker (2 years)", "detail": "Capable of basic environment setup." },
+      {
+        "name": "AWS",
+        "detail": "Experience with basic services. Currently learning more advanced usage."
+      }
+    ],
+    "languageskill": "Language Skills",
+    "languageskillList": [
+      {
+        "name": "Korean",
+        "summary": "Able to have simple conversations and self-introductions. Continuing to study independently.",
+        "detail": "Studied Korean as a second foreign language at university, and resumed self-study after becoming interested in the Korean virtual idol group '이세계아이돌' as a working adult. Attracted by the grammatical and vocabulary similarities with Japanese and the ease of learning using subtitles. Learning through YouTube, VRChat, and Maum, and can handle light self-introductions. Fairly used to reading and pronouncing Hangul, but vocabulary is limited and somewhat biased toward otaku terms."
+      },
+      {
+        "name": "Chinese",
+        "summary": "Understands basic daily expressions. Still learning pronunciation and conversation.",
+        "detail": "Studied for several months. Can read some pinyin, but accurate pronunciation is still a challenge. Learning practically through Hello Talk and interaction with Chinese friends who speak Japanese. Understanding of simple expressions like 'go to work' and 'eat rice' is improving. Reading skills are improving, but speaking, listening, and writing are future challenges. Mainly inputting HSK4-level vocabulary and outputting through conversation."
+      },
+      {
+        "name": "English",
+        "summary": "Getting used to an English environment mainly through listening.",
+        "detail": "Studied English since junior high, but did not study seriously as a student. Currently, listening to English VTubers like NIJISANJI EN, focusing on a 'listening' style. Not studying systematically, but gradually deepening understanding of English through interesting content."
+      }
+    ]
+  }
+}
