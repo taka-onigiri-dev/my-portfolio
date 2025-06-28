@@ -1,7 +1,7 @@
 <template>
   <footer class="py-3 bg-dark text-white mt-auto">
     <div class="container text-center">
-      <small>&copy; 2024 My Portfolio</small>
+      <small>&copy; 2025 My Portfolio</small>
     </div>
   </footer>
 </template>
