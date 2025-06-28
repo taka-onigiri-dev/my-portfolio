@@ -90,7 +90,7 @@
           <ul class="list-group mb-3">
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
-                <span>韓国語（TOPIK1 級相当）</span>
+                <span>韓国語</span>
                 <span class="badge bg-light text-dark border">★★☆☆☆</span>
               </div>
               <small class="text-muted"
@@ -101,7 +101,7 @@
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
-                <span>中国語（HSK1 級相当）</span>
+                <span>中国語</span>
                 <span class="badge bg-light text-dark border">★★☆☆☆</span>
               </div>
               <small class="text-muted"
@@ -113,7 +113,7 @@
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
-                <span>英語（学習中）</span>
+                <span>英語</span>
                 <span class="badge bg-light text-dark border">★☆☆☆☆</span>
               </div>
               <small class="text-muted"
