@@ -29,7 +29,4 @@ import Skills from './components/Skills.vue'
 body {
   background-color: #f8f9fa;
 }
-#app {
-  padding: 0 !important;
-}
 </style>
