@@ -9,7 +9,7 @@
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>Java（7年）</span>
-                <span class="badge bg-light text-dark border">★★★★★</span>
+                <StarLevel :level="5" />
               </div>
               <small class="text-muted"
                 >Spring Boot を中心に、バックエンドやバッチ処理の経験が豊富。主に業務で使用。</small
@@ -18,7 +18,7 @@
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>TypeScript（2年）</span>
-                <span class="badge bg-light text-dark border">★★★★☆</span>
+                <StarLevel :level="4" />
               </div>
               <small class="text-muted"
                 >業務で Vue.js を用いた管理画面の開発を担当。個人開発でも使用。</small
@@ -27,14 +27,14 @@
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>Python（5年）</span>
-                <span class="badge bg-light text-dark border">★★★★☆</span>
+                <StarLevel :level="4" />
               </div>
               <small class="text-muted">個人開発やスクリプト作成で幅広く活用。</small>
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>Rust（1年）</span>
-                <span class="badge bg-light text-dark border">★★★☆☆</span>
+                <StarLevel :level="3" />
               </div>
               <small class="text-muted">業務でのバックエンド開発に使用。現在も習得中。</small>
             </li>
@@ -48,7 +48,7 @@
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>PostgreSQL（2年）</span>
-                <span class="badge bg-light text-dark border">★★★★☆</span>
+                <StarLevel :level="4" />
               </div>
               <small class="text-muted"
                 >業務および個人開発で使用。基本的な SQL 操作に問題なし。</small
@@ -57,7 +57,7 @@
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>Oracle / MySQL（各 3カ月）</span>
-                <span class="badge bg-light text-dark border">★☆☆☆☆</span>
+                <StarLevel :level="1" />
               </div>
               <small class="text-muted">業務で基本操作を使用した経験あり。</small>
             </li>
@@ -71,14 +71,14 @@
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>Docker（2年）</span>
-                <span class="badge bg-light text-dark border">★★★☆☆</span>
+                <StarLevel :level="3" />
               </div>
               <small class="text-muted">基本的な環境構築が可能。</small>
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>AWS</span>
-                <span class="badge bg-light text-dark border">★★☆☆☆</span>
+                <StarLevel :level="2" />
               </div>
               <small class="text-muted"
                 >基本的なサービスの利用経験あり。現在、より深い知識を習得中。</small
@@ -94,7 +94,7 @@
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>韓国語</span>
-                <span class="badge bg-light text-dark border">★★☆☆☆</span>
+                <StarLevel :level="2" />
               </div>
               <div>簡単な会話や自己紹介が可能。独学で継続学習中。</div>
               <button
@@ -116,7 +116,7 @@
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>中国語</span>
-                <span class="badge bg-light text-dark border">★★☆☆☆</span>
+                <StarLevel :level="2" />
               </div>
               <div>基本的な日常表現の理解あり。発音と会話は学習中。</div>
               <button
@@ -138,7 +138,7 @@
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>英語</span>
-                <span class="badge bg-light text-dark border">★☆☆☆☆</span>
+                <StarLevel :level="1" />
               </div>
               <div>聞き流し中心に英語環境に慣れている段階。</div>
               <button
@@ -167,6 +167,7 @@
 <script setup lang="ts">
 import { reactive } from 'vue'
 import Section from './Section.vue'
+import StarLevel from './StarLevel.vue'
 
 type LangKey = 'ko' | 'zh' | 'en'
 const showDetail: Record<LangKey, boolean> = reactive({ ko: false, zh: false, en: false })
