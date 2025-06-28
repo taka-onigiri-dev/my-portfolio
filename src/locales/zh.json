@@ -21,5 +21,22 @@
       "illust": "数字插画",
       "vtuber": "VTuber"
     }
+  },
+  "projects": {
+    "ytgenai": {
+      "catch": "利用YouTube字幕和生成式AI的多语言学习支持Web应用",
+      "summaryLabel": "概要：",
+      "desc": "关注日语和韩语字幕的亲和性及语言相似性，通过二次元内容让粉丝们可以共享和积累学习数据与解说的语言学习网站正在开发中。",
+      "stack": [
+        "后端：Python（Django）",
+        "前端：TypeScript、Vue.js",
+        "数据库：PostgreSQL",
+        "其他：Docker、Nginx"
+      ],
+      "stackReason": {
+        "backend": "选定理由：大学时代曾用Python开发YouTube字幕分析工具，且Python有丰富的YouTube相关资料。",
+        "frontend": "选定理由：Vue.js在工作中没有用过，为了在个人开发中学习而选择。"
+      }
+    }
   }
 }

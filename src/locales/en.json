@@ -21,5 +21,22 @@
       "illust": "Digital Illustration",
       "vtuber": "VTuber"
     }
+  },
+  "projects": {
+    "ytgenai": {
+      "catch": "A multilingual learning web app using YouTube subtitles and generative AI",
+      "summaryLabel": "Summary:",
+      "desc": "Focusing on the affinity and linguistic similarity between Japanese and Korean subtitles, developing a language learning site where fans can share and accumulate learning data and explanations through otaku content.",
+      "stack": [
+        "Backend: Python (Django)",
+        "Frontend: TypeScript, Vue.js",
+        "Database: PostgreSQL",
+        "Other: Docker, Nginx"
+      ],
+      "stackReason": {
+        "backend": "Reason: Used Python for YouTube subtitle analysis tools at university, and Python has abundant resources for YouTube integration.",
+        "frontend": "Reason: Chose Vue.js for personal development to learn it, as I had no professional experience with it."
+      }
+    }
   }
 }
