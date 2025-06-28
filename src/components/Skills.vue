@@ -94,7 +94,12 @@
                 <span class="badge bg-light text-dark border">★★☆☆☆</span>
               </div>
               <div>軽い会話・自己紹介が可能。独学継続中。</div>
-              <button class="btn btn-link p-0" type="button" @click="openDetail('ko')">
+              <button
+                class="btn btn-link p-0 text-secondary"
+                style="font-size: 0.85em; text-decoration: underline dotted"
+                type="button"
+                @click="openDetail('ko')"
+              >
                 <small>{{ showDetail.ko ? '詳細を閉じる' : '詳細を見る' }}</small>
               </button>
               <div v-show="showDetail.ko">
@@ -111,7 +116,12 @@
                 <span class="badge bg-light text-dark border">★★☆☆☆</span>
               </div>
               <div>基本的な日常表現の理解あり。発音と会話は学習中。</div>
-              <button class="btn btn-link p-0" type="button" @click="openDetail('zh')">
+              <button
+                class="btn btn-link p-0 text-secondary"
+                style="font-size: 0.85em; text-decoration: underline dotted"
+                type="button"
+                @click="openDetail('zh')"
+              >
                 <small>{{ showDetail.zh ? '詳細を閉じる' : '詳細を見る' }}</small>
               </button>
               <div v-show="showDetail.zh">
@@ -129,7 +139,12 @@
                 <span class="badge bg-light text-dark border">★☆☆☆☆</span>
               </div>
               <div>聞き流し中心に英語環境に慣れている段階。</div>
-              <button class="btn btn-link p-0" type="button" @click="openDetail('en')">
+              <button
+                class="btn btn-link p-0 text-secondary"
+                style="font-size: 0.85em; text-decoration: underline dotted"
+                type="button"
+                @click="openDetail('en')"
+              >
                 <small>{{ showDetail.en ? '詳細を閉じる' : '詳細を見る' }}</small>
               </button>
               <div v-show="showDetail.en">
