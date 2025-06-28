@@ -7,14 +7,16 @@ import App from './App.vue'
 import router from './router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import i18n from './i18n'
+import { createI18nAsync } from './i18n'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
-const app = createApp(App)
-app.use(i18n)
+async function bootstrap() {
+  const i18n = await createI18nAsync()
+  const app = createApp(App)
+  app.use(i18n)
+  app.use(createPinia())
+  app.use(router)
+  app.mount('#app')
+}
 
-app.use(createPinia())
-app.use(router)
-app.use(i18n)
-
-app.mount('#app')
+bootstrap()
