@@ -91,13 +91,13 @@
             <i class="bi bi-translate me-2"></i>{{ t('skills.languageskill') }}
           </h3>
           <ul class="list-group mb-3">
-            <li class="list-group-item bg-white text-dark border-0">
+            <li class="list-group-item bg-white text-dark border-0" v-if="locale !== 'ja'">
               <div class="d-flex justify-content-between align-items-center">
                 <span>{{ t('skills.languageskillList.0.name') }}</span>
-                <StarLevel :level="2" />
+                <StarLevel :level="5" />
               </div>
               <div>{{ t('skills.languageskillList.0.summary') }}</div>
-              <Accordion id="lang-detail-ko">
+              <Accordion id="lang-detail-en">
                 <small class="text-muted">{{ t('skills.languageskillList.0.detail') }}</small>
               </Accordion>
             </li>
@@ -107,18 +107,28 @@
                 <StarLevel :level="2" />
               </div>
               <div>{{ t('skills.languageskillList.1.summary') }}</div>
-              <Accordion id="lang-detail-zh">
+              <Accordion id="lang-detail-ko">
                 <small class="text-muted">{{ t('skills.languageskillList.1.detail') }}</small>
               </Accordion>
             </li>
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>{{ t('skills.languageskillList.2.name') }}</span>
-                <StarLevel :level="1" />
+                <StarLevel :level="2" />
               </div>
               <div>{{ t('skills.languageskillList.2.summary') }}</div>
-              <Accordion id="lang-detail-en">
+              <Accordion id="lang-detail-zh">
                 <small class="text-muted">{{ t('skills.languageskillList.2.detail') }}</small>
+              </Accordion>
+            </li>
+            <li class="list-group-item bg-white text-dark border-0">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>{{ t('skills.languageskillList.3.name') }}</span>
+                <StarLevel :level="1" />
+              </div>
+              <div>{{ t('skills.languageskillList.3.summary') }}</div>
+              <Accordion id="lang-detail-en">
+                <small class="text-muted">{{ t('skills.languageskillList.3.detail') }}</small>
               </Accordion>
             </li>
           </ul>
@@ -133,7 +143,7 @@ import Section from './Section.vue'
 import StarLevel from './StarLevel.vue'
 import Accordion from './Accordion.vue'
 import { useI18n } from 'vue-i18n'
-const { t } = useI18n()
+const { t, locale } = useI18n()
 </script>
 
 <style scoped>

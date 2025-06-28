@@ -92,6 +92,11 @@
     "languageskill": "Language Skills",
     "languageskillList": [
       {
+        "name": "Japanese",
+        "summary": "Native. Fluent.",
+        "detail": "Native Japanese speaker."
+      },
+      {
         "name": "Korean",
         "summary": "Able to engage in simple conversations and self-introductions. Continuously self-studying.",
         "detail": "Learned Korean as a second foreign language in university. Later rekindled interest due to the virtual idol group '이세계아이돌'. Attracted by the similarities between Korean and Japanese grammar and vocabulary, and the ease of learning through subtitles. Studying through YouTube, VRChat, and Maum. Can handle light conversations and introductions. Familiar with Hangul reading and pronunciation, though vocabulary is limited and skewed toward otaku terms."
