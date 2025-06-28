@@ -1,7 +1,7 @@
 <template>
   <section class="my-projects py-5 bg-white">
-    <div class="container d-flex justify-content-center">
-      <div class="card mb-3 shadow-sm w-100 bg-white border-0" style="max-width: 800px">
+    <div class="d-flex justify-content-center align-items-center flex-column">
+      <div class="card mb-3 shadow-sm w-100 bg-white border-0 mx-auto" style="max-width: 800px">
         <div class="card-body">
           <h3 class="h5 card-title text-dark">
             <i class="bi bi-lightbulb me-2"></i>YouTube 字幕 × 生成 AI 語学学習アプリ
@@ -25,9 +25,9 @@
             <li><strong>データベース：</strong>PostgreSQL</li>
             <li><strong>その他技術：</strong>Docker, Nginx</li>
           </ul>
-          <span class="badge bg-light text-dark border">
-            <i class="bi bi-play-btn me-1"></i>デモはGifで用意
-          </span>
+          <span class="badge bg-light text-dark border"
+            ><i class="bi bi-play-btn me-1"></i>デモはGifで用意</span
+          >
         </div>
       </div>
     </div>
