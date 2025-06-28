@@ -41,15 +41,15 @@
 import { defineComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-const { locale } = useI18n()
+const { t, messages, locale } = useI18n()
+
+console.log('🗣 現在のロケール:', locale.value)
+console.log('🗂 読み込まれた messages オブジェクト:', messages.value)
+console.log('🧪 現在のロケールの中身:', messages.value[locale.value])
 const setLocale = (lang: string) => {
   locale.value = lang
 }
-console.log('現在の言語:', locale.value)
 
-const { t } = useI18n()
-console.log('翻訳値:', t('message.hello'))
-console.log('tの中身:', t)
 const languageLabel = (lang: string) => {
   switch (lang) {
     case 'ja':
