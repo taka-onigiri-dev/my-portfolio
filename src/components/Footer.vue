@@ -1,5 +1,5 @@
 <template>
-  <footer class="py-3 bg-dark text-white mt-auto">
+  <footer class="py-3 bg-dark text-white">
     <div class="container text-center">
       <small>&copy; 2025 taka-onigiri-dev</small>
     </div>

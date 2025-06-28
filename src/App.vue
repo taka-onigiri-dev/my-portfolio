@@ -8,7 +8,7 @@ import Skills from './components/Skills.vue'
 </script>
 
 <template>
-  <div id="app" class="d-flex flex-column min-vh-100 bg-white" style="padding: 0; margin: 0">
+  <div class="d-flex flex-column min-vh-100 bg-white" style="padding: 1rem; font-weight: normal">
     <Header />
     <main
       class="flex-grow-1 d-flex flex-column align-items-center justify-content-center"
@@ -21,8 +21,8 @@ import Skills from './components/Skills.vue'
         <Skills />
       </div>
     </main>
-    <Footer />
   </div>
+  <Footer />
 </template>
 
 <style>
