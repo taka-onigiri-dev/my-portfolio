@@ -6,32 +6,32 @@
         <h3 class="h5 text-dark mb-3">{{ t('projects.ytgenai.catch') }}</h3>
         <h3 class="h5 text-dark mb-3">{{ t('projects.ytgenai.summaryLabel') }}</h3>
         <p class="mb-3">{{ t('projects.ytgenai.desc') }}</p>
-        <h3 class="h5 text-dark mb-3">{{ t('projects.ytgenai.stackLabel') }}</h3>
+        <h3 class="h5 text-dark mb-3">{{ t('projects.ytgenai.stack.0.title') }}</h3>
         <ul class="list-group mb-3">
           <li class="list-group-item bg-white text-dark border-0">
             <div>
               <div>
-                <strong>{{ t('projects.ytgenai.stack.0') }}</strong>
+                <strong>{{ t('projects.ytgenai.stack.1.name') }}</strong>
               </div>
-              <small class="text-muted">{{ t('projects.ytgenai.stackReason.backend') }}</small>
+              <small class="text-muted">{{ t('projects.ytgenai.stack.1.reason') }}</small>
             </div>
           </li>
           <li class="list-group-item bg-white text-dark border-0">
             <div>
               <div>
-                <strong>{{ t('projects.ytgenai.stack.1') }}</strong>
+                <strong>{{ t('projects.ytgenai.stack.2.name') }}</strong>
               </div>
-              <small class="text-muted">{{ t('projects.ytgenai.stackReason.frontend') }}</small>
+              <small class="text-muted">{{ t('projects.ytgenai.stack.2.reason') }}</small>
             </div>
           </li>
           <li class="list-group-item bg-white text-dark border-0">
             <div>
-              <strong>{{ t('projects.ytgenai.stack.2') }}</strong>
+              <strong>{{ t('projects.ytgenai.stack.3.name') }}</strong>
             </div>
           </li>
           <li class="list-group-item bg-white text-dark border-0">
             <div>
-              <strong>{{ t('projects.ytgenai.stack.3') }}</strong>
+              <strong>{{ t('projects.ytgenai.stack.4.name') }}</strong>
             </div>
           </li>
         </ul>
