@@ -32,7 +32,7 @@
             <li class="list-group-item bg-white text-dark border-0">
               <div class="d-flex justify-content-between align-items-center">
                 <span>{{ t('skills.languagesList.3.name') }}</span>
-                <StarLevel :level="3" />
+                <StarLevel :level="2" />
               </div>
               <small class="text-muted">{{ t('skills.languagesList.3.detail') }}</small>
             </li>
