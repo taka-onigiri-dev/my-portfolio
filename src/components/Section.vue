@@ -1,14 +1,12 @@
 <template>
   <section class="py-5">
-    <div class="d-flex justify-content-center align-items-center flex-column">
-      <div class="card shadow-sm bg-white border-0 w-100">
-        <div class="card-body">
-          <h3 class="m-2">
-            {{ title }}
-          </h3>
-          <div class="m-2">
-            <slot />
-          </div>
+    <div class="card shadow-sm mb-4 w-100">
+      <div class="card-body">
+        <h3 class="my-4">
+          {{ title }}
+        </h3>
+        <div class="m-2">
+          <slot />
         </div>
       </div>
     </div>
