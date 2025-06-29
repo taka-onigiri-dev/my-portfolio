@@ -32,7 +32,7 @@
         { "title": "Tech Stack" },
         {
           "name": "Back-End: Python (Django)",
-          "reason": "Used Python to develop a YouTube subtitle analysis tool during university, and found that most YouTube-related information is available in Python."
+          "reason": "I used Python to develop a YouTube subtitle analysis tool during university, and since most YouTube-related information is available in Python, I chose to use it for this project."
         },
         {
           "name": "Front-End: TypeScript, Vue.js",

@@ -32,7 +32,7 @@
         { "title": "技術スタック" },
         {
           "name": "バックエンド：Python（Django）",
-          "reason": "大学時代に YouTube 字幕分析ツールで Python を使用していた経験があり、また YouTube 関連の情報が Python で多く見つかるため。"
+          "reason": "大学時代に YouTube 字幕分析ツールで Python を使用していた経験があり、また YouTube 関連の情報が Python で多く見つかるため使用。"
         },
         {
           "name": "フロントエンド：TypeScript、Vue.js",

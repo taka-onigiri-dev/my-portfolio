@@ -29,9 +29,7 @@ src\components\AboutMe.vue
 
 src\components\MyProjects.vue
 
-### YouTube 字幕 × 生成AI 語学学習アプリ
-
-- 一言説明：YouTube 字幕と生成AIを活用した多言語学習支援 Web アプリ
+### YouTube 字幕と生成AIを活用した多言語学習支援 Web アプリ
 
 - 概要：  
   日本語と韓国語の字幕における親和性や言語的な類似性に着目し、オタクコンテンツを通じてファン同士が学習データや解説を共有・蓄積できる語学学習サイトを開発中。
@@ -39,7 +37,7 @@ src\components\MyProjects.vue
 - 技術スタック・開発環境：
 
   - バックエンド：Python（Django）  
-    選定理由：大学時代に YouTube 字幕分析ツールで Python を使用していた経験があり、また YouTube 関連の情報が Python で多く見つかるため。
+    選定理由：大学時代に YouTube 字幕分析ツールで Python を使用していた経験があり、また YouTube 関連の情報が Python で多く見つかるため使用。
 
   - フロントエンド：TypeScript、Vue.js  
     選定理由：Vue.js は業務未経験だったため、個人開発での習得を目的に選定。
