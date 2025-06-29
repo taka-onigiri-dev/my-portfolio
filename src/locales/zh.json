@@ -50,37 +50,37 @@
     "languages": "编程语言",
     "languagesList": [
       {
-        "name": "Java（7年）",
+        "name": "Java",
         "detail": "以Spring Boot为主，拥有丰富的后端和批处理经验。主要在工作中使用。"
       },
       {
-        "name": "TypeScript（2年）",
+        "name": "TypeScript",
         "detail": "在工作中负责使用Vue.js开发管理后台，个人开发中也有使用经验。"
       },
       {
-        "name": "Python（5年）",
+        "name": "Python",
         "detail": "广泛应用于个人开发和脚本编写。"
       },
       {
-        "name": "Rust（1年）",
+        "name": "Rust",
         "detail": "用于后端开发，目前仍在学习中。"
       }
     ],
     "databases": "数据库",
     "databasesList": [
       {
-        "name": "PostgreSQL（2年）",
+        "name": "PostgreSQL",
         "detail": "用于工作和个人开发。熟悉基本SQL操作。"
       },
       {
-        "name": "Oracle / MySQL（各3个月）",
+        "name": "Oracle / MySQL",
         "detail": "在工作中有基本操作经验。"
       }
     ],
     "infra": "基础设施与工具",
     "infraList": [
       {
-        "name": "Docker（2年）",
+        "name": "Docker",
         "detail": "可以进行基本的环境构建。"
       },
       {

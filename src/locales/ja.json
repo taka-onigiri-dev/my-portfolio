@@ -50,27 +50,27 @@
     "languages": "プログラミング言語",
     "languagesList": [
       {
-        "name": "Java（7年）",
+        "name": "Java",
         "detail": "Spring Boot を中心に、バックエンドやバッチ処理の経験が豊富。主に業務で使用。"
       },
       {
-        "name": "TypeScript（2年）",
+        "name": "TypeScript",
         "detail": "業務で Vue.js を用いた管理画面の開発を担当。個人開発でも使用。"
       },
-      { "name": "Python（5年）", "detail": "個人開発やスクリプト作成で幅広く活用。" },
-      { "name": "Rust（1年）", "detail": "業務でのバックエンド開発に使用。現在も習得中。" }
+      { "name": "Python", "detail": "個人開発やスクリプト作成で幅広く活用。" },
+      { "name": "Rust", "detail": "業務でのバックエンド開発に使用。現在も習得中。" }
     ],
     "databases": "データベース",
     "databasesList": [
       {
-        "name": "PostgreSQL（2年）",
+        "name": "PostgreSQL",
         "detail": "業務および個人開発で使用。基本的な SQL 操作に問題なし。"
       },
-      { "name": "Oracle / MySQL（各 3カ月）", "detail": "業務で基本操作を使用した経験あり。" }
+      { "name": "Oracle / MySQL", "detail": "業務で基本操作を使用した経験あり。" }
     ],
     "infra": "インフラ・ツール",
     "infraList": [
-      { "name": "Docker（2年）", "detail": "基本的な環境構築が可能。" },
+      { "name": "Docker", "detail": "基本的な環境構築が可能。" },
       { "name": "AWS", "detail": "基本的なサービスの利用経験あり。現在、より深い知識を習得中。" }
     ],
     "languageskill": "言語能力",

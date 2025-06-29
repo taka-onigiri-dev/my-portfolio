@@ -50,37 +50,37 @@
     "languages": "프로그래밍 언어",
     "languagesList": [
       {
-        "name": "Java(7년)",
+        "name": "Java",
         "detail": "Spring Boot를 중심으로 백엔드와 배치 처리 경험이 풍부하며, 주로 업무에서 사용하였습니다."
       },
       {
-        "name": "TypeScript(2년)",
+        "name": "TypeScript",
         "detail": "업무에서는 Vue.js를 활용한 관리자 화면 개발을 담당하였고, 개인 개발에서도 사용하고 있습니다."
       },
       {
-        "name": "Python(5년)",
+        "name": "Python",
         "detail": "개인 개발 및 스크립트 작성에 폭넓게 활용하였습니다."
       },
       {
-        "name": "Rust(1년)",
+        "name": "Rust",
         "detail": "백엔드 개발에 사용하였으며, 현재도 학습 중입니다."
       }
     ],
     "databases": "데이터베이스",
     "databasesList": [
       {
-        "name": "PostgreSQL(2년)",
+        "name": "PostgreSQL",
         "detail": "업무 및 개인 개발에서 사용하였으며, 기본적인 SQL 조작에 문제 없습니다."
       },
       {
-        "name": "Oracle / MySQL(각 3개월)",
+        "name": "Oracle / MySQL",
         "detail": "업무에서 기본 조작을 사용한 경험이 있습니다."
       }
     ],
     "infra": "인프라 및 도구",
     "infraList": [
       {
-        "name": "Docker(2년)",
+        "name": "Docker",
         "detail": "기본적인 환경 구축이 가능합니다."
       },
       {

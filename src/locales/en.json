@@ -50,37 +50,37 @@
     "languages": "Programming Languages",
     "languagesList": [
       {
-        "name": "Java (7 years)",
+        "name": "Java",
         "detail": "Extensive experience in back-end and batch processing, mainly using Spring Boot. Primarily used in professional work."
       },
       {
-        "name": "TypeScript (2 years)",
+        "name": "TypeScript",
         "detail": "Developed admin dashboards using Vue.js at work, also used in personal projects."
       },
       {
-        "name": "Python (5 years)",
+        "name": "Python",
         "detail": "Used widely for personal projects and scripting."
       },
       {
-        "name": "Rust (1 year)",
+        "name": "Rust",
         "detail": "Used in back-end development at work. Currently continuing to learn."
       }
     ],
     "databases": "Databases",
     "databasesList": [
       {
-        "name": "PostgreSQL (2 years)",
+        "name": "PostgreSQL",
         "detail": "Used in both professional and personal development. Proficient in basic SQL operations."
       },
       {
-        "name": "Oracle / MySQL (3 months each)",
+        "name": "Oracle / MySQL",
         "detail": "Basic operational experience through work."
       }
     ],
     "infra": "Infrastructure & Tools",
     "infraList": [
       {
-        "name": "Docker (2 years)",
+        "name": "Docker",
         "detail": "Capable of building basic development environments."
       },
       {
