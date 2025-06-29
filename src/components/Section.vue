@@ -1,5 +1,5 @@
 <template>
-  <section class="py-5">
+  <section class="py-2">
     <div class="card shadow-sm mb-4 w-100">
       <div class="card-body">
         <h3 class="my-3">
