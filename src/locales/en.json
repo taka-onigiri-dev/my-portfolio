@@ -27,7 +27,6 @@
       "catch": "Multilingual Learning Support Web App Using YouTube Subtitles and Generative AI",
       "summaryLabel": "Summary:",
       "desc": "Developing a language learning website focusing on the affinity and similarity between Japanese and Korean subtitles, allowing fans to share and accumulate learning data and commentary through otaku content.",
-      "stackLabel": "Tech Stack",
       "stack": [
         { "title": "Tech Stack" },
         {
