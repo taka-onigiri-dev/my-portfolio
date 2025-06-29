@@ -1,6 +1,5 @@
 <template>
-  <Section>
-    <template #title> {{ t('section.about') }} </template>
+  <Section :title="t('section.about')">
     <p class="mb-2 text-dark">
       <span v-for="(line, idx) in introLines" :key="idx">
         {{ line }}<br v-if="idx !== introLines.length - 1" />

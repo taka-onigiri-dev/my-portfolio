@@ -3,10 +3,10 @@
     <div class="d-flex justify-content-center align-items-center flex-column">
       <div class="card shadow-sm bg-white border-0 w-100">
         <div class="card-body">
-          <h2 class="h5 mb-3 text-dark">
-            <slot name="title" />
+          <h2 class="m-2">
+            {{ title }}
           </h2>
-          <div>
+          <div class="m-2">
             <slot />
           </div>
         </div>
@@ -16,5 +16,9 @@
 </template>
 
 <script setup lang="ts">
-// ...existing code...
+import { defineProps } from 'vue'
+const props = defineProps<{ title: string }>()
+const title = props.title
 </script>
+
+<style scoped></style>

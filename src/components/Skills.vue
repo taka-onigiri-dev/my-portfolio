@@ -1,6 +1,5 @@
 <template>
-  <Section>
-    <template #title> {{ t('section.skills') }} </template>
+  <Section :title="t('section.skills')">
     <div class="mb-4">
       <div class="card mb-3 bg-white border-0">
         <div class="card-body">

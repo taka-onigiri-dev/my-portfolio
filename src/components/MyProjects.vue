@@ -1,6 +1,5 @@
 <template>
-  <Section>
-    <template #title>{{ t('section.projects') }}</template>
+  <Section :title="t('section.projects')">
     <div class="card mb-3 bg-white border-0">
       <div class="card-body">
         <h3 class="h5 text-dark mb-3">{{ t('projects.ytgenai.catch') }}</h3>
