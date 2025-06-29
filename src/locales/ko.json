@@ -30,7 +30,7 @@
       "stack": [
         { "title": "기술 스택" },
         {
-          "name": "백엔드: Python (Django)",
+          "name": "백엔드: Python, Django",
           "reason": "대학 시절 YouTube 자막 분석 도구 개발에 Python을 사용한 경험이 있으며, YouTube 관련 자료가 Python으로 많이 제공되기 때문에 Python을 사용했습니다."
         },
         {

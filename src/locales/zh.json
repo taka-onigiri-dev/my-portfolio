@@ -30,7 +30,7 @@
       "stack": [
         { "title": "技术栈" },
         {
-          "name": "后端：Python（Django）",
+          "name": "后端：Python、Django",
           "reason": "大学期间曾使用Python开发YouTube字幕分析工具，且与YouTube相关的资料大多是Python编写的，因此我选择并使用了该语言。"
         },
         {
