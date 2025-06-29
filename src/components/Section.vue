@@ -3,9 +3,9 @@
     <div class="d-flex justify-content-center align-items-center flex-column">
       <div class="card shadow-sm bg-white border-0 w-100">
         <div class="card-body">
-          <h2 class="m-2">
+          <h3 class="m-2">
             {{ title }}
-          </h2>
+          </h3>
           <div class="m-2">
             <slot />
           </div>
