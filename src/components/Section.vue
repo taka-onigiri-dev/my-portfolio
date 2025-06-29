@@ -2,7 +2,7 @@
   <section class="py-5">
     <div class="card shadow-sm mb-4 w-100">
       <div class="card-body">
-        <h3 class="my-4">
+        <h3 class="my-3">
           {{ title }}
         </h3>
         <div class="m-2">
