@@ -1,11 +1,4 @@
 {
-  "message": {
-    "hello": "こんにちは！",
-    "about": "自己紹介",
-    "projects": "プロジェクト紹介",
-    "skills": "スキル一覧",
-    "contact": "連絡先"
-  },
   "section": {
     "about": "自己紹介",
     "projects": "プロジェクト紹介",

@@ -1,11 +1,4 @@
 {
-  "message": {
-    "hello": "Hello!",
-    "about": "About Me",
-    "projects": "Projects",
-    "skills": "Skills",
-    "contact": "Contact"
-  },
   "section": {
     "about": "About Me",
     "projects": "Projects",

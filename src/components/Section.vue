@@ -14,9 +14,9 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue'
+import { computed, defineProps } from 'vue'
 const props = defineProps<{ title: string }>()
-const title = props.title
+const title = computed(() => props.title)
 </script>
 
 <style scoped></style>
