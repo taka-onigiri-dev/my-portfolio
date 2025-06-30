@@ -19,7 +19,7 @@
     "ytgenai": {
       "catch": "结合YouTube字幕和生成式AI的多语言学习支持Web应用",
       "summaryLabel": "概要：",
-      "desc": "正在开发一个语言学习网站，着眼于日语和韩语字幕之间的亲和性和语言相似性，通过二次元内容让粉丝可以共享和积累学习数据与解说。",
+      "desc": "着眼于日语和韩语字幕的契合度以及语法和词汇的相似性，正在开发一个通过二次元内容让粉丝可以共享和积累学习数据与解说的语言学习网站。",
       "stack": [
         { "title": "技术栈" },
         {
@@ -50,14 +50,8 @@
         "name": "TypeScript",
         "detail": "在工作中负责使用Vue.js开发管理后台，个人开发中也有使用经验。"
       },
-      {
-        "name": "Python",
-        "detail": "广泛应用于个人开发和脚本编写。"
-      },
-      {
-        "name": "Rust",
-        "detail": "用于后端开发，目前仍在学习中。"
-      }
+      { "name": "Python", "detail": "广泛应用于个人开发和脚本编写。" },
+      { "name": "Rust", "detail": "用于后端开发，目前仍在学习中。" }
     ],
     "databases": "数据库",
     "databasesList": [
@@ -65,17 +59,11 @@
         "name": "PostgreSQL",
         "detail": "用于工作和个人开发。熟悉基本SQL操作。"
       },
-      {
-        "name": "Oracle / MySQL",
-        "detail": "在工作中有基本操作经验。"
-      }
+      { "name": "Oracle / MySQL", "detail": "在工作中有基本操作经验。" }
     ],
     "infra": "基础设施与工具",
     "infraList": [
-      {
-        "name": "Docker",
-        "detail": "可以进行基本的环境构建。"
-      },
+      { "name": "Docker", "detail": "可以进行基本的环境构建。" },
       {
         "name": "AWS",
         "detail": "有基本服务使用经验，目前正在学习更深入的知识。"

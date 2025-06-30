@@ -1,16 +1,16 @@
 {
   "section": {
     "about": "About Me",
-    "projects": "Projects",
-    "skills": "Skills"
+    "projects": "Project Showcase",
+    "skills": "Skills List"
   },
   "about": {
-    "intro": "Born and raised in Osaka, currently living in Tokyo.\nMajored in Information Science at the Faculty of Science and Engineering, specializing in Natural Language Processing.\nExperienced in a wide range of development, including web applications, back-end, front-end, and batch processing.\nI've been interested in NLP since my student days and am currently developing a language learning app that leverages YouTube subtitles and generative AI.",
+    "intro": "Born and raised in Osaka, currently living in Tokyo.\nMajored in Information Science at the Faculty of Science and Engineering, and belonged to a Natural Language Processing lab. Experienced in a wide range of development, mainly web applications, including back-end, front-end, and batch processing. Interested in NLP since my student days, and currently developing a language learning app that utilizes YouTube subtitles and generative AI.",
     "interest": {
       "title": "Interests:",
       "nlp": "Natural Language Processing",
       "genai": "Generative AI",
-      "lang": "Languages",
+      "lang": "Foreign Languages",
       "illust": "Digital Illustration",
       "vtuber": "VTuber"
     }
@@ -18,8 +18,8 @@
   "projects": {
     "ytgenai": {
       "catch": "Multilingual Learning Support Web App Using YouTube Subtitles and Generative AI",
-      "summaryLabel": "Summary:",
-      "desc": "Developing a language learning website focusing on the affinity and similarity between Japanese and Korean subtitles, allowing fans to share and accumulate learning data and commentary through otaku content.",
+      "summaryLabel": "Overview:",
+      "desc": "Focusing on the compatibility of Japanese and Korean subtitles and the similarities in grammar and vocabulary, we are developing a language learning website where fans can share and accumulate learning data and commentary through otaku content.",
       "stack": [
         { "title": "Tech Stack" },
         {
@@ -28,7 +28,7 @@
         },
         {
           "name": "Front-End: TypeScript, Vue.js",
-          "reason": "Chose Vue.js to gain experience through personal development, as it was not used in my professional work."
+          "reason": "I chose Vue.js to learn it through personal development, as I had no experience with it at work."
         },
         { "name": "Database: PostgreSQL" },
         { "name": "Others: Docker, Nginx" }
@@ -36,7 +36,7 @@
     }
   },
   "accordion": {
-    "open": "View Details",
+    "open": "Show Details",
     "close": "Hide Details"
   },
   "skills": {
@@ -44,19 +44,16 @@
     "languagesList": [
       {
         "name": "Java",
-        "detail": "Extensive experience in back-end and batch processing, mainly using Spring Boot. Primarily used in professional work."
+        "detail": "Extensive experience in back-end and batch processing, mainly using Spring Boot. Mainly used in professional work."
       },
       {
         "name": "TypeScript",
-        "detail": "Developed admin dashboards using Vue.js at work, also used in personal projects."
+        "detail": "Developed admin dashboards using Vue.js at work. Also used in personal projects."
       },
-      {
-        "name": "Python",
-        "detail": "Used widely for personal projects and scripting."
-      },
+      { "name": "Python", "detail": "Used widely for personal development and scripting." },
       {
         "name": "Rust",
-        "detail": "Used in back-end development at work. Currently continuing to learn."
+        "detail": "Used in back-end development at work. Currently still learning."
       }
     ],
     "databases": "Databases",
@@ -65,27 +62,21 @@
         "name": "PostgreSQL",
         "detail": "Used in both professional and personal development. Proficient in basic SQL operations."
       },
-      {
-        "name": "Oracle / MySQL",
-        "detail": "Basic operational experience through work."
-      }
+      { "name": "Oracle / MySQL", "detail": "Basic operational experience through work." }
     ],
     "infra": "Infrastructure & Tools",
     "infraList": [
-      {
-        "name": "Docker",
-        "detail": "Capable of building basic development environments."
-      },
+      { "name": "Docker", "detail": "Capable of basic environment setup." },
       {
         "name": "AWS",
-        "detail": "Experience with basic services; currently studying more advanced usage."
+        "detail": "Experience with basic services. Currently learning more advanced usage."
       }
     ],
     "languageskill": "Language Skills",
     "languageskillList": [
       {
         "name": "Japanese",
-        "summary": "Native. Fluent.",
+        "summary": "Native. Fluent speaker.",
         "detail": "Native Japanese speaker."
       },
       {
@@ -100,7 +91,7 @@
       },
       {
         "name": "English",
-        "summary": "Mainly focused on listening and getting used to English environments.",
+        "summary": "Mainly getting used to English environments through listening.",
         "detail": "Started learning English in junior high school but didn't study seriously at the time. Currently exposed to English mainly through listening, inspired by English VTubers such as NIJISANJI EN. Although not studying systematically, aiming to improve understanding gradually through content I enjoy."
       }
     ]
