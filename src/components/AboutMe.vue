@@ -19,6 +19,9 @@
       <span class="badge bg-light text-dark border me-1"
         ><i class="bi bi-brush me-1"></i>{{ t('about.interest.illust') }}</span
       >
+      <span class="badge bg-light text-dark border me-1"
+        ><i class="bi bi-palette me-1"></i>{{ t('about.interest.derivative') }}</span
+      >
       <span class="badge bg-light text-dark border"
         ><i class="bi bi-person-video3 me-1"></i>{{ t('about.interest.vtuber') }}</span
       >
