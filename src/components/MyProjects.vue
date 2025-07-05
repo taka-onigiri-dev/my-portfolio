@@ -27,12 +27,12 @@
           <strong>{{ t('projects.ytgenai.stack.4.name') }}</strong>
         </li>
       </ul>
-      <img
+      <!-- <img
         src="/src/assets/demo.gif"
         alt="アプリデモGif"
         class="img-fluid rounded border w-100"
         style="height: auto"
-      />
+      /> -->
     </div>
   </Section>
 </template>
