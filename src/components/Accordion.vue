@@ -20,12 +20,14 @@
 import { ref, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { defineProps } from 'vue'
+
 const { t } = useI18n()
 const props = defineProps({
   openText: { type: String, default: '' },
   closeText: { type: String, default: '' },
 })
+
 const open = ref(false)
-const openTextComputed = computed(() => props.openText || t('accordion.open'))
-const closeTextComputed = computed(() => props.closeText || t('accordion.close'))
+const openTextComputed = computed(() => props.openText || t('common.accordion.open'))
+const closeTextComputed = computed(() => props.closeText || t('common.accordion.close'))
 </script>

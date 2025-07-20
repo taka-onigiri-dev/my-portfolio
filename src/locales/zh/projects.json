@@ -1,0 +1,37 @@
+{
+  "title": "自制项目",
+  "project1": {
+    "catch": "结合YouTube字幕和生成式AI的多语言学习支持Web应用",
+    "summaryLabel": "概述：",
+    "desc": "着眼于日语和韩语字幕的契合度以及语法和词汇的相似性，正在开发一个通过二次元内容让粉丝可以共享和积累学习数据与解说的语言学习网站。",
+    "techStack": {
+      "title": "技术栈",
+      "backend": {
+        "category": "后端",
+        "python_django": {
+          "name": "Python / Django",
+          "note": "大学期间曾使用Python开发YouTube字幕分析工具，且与YouTube相关的资料大多是Python编写的，因此我选择并使用了该语言。"
+        }
+      },
+      "frontend": {
+        "category": "前端",
+        "typescript_vue": {
+          "name": "TypeScript / Vue.js",
+          "note": "由于工作中未曾使用Vue.js，为在个人开发中学习掌握而选择使用。"
+        }
+      },
+      "database": {
+        "category": "数据库",
+        "postgresql": {
+          "name": "PostgreSQL"
+        }
+      },
+      "other": {
+        "category": "其他技术",
+        "docker_nginx": {
+          "name": "Docker / Nginx"
+        }
+      }
+    }
+  }
+}

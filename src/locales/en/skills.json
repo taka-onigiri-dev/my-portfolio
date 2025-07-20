@@ -1,0 +1,69 @@
+{
+  "title": "Skills List",
+  "categories": {
+    "programming": {
+      "title": "Programming Languages",
+      "java": {
+        "name": "Java",
+        "comment": "Extensive experience in back-end and batch processing, mainly using Spring Boot. Mainly used in professional work."
+      },
+      "typescript": {
+        "name": "TypeScript",
+        "comment": "Developed admin dashboards using Vue.js at work. Also used in personal projects."
+      },
+      "python": {
+        "name": "Python",
+        "comment": "Used widely for personal development and scripting."
+      },
+      "rust": {
+        "name": "Rust",
+        "comment": "Used in back-end development at work. Currently still learning."
+      }
+    },
+    "databases": {
+      "title": "Databases",
+      "postgresql": {
+        "name": "PostgreSQL",
+        "comment": "Used in both professional and personal development. Proficient in basic SQL operations."
+      },
+      "oracle_mysql": {
+        "name": "Oracle / MySQL",
+        "comment": "Basic operational experience through work."
+      }
+    },
+    "tools": {
+      "title": "Infrastructure & Tools",
+      "docker": {
+        "name": "Docker",
+        "comment": "Capable of basic environment setup."
+      },
+      "aws": {
+        "name": "AWS",
+        "comment": "Experience with basic services. Currently learning more advanced usage."
+      }
+    },
+    "languages": {
+      "title": "Language Skills",
+      "japanese": {
+        "name": "Japanese",
+        "summary": "Native. Fluent speaker.",
+        "detail": "Native Japanese speaker."
+      },
+      "korean": {
+        "name": "Korean",
+        "comment": "Able to engage in simple conversations and self-introductions. Continuously self-studying.",
+        "detail": "Learned Korean as a second foreign language in university. Later rekindled interest due to the virtual idol group '이세계아이돌'. Attracted by the similarities between Korean and Japanese grammar and vocabulary, and the ease of learning through subtitles. Studying through YouTube, VRChat, and Maum. Can handle light conversations and introductions. Familiar with Hangul reading and pronunciation, though vocabulary is limited and skewed toward otaku terms."
+      },
+      "chinese": {
+        "name": "Chinese",
+        "comment": "Can understand basic daily expressions. Currently learning pronunciation and conversation.",
+        "detail": "Studying for a few months. Can read some pinyin, but still struggling with accurate pronunciation. Practicing through Hello Talk with Chinese friends who speak Japanese. Understanding simple phrases like 'go to work' or 'eat a meal' is improving. Reading is getting better, but speaking, listening, and writing remain areas to improve. Learning vocabulary around HSK Level 4 and trying to output through conversation."
+      },
+      "english": {
+        "name": "English",
+        "comment": "Mainly getting used to English environments through listening.",
+        "detail": "Started learning English in junior high school but didn't study seriously at the time. Currently exposed to English mainly through listening, inspired by English VTubers such as NIJISANJI EN. Although not studying systematically, aiming to improve understanding gradually through content I enjoy."
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "技能列表",
+  "categories": {
+    "programming": {
+      "title": "编程语言",
+      "java": {
+        "name": "Java",
+        "comment": "以Spring Boot为主，拥有丰富的后端和批处理经验。主要在工作中使用。"
+      },
+      "typescript": {
+        "name": "TypeScript",
+        "comment": "在工作中负责使用Vue.js开发管理后台，个人开发中也有使用经验。"
+      },
+      "python": {
+        "name": "Python",
+        "comment": "广泛应用于个人开发和脚本编写。"
+      },
+      "rust": {
+        "name": "Rust",
+        "comment": "用于后端开发，目前仍在学习中。"
+      }
+    },
+    "databases": {
+      "title": "数据库",
+      "postgresql": {
+        "name": "PostgreSQL",
+        "comment": "用于工作和个人开发。熟悉基本SQL操作。"
+      },
+      "oracle_mysql": {
+        "name": "Oracle / MySQL",
+        "comment": "在工作中有基本操作经验。"
+      }
+    },
+    "tools": {
+      "title": "基础设施与工具",
+      "docker": {
+        "name": "Docker",
+        "comment": "可以进行基本的环境构建。"
+      },
+      "aws": {
+        "name": "AWS",
+        "comment": "有基本服务使用经验，目前正在学习更深入的知识。"
+      }
+    },
+    "languages": {
+      "title": "语言能力",
+      "japanese": {
+        "name": "日语",
+        "summary": "母语。流利交流。",
+        "detail": "日语母语者。"
+      },
+      "korean": {
+        "name": "韩语",
+        "comment": "可以进行简单的会话和自我介绍，持续自学中。",
+        "detail": "大学时作为第二外语学习韩语，工作后因对韩国虚拟偶像团体\"이세계아이돌\"产生兴趣而重新开始学习。由于韩语与日语在语法和词汇方面的相似性，以及利用字幕学习的便利性而深受吸引。通过YouTube、VRChat、Maum等平台学习，目前能够进行简短的自我介绍。已适应韩文的阅读和发音，但词汇量仍有限，偏向二次元用语。"
+      },
+      "chinese": {
+        "name": "中文",
+        "comment": "能理解基本日常表达，目前在学习发音和会话。",
+        "detail": "学习了几个月，已能读部分拼音，但发音仍有待提高。通过Hello Talk与会日语的中国朋友交流进行实践学习。'去上班'、'吃饭'等简单表达已能理解。阅读能力不断提升，但听、说、写仍需加强。以HSK4级词汇为主进行输入，通过实际对话进行输出。"
+      },
+      "english": {
+        "name": "英语",
+        "comment": "正在通过听力逐渐适应英语环境，目前仍处于学习初期阶段。",
+        "detail": "从初中起学习英语，但学生时期未深入学习。现在通过NIJISANJI EN等英语VTuber接触英语，主要以\"听\"为主。尚未进行系统学习，但希望通过感兴趣的内容逐步加深对英语的理解。"
+      }
+    }
+  }
+}
