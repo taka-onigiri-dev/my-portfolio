@@ -29,7 +29,7 @@
             <a class="dropdown-item" href="#" @click.prevent="setLocale('en')">English</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#" @click.prevent="setLocale('zh')">中文</a>
+            <a class="dropdown-item" href="#" @click.prevent="setLocale('zh')">简体中文</a>
           </li>
         </ul>
       </div>
@@ -55,7 +55,7 @@ const languageLabel = (lang: string) => {
     case 'en':
       return 'English'
     case 'zh':
-      return '中文'
+      return '简体中文'
     default:
       return lang
   }
