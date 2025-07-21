@@ -1,6 +1,6 @@
 <template>
   <footer class="py-3 bg-dark text-white">
-    <div class="container text-center">
+    <div class="container-fluid text-center">
       <small>&copy; 2025 taka-onigiri-dev</small>
     </div>
   </footer>
