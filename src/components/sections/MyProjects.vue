@@ -6,6 +6,15 @@
           class="card h-100 shadow-sm border-secondary-subtle project-card"
           @click="openModal(project.id)"
         >
+          <!-- サムネイル画像 -->
+          <div v-if="project.image" class="card-img-top-container">
+            <img
+              :src="project.image"
+              :alt="project.title"
+              class="card-img-top project-thumbnail"
+              @error="handleImageError"
+            />
+          </div>
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">{{ project.title }}</h5>
             <p class="card-text">{{ project.intro }}</p>
@@ -48,6 +57,8 @@ import ProjectLanguageApp from '@/components/projects/ProjectLanguageApp.vue'
 import ProjectTestDataTool from '@/components/projects/ProjectTestDataTool.vue'
 import ProjectReviewTool from '@/components/projects/ProjectReviewTool.vue'
 import ProjectChineseTool from '@/components/projects/ProjectChineseTool.vue'
+import languageAppThumbnail from '@/assets/language-app-thumbnail.PNG'
+import chineseToolThumbnail from '@/assets/chinese-tool-thumbnail.PNG'
 
 const { t, tm } = useI18n()
 
@@ -65,6 +76,7 @@ const projects = computed(() => [
     title: t('projects.languageApp.title'),
     intro: t('projects.languageApp.intro'),
     tags: tm('projects.languageApp.techStack') as string[],
+    image: languageAppThumbnail,
     modalComponent: projectComponents.languageApp,
   },
   {
@@ -73,6 +85,7 @@ const projects = computed(() => [
     title: t('projects.chineseTool.title'),
     intro: t('projects.chineseTool.intro'),
     tags: tm('projects.chineseTool.techStack') as string[],
+    image: chineseToolThumbnail,
     modalComponent: projectComponents.chineseTool,
   },
   {
@@ -102,6 +115,11 @@ const openModal = (id: string) => {
 const handleModalClose = () => {
   activeModalId.value = null
 }
+
+const handleImageError = (event: Event) => {
+  const target = event.target as HTMLImageElement
+  target.style.display = 'none'
+}
 </script>
 
 <style scoped>
@@ -126,5 +144,22 @@ const handleModalClose = () => {
 
 .project-card:hover .text-muted {
   color: #28a745 !important;
+}
+
+.project-thumbnail {
+  height: 200px;
+  object-fit: contain;
+  width: 100%;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.card-img-top-container {
+  overflow: hidden;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
 }
 </style>

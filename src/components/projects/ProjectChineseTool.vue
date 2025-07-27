@@ -14,6 +14,12 @@
 
     <hr class="my-5" />
 
+    <div class="mb-5">
+      <img src="@/assets/chinese-tool.png" alt="chinese-tool" class="img-fluid" />
+    </div>
+
+    <hr class="my-5" />
+
     <!-- 技術スタックセクション -->
     <div class="mb-5">
       <h3 class="mb-4 fw-bold">
