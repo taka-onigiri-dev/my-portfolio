@@ -30,7 +30,7 @@
 </template>
 
 <script setup lang="ts">
-import Section from './Section.vue'
+import Section from '@/components/common/Section.vue'
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 

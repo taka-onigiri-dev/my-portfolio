@@ -1,14 +1,8 @@
 <template>
-  <section class="py-2">
-    <div class="card shadow-sm mb-4 w-100">
-      <div class="card-body">
-        <h3 class="my-3">
-          {{ title }}
-        </h3>
-        <div class="m-2">
-          <slot />
-        </div>
-      </div>
+  <section class="py-2 mx-auto border-bottom border-2 border-light" style="max-width: 900px">
+    <h3 class="m-3">{{ title }}</h3>
+    <div class="m-3">
+      <slot />
     </div>
   </section>
 </template>

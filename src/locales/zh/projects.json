@@ -1,37 +1,23 @@
 {
-  "title": "自制项目",
-  "project1": {
-    "catch": "结合YouTube字幕和生成式AI的多语言学习支持Web应用",
-    "summaryLabel": "概述：",
-    "desc": "着眼于日语和韩语字幕的契合度以及语法和词汇的相似性，正在开发一个通过二次元内容让粉丝可以共享和积累学习数据与解说的语言学习网站。",
-    "techStack": {
-      "title": "技术栈",
-      "backend": {
-        "category": "后端",
-        "python_django": {
-          "name": "Python / Django",
-          "note": "大学期间曾使用Python开发YouTube字幕分析工具，且与YouTube相关的资料大多是Python编写的，因此我选择并使用了该语言。"
-        }
-      },
-      "frontend": {
-        "category": "前端",
-        "typescript_vue": {
-          "name": "TypeScript / Vue.js",
-          "note": "由于工作中未曾使用Vue.js，为在个人开发中学习掌握而选择使用。"
-        }
-      },
-      "database": {
-        "category": "数据库",
-        "postgresql": {
-          "name": "PostgreSQL"
-        }
-      },
-      "other": {
-        "category": "其他技术",
-        "docker_nginx": {
-          "name": "Docker / Nginx"
-        }
-      }
-    }
+  "title": "作品列表",
+  "languageApp": {
+    "title": "利用YouTube字幕和生成AI的多语言学习支持Web应用",
+    "intro": "利用御宅族内容，可以进行字幕比较、AI解说生成、进度管理・共享的语言学习网站。",
+    "techStack": ["Python / Django", "TypeScript / Vue.js", "PostgreSQL", "Docker / Nginx"]
+  },
+  "testDataTool": {
+    "title": "测试数据生成工具",
+    "intro": "自动获取DB表定义，与AI联动生成测试数据用SQL语句的工具。",
+    "techStack": ["Python"]
+  },
+  "reviewTool": {
+    "title": "代码审查支持工具",
+    "intro": "提取两个Git分支间的修改差异，输出为AI易于处理的文本文件。",
+    "techStack": ["Python"]
+  },
+  "chineseTool": {
+    "title": "中文学习工具",
+    "intro": "可以高效进行中文单词学习・确认・记录的GUI应用。",
+    "techStack": ["Python"]
   }
 }

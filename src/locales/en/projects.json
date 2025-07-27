@@ -1,37 +1,23 @@
 {
   "title": "Projects",
-  "project1": {
-    "catch": "Multilingual Learning Support Web App Using YouTube Subtitles and Generative AI",
-    "summaryLabel": "Overview:",
-    "desc": "Focusing on the compatibility of Japanese and Korean subtitles and the similarities in grammar and vocabulary, we are developing a language learning website where fans can share and accumulate learning data and commentary through otaku content.",
-    "techStack": {
-      "title": "Technology Stack",
-      "backend": {
-        "category": "Backend",
-        "python_django": {
-          "name": "Python / Django",
-          "note": "I used Python to develop a YouTube subtitle analysis tool during university, and since most YouTube-related information is available in Python, I chose to use it for this project."
-        }
-      },
-      "frontend": {
-        "category": "Frontend",
-        "typescript_vue": {
-          "name": "TypeScript / Vue.js",
-          "note": "I chose Vue.js to learn it through personal development, as I had no experience with it at work."
-        }
-      },
-      "database": {
-        "category": "Database",
-        "postgresql": {
-          "name": "PostgreSQL"
-        }
-      },
-      "other": {
-        "category": "Other Technologies",
-        "docker_nginx": {
-          "name": "Docker / Nginx"
-        }
-      }
-    }
+  "languageApp": {
+    "title": "Multilingual Learning Support Web App using YouTube Subtitles and Generative AI",
+    "intro": "A language learning site that utilizes otaku content, enabling subtitle comparison, AI explanation generation, and progress management and sharing.",
+    "techStack": ["Python / Django", "TypeScript / Vue.js", "PostgreSQL", "Docker / Nginx"]
+  },
+  "testDataTool": {
+    "title": "Test Data Generation Tool",
+    "intro": "A tool that automatically retrieves DB table definitions and collaborates with AI to generate SQL statements for test data.",
+    "techStack": ["Python"]
+  },
+  "reviewTool": {
+    "title": "Code Review Support Tool",
+    "intro": "Extracts only the modification differences between two Git branches and outputs them as text files that are easy for AI to handle.",
+    "techStack": ["Python"]
+  },
+  "chineseTool": {
+    "title": "Chinese Learning Tool",
+    "intro": "A GUI application that enables efficient learning, confirmation, and recording of Chinese vocabulary.",
+    "techStack": ["Python"]
   }
 }

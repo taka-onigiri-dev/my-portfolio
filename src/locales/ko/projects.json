@@ -1,37 +1,23 @@
 {
-  "title": "자작물 목록",
-  "project1": {
-    "catch": "YouTube 자막과 생성 AI를 활용한 다국어 학습 지원 웹 애플리케이션",
-    "summaryLabel": "개요:",
-    "desc": "일본어와 한국어 자막의 궁합과 문법 및 단어의 유사성에 주목하여, 오타쿠 콘텐츠를 통해 팬들이 학습 데이터와 해설을 공유·축적할 수 있는 언어 학습 사이트를 개발하고 있습니다.",
-    "techStack": {
-      "title": "기술 스택",
-      "backend": {
-        "category": "백엔드",
-        "python_django": {
-          "name": "Python / Django",
-          "note": "대학 시절 YouTube 자막 분석 도구 개발에 Python을 사용한 경험이 있으며, YouTube 관련 자료가 Python으로 많이 제공되기 때문에 Python을 사용했습니다."
-        }
-      },
-      "frontend": {
-        "category": "프론트엔드",
-        "typescript_vue": {
-          "name": "TypeScript / Vue.js",
-          "note": "업무에서는 Vue.js를 사용한 경험이 없기 때문에, 개인 개발을 통해 학습하고자 선택했습니다."
-        }
-      },
-      "database": {
-        "category": "데이터베이스",
-        "postgresql": {
-          "name": "PostgreSQL"
-        }
-      },
-      "other": {
-        "category": "기타 기술",
-        "docker_nginx": {
-          "name": "Docker / Nginx"
-        }
-      }
-    }
+  "title": "제작물 목록",
+  "languageApp": {
+    "title": "YouTube 자막과 생성 AI를 활용한 다언어 학습 지원 웹 앱",
+    "intro": "오타쿠 콘텐츠를 활용하여 자막 비교, AI 해설 생성, 진도 관리・공유가 가능한 언어 학습 사이트입니다.",
+    "techStack": ["Python / Django", "TypeScript / Vue.js", "PostgreSQL", "Docker / Nginx"]
+  },
+  "testDataTool": {
+    "title": "테스트 데이터 생성 도구",
+    "intro": "DB 테이블 정의를 자동으로 가져와 AI와 연동하여 테스트 데이터용 SQL문을 생성할 수 있는 도구입니다.",
+    "techStack": ["Python"]
+  },
+  "reviewTool": {
+    "title": "코드 리뷰 지원 도구",
+    "intro": "2개의 Git 브랜치 간의 수정 차이만을 추출하여 AI가 다루기 쉬운 텍스트 파일로 출력합니다.",
+    "techStack": ["Python"]
+  },
+  "chineseTool": {
+    "title": "중국어 학습 도구",
+    "intro": "중국어 단어의 학습・확인・기록을 효율적으로 할 수 있는 GUI 앱입니다.",
+    "techStack": ["Python"]
   }
 }

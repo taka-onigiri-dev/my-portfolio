@@ -1,6 +1,6 @@
 {
   "title": "About Me",
-  "introduction": "Born and raised in Osaka, currently living in Tokyo.\nMajored in Information Science at the Faculty of Science and Engineering, and belonged to a Natural Language Processing lab. Experienced in a wide range of development, mainly web applications, including back-end, front-end, and batch processing. Interested in NLP since my student days, and currently developing a language learning app that utilizes YouTube subtitles and generative AI.",
+  "introduction": "Born in 1999. Born and raised in Osaka, currently residing in Tokyo.\nAt university, I studied in the Faculty of Science and Engineering, Department of Information Science, and belonged to the Natural Language Processing Laboratory.\nI have extensive experience in web application development, covering backend, frontend, and batch processing.\nI've been interested in natural language processing since my student days, and currently I'm personally developing a language learning app that utilizes YouTube subtitles and generative AI.",
   "interests": {
     "title": "Areas of Interest",
     "nlp": "Natural Language Processing",

@@ -1,6 +1,6 @@
 {
-  "accordion": {
-    "open": "상세 보기",
-    "close": "상세 닫기"
+  "detail": {
+    "open": "자세히 보기",
+    "close": "자세히 닫기"
   }
 }

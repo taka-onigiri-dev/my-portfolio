@@ -1,0 +1,26 @@
+{
+  "overview": {
+    "title": "Overview",
+    "description": "This tool obtains CREATE TABLE statements (DDL) from actual databases for multiple specified table names, combines the table definitions with pre-prepared prompts into a single file, and outputs it. The generated file can be passed to conversational generative AI to generate INSERT, SELECT, and DELETE statements for test data, considering dependencies such as foreign key constraints."
+  },
+  "techStack": {
+    "title": "Technology Stack",
+    "tools": ["Python"]
+  },
+  "features": {
+    "title": "Main Features",
+    "items": [
+      "Specify DB connection information (host, port, DB name, etc.) and connect to actual database",
+      "Dynamically extract CREATE TABLE statements for multiple specified tables",
+      "Combine extracted table definitions with prepared prompt text and output as file",
+      "Can generate test data SQL statements by passing generated file to AI"
+    ]
+  },
+  "supplement": {
+    "title": "Supplementary Information",
+    "items": [
+      "This tool can flexibly respond to specification changes by regenerating test data when table definitions are modified.",
+      "Even when there are dependencies like foreign keys, data can be created considering them."
+    ]
+  }
+}

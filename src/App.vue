@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
-import MainLayout from './components/MainLayout.vue'
-import HeroSection from './components/HeroSection.vue'
-import AboutMe from './components/AboutMe.vue'
-import MyProjects from './components/MyProjects.vue'
-import Skills from './components/Skills.vue'
+import Header from '@/components/layout/Header.vue'
+import Footer from '@/components/layout/Footer.vue'
+import MainLayout from '@/components/layout/MainLayout.vue'
+import HeroSection from '@/components/sections/HeroSection.vue'
+import AboutMe from '@/components/sections/AboutMe.vue'
+import MyProjects from '@/components/sections/MyProjects.vue'
+import Skills from '@/components/sections/Skills.vue'
 </script>
 
 <template>

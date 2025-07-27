@@ -1,68 +1,82 @@
 {
-  "title": "Skills List",
+  "title": "Skills",
   "categories": {
     "programming": {
       "title": "Programming Languages",
       "java": {
         "name": "Java",
-        "comment": "Extensive experience in back-end and batch processing, mainly using Spring Boot. Mainly used in professional work."
+        "comment": "Used Spring Boot in business, responsible for management system API development and batch processing implementation."
       },
       "typescript": {
         "name": "TypeScript",
-        "comment": "Developed admin dashboards using Vue.js at work. Also used in personal projects."
+        "comment": "Responsible for developing management interfaces using Vue.js. Currently working on interface development using Next.js."
       },
       "python": {
         "name": "Python",
-        "comment": "Used widely for personal development and scripting."
+        "comment": "In addition to script development in business, I mainly work on API development using Django in personal projects."
       },
       "rust": {
         "name": "Rust",
-        "comment": "Used in back-end development at work. Currently still learning."
+        "comment": "Used for API development in business."
       }
     },
     "databases": {
       "title": "Databases",
       "postgresql": {
         "name": "PostgreSQL",
-        "comment": "Used in both professional and personal development. Proficient in basic SQL operations."
+        "comment": "Used in both business and personal development."
       },
       "oracle_mysql": {
         "name": "Oracle / MySQL",
-        "comment": "Basic operational experience through work."
+        "comment": "Experienced basic operations in business."
       }
     },
     "tools": {
       "title": "Infrastructure & Tools",
       "docker": {
         "name": "Docker",
-        "comment": "Capable of basic environment setup."
+        "comment": "Can perform basic environment setup."
       },
       "aws": {
         "name": "AWS",
-        "comment": "Experience with basic services. Currently learning more advanced usage."
+        "comment": "Used in business."
       }
     },
     "languages": {
       "title": "Language Skills",
+      "featuresTitle": "Interesting Aspects of Languages",
       "japanese": {
         "name": "Japanese",
-        "summary": "Native. Fluent speaker.",
-        "detail": "Native Japanese speaker."
+        "comment": "Native language. Can speak fluently.",
+        "detail": "Can distinguish between Kansai and Kanto dialects."
       },
       "korean": {
         "name": "Korean",
-        "comment": "Able to engage in simple conversations and self-introductions. Continuously self-studying.",
-        "detail": "Learned Korean as a second foreign language in university. Later rekindled interest due to the virtual idol group '이세계아이돌'. Attracted by the similarities between Korean and Japanese grammar and vocabulary, and the ease of learning through subtitles. Studying through YouTube, VRChat, and Maum. Can handle light conversations and introductions. Familiar with Hangul reading and pronunciation, though vocabulary is limited and skewed toward otaku terms."
+        "comment": "Can have simple conversations about self-introduction and hobbies, but vocabulary is limited and particularly biased toward otaku-related terms.",
+        "detail": "Learned Korean as a second foreign language in university, and after becoming a working adult, became interested in the Korean virtual idol group \"이세계아이돌\" as a catalyst to resume self-study. Mainly advancing learning through YouTube viewing, VRChat, and Maum interactions.",
+        "features": [
+          "Japanese and Korean have similar word order and grammatical structure, so even if sentences are cut off mid-way in subtitle translation, large meaning discrepancies are unlikely to occur in translation results.",
+          "Many Sino-Korean words are composed of the same Chinese character combinations as Japanese, so if you have knowledge of Japanese Sino-Japanese words, it's easy to predict vocabulary.\n(Example: If you know \"도서관 (library)\" and \"문화 (culture)\", you can naturally imagine the word \"문서 (document)\")"
+        ]
       },
       "chinese": {
         "name": "Chinese",
-        "comment": "Can understand basic daily expressions. Currently learning pronunciation and conversation.",
-        "detail": "Studying for a few months. Can read some pinyin, but still struggling with accurate pronunciation. Practicing through Hello Talk with Chinese friends who speak Japanese. Understanding simple phrases like 'go to work' or 'eat a meal' is improving. Reading is getting better, but speaking, listening, and writing remain areas to improve. Learning vocabulary around HSK Level 4 and trying to output through conversation."
+        "comment": "Can do simple daily expressions a little, but focusing on reading comprehension in learning, pronunciation and conversation are still challenges.",
+        "detail": "Using Hello Talk, I practice learning by conversing with Chinese friends who can speak Japanese. HSK has high implementation frequency, and the period from application to exam and score announcement is short, so it's good that you can take the exam immediately when you think of it.",
+        "features": [
+          "Chinese has no conjugation, so lemmatization (normalization of word form changes) is not necessary during morphological analysis.\nTherefore, compared to Japanese where forms change like \"eat\", \"don't eat\", \"ate\", word search and natural language processing become very simple.\n(Example: \"吃 (chī)\", \"不吃 (bù chī)\", \"吃了 (chī le)\" - even when forms change, they can all be handled simply as \"吃\".)",
+          "Even the same Chinese characters have different readings and intonation in Japanese and Chinese.\nExample: \"北京 (běijīng)\" and \"北京大学 (běijīng dàxué)\" have changing intonation in Japanese, but are the same in Chinese.",
+          "Words like \"大学\", \"大阪\", \"大人\" have different kanji readings in Japanese, but in Chinese they use \"大 (dà)\" as the base with almost the same reading.\nExample: In Chinese \"大学 (dàxué)\", \"大阪 (dàbǎn)\", \"大人 (dàrén)\"",
+          "\"汉语 (hànyǔ)\" and \"韩语 (hányǔ)\" both become \"ハンユー\" when written in Japanese katakana, so it's difficult to distinguish them using only Japanese pronunciation."
+        ]
       },
       "english": {
         "name": "English",
-        "comment": "Mainly getting used to English environments through listening.",
-        "detail": "Started learning English in junior high school but didn't study seriously at the time. Currently exposed to English mainly through listening, inspired by English VTubers such as NIJISANJI EN. Although not studying systematically, aiming to improve understanding gradually through content I enjoy."
+        "comment": "Can pick up sounds, but grammar is not sufficiently understood, and content comprehension is limited to word level.",
+        "detail": "Started learning English from junior high school, but didn't study seriously during student days. Now I listen to English more through English VTubers like NIJISANJI EN, but hardly study through textbooks, and the foundation is still not sufficient.",
+        "features": [
+          "Japanese requires conversion to kanji or kana after romaji input, but English uses a typewriter method where input characters directly become text."
+        ]
       }
     }
   }

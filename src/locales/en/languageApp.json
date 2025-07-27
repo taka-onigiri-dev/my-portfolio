@@ -1,0 +1,90 @@
+{
+  "overview": {
+    "title": "Overview",
+    "description": "Focusing on the compatibility and grammatical and vocabulary similarities between Japanese and Korean subtitles, I am developing a language learning site where fans can share and accumulate learning data and explanations through otaku content. Learning efficiency is possible through subtitle comparison, AI-generated explanations, progress management, and explanation sharing.",
+    "disclaimer": "※ This tool is used for personal learning purposes only, privately and non-commercially."
+  },
+  "techStack": {
+    "title": "Technology Stack",
+    "items": [
+      {
+        "title": "Backend: Python / Django",
+        "description": "I used Python because I had experience using it for YouTube subtitle analysis tools during university, and also because much YouTube-related information can be found in Python."
+      },
+      {
+        "title": "Frontend: TypeScript / Vue.js",
+        "description": "I selected Vue.js because I had no work experience with it and wanted to learn it through personal development."
+      },
+      {
+        "title": "Database: PostgreSQL"
+      },
+      {
+        "title": "Other Technologies: Docker / Nginx"
+      }
+    ]
+  },
+  "features": {
+    "title": "Main Features",
+    "items": [
+      {
+        "title": "Subtitle Matching Function",
+        "description": "YouTube video subtitles can be compared and confirmed using subtitles in the language you want to learn and subtitles in a language you can understand."
+      },
+      {
+        "title": "Status Setting",
+        "description": "Set status for each subtitle such as \"Haven't checked content yet,\" \"Checked content but don't understand,\" \"Only one word is unclear,\" \"Fully understood,\" etc., to manage learning progress."
+      },
+      {
+        "title": "Data List and Review Function",
+        "description": "View learned data in a list and review it."
+      },
+      {
+        "title": "Subtitle Categorization and Playlist Function",
+        "description": "Manage subtitles by category and add them to playlists. Can be organized by purpose such as otaku terms and technical terms."
+      },
+      {
+        "title": "Subtitle Translation Function",
+        "description": "Provide translation for the corresponding subtitle without needing to note video playback position or subtitles, and confirm translation content."
+      },
+      {
+        "title": "Link and Audio Learning Function",
+        "description": "There is a link to the video section where the corresponding subtitle is spoken, and audio can also be confirmed. Can learn pronunciation in addition to text."
+      },
+      {
+        "title": "Explanation Generation and Storage",
+        "description": "Use generative AI to create and save grammar and vocabulary explanations."
+      },
+      {
+        "title": "Explanation Sharing",
+        "description": "Share explanations among multiple users to reduce the effort required for learning."
+      }
+    ]
+  },
+  "developmentFocus": {
+    "title": "What I Focused on in Development",
+    "items": [
+      "Many-to-many table design",
+      "Commonize and reuse processes that can be commonized for each component as much as possible",
+      "Thorough two-way binding in common components",
+      "Automatic document generation (ER diagrams, table definition documents)",
+      "DB definition management through migrations"
+    ]
+  },
+  "background": {
+    "title": "Background",
+    "paragraphs": [
+      "When learning foreign languages, many people can efficiently and naturally acquire them by using content that interests them.",
+      "For example, many foreigners naturally acquire Japanese by being exposed to Japanese anime and Vocaloid otaku content.",
+      "Similarly, Japanese people can learn foreign languages through overseas otaku content.",
+      "However, such methods currently require much effort.",
+      "Especially, work such as listening to video audio and organizing subtitles, or looking up unknown words and expressions one by one is necessary, making learning cumbersome.",
+      "On the other hand, with the spread of the internet, it has become easy to share information about specific content or use materials created by others.",
+      "For example, in the field of music, when there was a song you wanted to play on an instrument, you used to create sheet music by ear, but now you can use sheet music created by others, allowing you to focus on practice.",
+      "Similarly, in language learning, not everyone needs to look up things they don't understand, and by sharing materials created by someone once, learning efficiency can be greatly improved.",
+      "Also, audio textbooks are often used for foreign language learning, but the audio is mostly by unknown narrators, which doesn't connect well to learner motivation.",
+      "Therefore, I want to enable learning with favorite voices like favorite idols and VTubers.",
+      "From this background, I want to develop a system where people who like the same content can efficiently learn by reducing the effort required to learn foreign languages using favorite YouTube content and sharing information.",
+      "With this system, users can save time on research and spend more time on actual learning."
+    ]
+  }
+}

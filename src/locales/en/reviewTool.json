@@ -1,0 +1,27 @@
+{
+  "overview": {
+    "title": "Overview",
+    "description": "This tool extracts only the lines that were actually modified from the differences that occur between two branches in a specified Git repository, combines them with file names in a format with diff symbols like + and -, and outputs them as a file combined with pre-prepared coding rules, making it possible to pass them directly to conversational generative AI for review requests."
+  },
+  "techStack": {
+    "title": "Technology Stack",
+    "tools": ["Python"]
+  },
+  "features": {
+    "title": "Main Features",
+    "items": [
+      "Extract only actually modified lines from differences between two branches",
+      "Output coding rules combined with differences as files",
+      "Automatic detection of spelling errors, type mismatches, and coding rule violations is possible",
+      "Efficient AI review and rule checking",
+      "Can utilize conversational AI even in environments where IDE-integrated AI cannot be used"
+    ]
+  },
+  "supplement": {
+    "title": "Supplementary Information",
+    "items": [
+      "This tool can utilize conversational generative AI like ChatGPT even in workplaces where IDE-integrated AI like GitHub Copilot and Cursor cannot be used.",
+      "By passing files that combine differences and coding rules to AI, you can efficiently confirm modifications and check rules."
+    ]
+  }
+}

@@ -28,6 +28,6 @@ const props = defineProps({
 })
 
 const open = ref(false)
-const openTextComputed = computed(() => props.openText || t('common.accordion.open'))
-const closeTextComputed = computed(() => props.closeText || t('common.accordion.close'))
+const openTextComputed = computed(() => props.openText || t('common.detail.open'))
+const closeTextComputed = computed(() => props.closeText || t('common.detail.close'))
 </script>

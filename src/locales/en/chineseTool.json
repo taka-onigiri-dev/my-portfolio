@@ -1,0 +1,23 @@
+{
+  "overview": {
+    "title": "Overview",
+    "description": "This tool is a GUI application designed for Japanese Chinese language learners to efficiently learn, review, and record vocabulary. It can load CSV format word lists and perform learning and testing in flashcard format. Word display can be freely filtered by learning status and level, and supports random question presentation. Learning status can be updated in real-time according to learning progress, enabling smooth progress management. Additionally, it includes an automatic conversion function from simplified to traditional characters to assist with display that is visually easier for Japanese people to understand when simplified characters are difficult to grasp."
+  },
+  "techStack": {
+    "title": "Technology Stack",
+    "tools": ["Python"]
+  },
+  "features": {
+    "title": "Main Features",
+    "items": [
+      "Load CSV format word lists and start learning",
+      "Automatically convert simplified to traditional characters to assist with display familiar to Japanese users",
+      "Equipped with learning and review modes, updating learning status immediately based on responses",
+      "Freely customizable filters by level and learning status",
+      "Word presentation can be switched between sequential or random order",
+      "Automatically save learning history to CSV files with dates",
+      "One-click pronunciation playback for words",
+      "Adopt an intuitive GUI for operation"
+    ]
+  }
+}
