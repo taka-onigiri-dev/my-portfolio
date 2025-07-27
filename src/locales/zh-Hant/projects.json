@@ -1,0 +1,23 @@
+{
+  "title": "作品列表",
+  "languageApp": {
+    "title": "利用YouTube字幕和生成AI的多語言學習支援Web應用",
+    "intro": "利用御宅族內容，可以進行字幕比較、AI解說生成、進度管理・共享的語言學習網站。",
+    "techStack": ["Python / Django", "TypeScript / Vue.js", "PostgreSQL", "Docker / Nginx"]
+  },
+  "testDataTool": {
+    "title": "測試資料生成工具",
+    "intro": "自動獲取DB表定義，與AI聯動生成測試資料用SQL語句的工具。",
+    "techStack": ["Python"]
+  },
+  "reviewTool": {
+    "title": "程式碼審查支援工具",
+    "intro": "提取兩個Git分支間的修改差異，輸出為AI易於處理的文字檔案。",
+    "techStack": ["Python"]
+  },
+  "chineseTool": {
+    "title": "中文學習工具",
+    "intro": "可以高效進行中文單字學習・確認・記錄的GUI應用。",
+    "techStack": ["Python"]
+  }
+}

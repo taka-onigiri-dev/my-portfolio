@@ -1,5 +1,14 @@
 // src/i18n.ts
 import { createI18n } from 'vue-i18n'
+
+enum Language {
+  JAPANESE = 'ja',
+  KOREAN = 'ko',
+  ENGLISH = 'en',
+  CHINESE_SIMPLIFIED = 'zh-Hans',
+  CHINESE_TRADITIONAL = 'zh-Hant',
+}
+
 import jaProfile from './locales/ja/profile.json'
 import jaProjects from './locales/ja/projects.json'
 import jaSkills from './locales/ja/skills.json'
@@ -27,14 +36,23 @@ import koChineseTool from './locales/ko/chineseTool.json'
 import koReviewTool from './locales/ko/reviewTool.json'
 import koTestDataTool from './locales/ko/testDataTool.json'
 
-import zhProfile from './locales/zh/profile.json'
-import zhProjects from './locales/zh/projects.json'
-import zhSkills from './locales/zh/skills.json'
-import zhCommon from './locales/zh/common.json'
-import zhLanguageApp from './locales/zh/languageApp.json'
-import zhChineseTool from './locales/zh/chineseTool.json'
-import zhReviewTool from './locales/zh/reviewTool.json'
-import zhTestDataTool from './locales/zh/testDataTool.json'
+import zhHansProfile from './locales/zh-Hans/profile.json'
+import zhHansProjects from './locales/zh-Hans/projects.json'
+import zhHansSkills from './locales/zh-Hans/skills.json'
+import zhHansCommon from './locales/zh-Hans/common.json'
+import zhHansLanguageApp from './locales/zh-Hans/languageApp.json'
+import zhHansChineseTool from './locales/zh-Hans/chineseTool.json'
+import zhHansReviewTool from './locales/zh-Hans/reviewTool.json'
+import zhHansTestDataTool from './locales/zh-Hans/testDataTool.json'
+
+import zhHantProfile from './locales/zh-Hant/profile.json'
+import zhHantProjects from './locales/zh-Hant/projects.json'
+import zhHantSkills from './locales/zh-Hant/skills.json'
+import zhHantCommon from './locales/zh-Hant/common.json'
+import zhHantLanguageApp from './locales/zh-Hant/languageApp.json'
+import zhHantChineseTool from './locales/zh-Hant/chineseTool.json'
+import zhHantReviewTool from './locales/zh-Hant/reviewTool.json'
+import zhHantTestDataTool from './locales/zh-Hant/testDataTool.json'
 
 // 日本語の統合データ
 const ja = {
@@ -72,29 +90,41 @@ const ko = {
   testDataTool: koTestDataTool,
 }
 
-// 中国語の統合データ
-const zh = {
-  profile: zhProfile,
-  projects: zhProjects,
-  skills: zhSkills,
-  common: zhCommon,
-  languageApp: zhLanguageApp,
-  chineseTool: zhChineseTool,
-  reviewTool: zhReviewTool,
-  testDataTool: zhTestDataTool,
+// 簡体字中国語の統合データ
+const zhHans = {
+  profile: zhHansProfile,
+  projects: zhHansProjects,
+  skills: zhHansSkills,
+  common: zhHansCommon,
+  languageApp: zhHansLanguageApp,
+  chineseTool: zhHansChineseTool,
+  reviewTool: zhHansReviewTool,
+  testDataTool: zhHansTestDataTool,
+}
+// 繁体字中国語の統合データ
+const zhHant = {
+  profile: zhHantProfile,
+  projects: zhHantProjects,
+  skills: zhHantSkills,
+  common: zhHantCommon,
+  languageApp: zhHantLanguageApp,
+  chineseTool: zhHantChineseTool,
+  reviewTool: zhHantReviewTool,
+  testDataTool: zhHantTestDataTool,
 }
 
 const messages = {
-  ja,
-  en,
-  ko,
-  zh,
+  [Language.JAPANESE]: ja,
+  [Language.ENGLISH]: en,
+  [Language.KOREAN]: ko,
+  [Language.CHINESE_SIMPLIFIED]: zhHans,
+  [Language.CHINESE_TRADITIONAL]: zhHant,
 }
 
 const i18n = createI18n({
   legacy: false,
-  locale: 'ja',
-  fallbackLocale: 'en',
+  locale: Language.JAPANESE,
+  fallbackLocale: Language.ENGLISH,
   messages,
 })
 

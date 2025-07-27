@@ -20,16 +20,33 @@
         </button>
         <ul class="dropdown-menu" aria-labelledby="langDropdown">
           <li>
-            <a class="dropdown-item" href="#" @click.prevent="setLocale('ja')">日本語</a>
+            <a class="dropdown-item" href="#" @click.prevent="setLocale(Language.JAPANESE)"
+              >日本語</a
+            >
           </li>
           <li>
-            <a class="dropdown-item" href="#" @click.prevent="setLocale('ko')">한국어</a>
+            <a class="dropdown-item" href="#" @click.prevent="setLocale(Language.KOREAN)">한국어</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#" @click.prevent="setLocale('en')">English</a>
+            <a class="dropdown-item" href="#" @click.prevent="setLocale(Language.ENGLISH)"
+              >English</a
+            >
           </li>
           <li>
-            <a class="dropdown-item" href="#" @click.prevent="setLocale('zh')">简体中文</a>
+            <a
+              class="dropdown-item"
+              href="#"
+              @click.prevent="setLocale(Language.CHINESE_SIMPLIFIED)"
+              >简体中文</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="#"
+              @click.prevent="setLocale(Language.CHINESE_TRADITIONAL)"
+              >繁體中文</a
+            >
           </li>
         </ul>
       </div>
@@ -40,22 +57,32 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 
+enum Language {
+  JAPANESE = 'ja',
+  KOREAN = 'ko',
+  ENGLISH = 'en',
+  CHINESE_SIMPLIFIED = 'zh-Hans',
+  CHINESE_TRADITIONAL = 'zh-Hant',
+}
+
 const { locale } = useI18n()
 
-const setLocale = (lang: string) => {
+const setLocale = (lang: Language) => {
   locale.value = lang
 }
 
 const languageLabel = (lang: string) => {
   switch (lang) {
-    case 'ja':
+    case Language.JAPANESE:
       return '日本語'
-    case 'ko':
+    case Language.KOREAN:
       return '한국어'
-    case 'en':
+    case Language.ENGLISH:
       return 'English'
-    case 'zh':
+    case Language.CHINESE_SIMPLIFIED:
       return '简体中文'
+    case Language.CHINESE_TRADITIONAL:
+      return '繁體中文'
     default:
       return lang
   }
