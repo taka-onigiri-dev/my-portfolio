@@ -111,7 +111,7 @@
                 :title="t('skills.categories.languages.japanese.detail')"
               ></i>
             </div>
-            <StarLevel :level="1" />
+            <StarLevel :level="5" />
           </div>
           <small v-if="t('skills.categories.languages.japanese.comment')" class="text-muted">{{
             t('skills.categories.languages.japanese.comment')
