@@ -56,14 +56,7 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-
-enum Language {
-  JAPANESE = 'ja',
-  KOREAN = 'ko',
-  ENGLISH = 'en',
-  CHINESE_SIMPLIFIED = 'zh-Hans',
-  CHINESE_TRADITIONAL = 'zh-Hant',
-}
+import { Language } from '@/LanguageEnum'
 
 const { locale } = useI18n()
 

@@ -90,12 +90,11 @@
       </h3>
       <div class="mx-2">
         <p
-          v-for="(paragraph, index) in backgroundParagraphs"
-          :key="index"
-          class="mb-1"
-          :class="{ 'mb-0': index === backgroundParagraphs.length - 1 }"
+          v-for="(paragraphGroup, groupIndex) in backgroundParagraphs"
+          :key="groupIndex"
+          :style="'margin: 0;'"
         >
-          {{ paragraph }}
+          {{ paragraphGroup.join('') }}
         </p>
       </div>
     </div>
@@ -111,5 +110,5 @@ const { t, tm } = useI18n()
 const techStackItems = computed(() => tm('languageApp.techStack.items') as any[])
 const featureItems = computed(() => tm('languageApp.features.items') as any[])
 const developmentFocusItems = computed(() => tm('languageApp.developmentFocus.items') as string[])
-const backgroundParagraphs = computed(() => tm('languageApp.background.paragraphs') as string[])
+const backgroundParagraphs = computed(() => tm('languageApp.background.paragraphs') as string[][])
 </script>

@@ -73,18 +73,30 @@
   "background": {
     "title": "Background",
     "paragraphs": [
-      "When learning foreign languages, many people can efficiently and naturally acquire them by using content that interests them.",
-      "For example, many foreigners naturally acquire Japanese by being exposed to Japanese anime and Vocaloid otaku content.",
-      "Similarly, Japanese people can learn foreign languages through overseas otaku content.",
-      "However, such methods currently require much effort.",
-      "Especially, work such as listening to video audio and organizing subtitles, or looking up unknown words and expressions one by one is necessary, making learning cumbersome.",
-      "On the other hand, with the spread of the internet, it has become easy to share information about specific content or use materials created by others.",
-      "For example, in the field of music, when there was a song you wanted to play on an instrument, you used to create sheet music by ear, but now you can use sheet music created by others, allowing you to focus on practice.",
-      "Similarly, in language learning, not everyone needs to look up things they don't understand, and by sharing materials created by someone once, learning efficiency can be greatly improved.",
-      "Also, audio textbooks are often used for foreign language learning, but the audio is mostly by unknown narrators, which doesn't connect well to learner motivation.",
-      "Therefore, I want to enable learning with favorite voices like favorite idols and VTubers.",
-      "From this background, I want to develop a system where people who like the same content can efficiently learn by reducing the effort required to learn foreign languages using favorite YouTube content and sharing information.",
-      "With this system, users can save time on research and spend more time on actual learning."
+      [
+        "When learning foreign languages, it is known that you can naturally acquire them while enjoying yourself by utilizing content you like.",
+        "In fact, many foreigners have started learning Japanese after being exposed to Japanese anime and Vocaloid otaku culture."
+      ],
+      [
+        "In this way, Japanese people should also be able to learn foreign languages through overseas otaku content.",
+        "However, currently, such learning methods require a lot of effort.",
+        "For example, tasks such as listening to video audio, organizing subtitles, and looking up unknown words and expressions one by one become burdens separate from the learning itself."
+      ],
+      [
+        "On the other hand, in today's environment where information can be shared through the internet, there is no need for everyone to do all this work alone.",
+        "For example, in the field of music, when there was a song you wanted to play, you used to create sheet music by ear yourself, but now you can focus on practice by utilizing scores created by others."
+      ],
+      [
+        "Similarly, in language learning, it is thought that by sharing and reusing information useful for learning, it becomes possible to learn more efficiently without each person having to research and organize."
+      ],
+      [
+        "Also, audio materials often use readings by narrators, but there is also the issue that inorganic voices don't connect well to learning motivation.",
+        "Therefore, creating an environment where you can learn with \"favorite voices\" like your favorite idols and VTubers is also considered one support for continuing learning."
+      ],
+      [
+        "Based on this background, I want to develop a system that reduces the effort required to learn foreign languages using favorite YouTube content and allows users who like the same content to share information.",
+        "Through this system, users can reduce time spent researching and focus more time on learning."
+      ]
     ]
   }
 }

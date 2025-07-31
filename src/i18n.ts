@@ -1,13 +1,6 @@
 // src/i18n.ts
 import { createI18n } from 'vue-i18n'
-
-enum Language {
-  JAPANESE = 'ja',
-  KOREAN = 'ko',
-  ENGLISH = 'en',
-  CHINESE_SIMPLIFIED = 'zh-Hans',
-  CHINESE_TRADITIONAL = 'zh-Hant',
-}
+import { Language } from './LanguageEnum'
 
 import jaProfile from './locales/ja/profile.json'
 import jaProjects from './locales/ja/projects.json'

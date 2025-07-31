@@ -56,7 +56,7 @@
         "detail": "Learned Korean as a second foreign language in university, and after becoming a working adult, became interested in the Korean virtual idol group \"이세계아이돌\" as a catalyst to resume self-study. Mainly advancing learning through YouTube viewing, VRChat, and Maum interactions.",
         "features": [
           "Japanese and Korean have similar word order and grammatical structure, so even if sentences are cut off mid-way in subtitle translation, large meaning discrepancies are unlikely to occur in translation results.",
-          "Many Sino-Korean words are composed of the same Chinese character combinations as Japanese, so if you have knowledge of Japanese Sino-Japanese words, it's easy to predict vocabulary.\n(Example: If you know \"도서관 (library)\" and \"문화 (culture)\", you can naturally imagine the word \"문서 (document)\")"
+          "Many Sino-Korean words are composed of the same Chinese character combinations as Japanese, so if you have knowledge of Japanese Sino-Japanese words, it's easy to predict vocabulary.\nExample: If you know \"문화 (culture)\" and \"도서관 (library)\", you can naturally imagine the word \"문서 (document)\""
         ]
       },
       "chinese": {
@@ -64,10 +64,10 @@
         "comment": "Can do simple daily expressions a little, but focusing on reading comprehension in learning, pronunciation and conversation are still challenges.",
         "detail": "Using Hello Talk, I practice learning by conversing with Chinese friends who can speak Japanese. HSK has high implementation frequency, and the period from application to exam and score announcement is short, so it's good that you can take the exam immediately when you think of it.",
         "features": [
-          "Chinese has no conjugation, so lemmatization (normalization of word form changes) is not necessary during morphological analysis.\nTherefore, compared to Japanese where forms change like \"eat\", \"don't eat\", \"ate\", word search and natural language processing become very simple.\n(Example: \"吃 (chī)\", \"不吃 (bù chī)\", \"吃了 (chī le)\" - even when forms change, they can all be handled simply as \"吃\".)",
-          "Even the same Chinese characters have different readings and intonation in Japanese and Chinese.\nExample: \"北京 (běijīng)\" and \"北京大学 (běijīng dàxué)\" have changing intonation in Japanese, but are the same in Chinese.",
-          "Words like \"大学\", \"大阪\", \"大人\" have different kanji readings in Japanese, but in Chinese they use \"大 (dà)\" as the base with almost the same reading.\nExample: In Chinese \"大学 (dàxué)\", \"大阪 (dàbǎn)\", \"大人 (dàrén)\"",
-          "\"汉语 (hànyǔ)\" and \"韩语 (hányǔ)\" both become \"ハンユー\" when written in Japanese katakana, so it's difficult to distinguish them using only Japanese pronunciation."
+          "Chinese has no conjugation, so lemmatization (normalization of word form changes) is not necessary during morphological analysis. Therefore, compared to Japanese where forms change, word search and natural language processing become very simple.\nExample: Compared to Japanese where forms change like \"eat\", \"don't eat\", \"ate\", in Chinese \"吃 (chī)\", \"不吃 (bù chī)\", \"吃了 (chī le)\" - even when forms change, they can all be handled simply as \"吃\"",
+          "Even the same Chinese characters have different readings and intonation in Japanese and Chinese.\nExample: \"北京 (běijīng)\" and \"北京大学 (běijīng dàxué)\" have changing intonation in Japanese, but are the same in Chinese",
+          "Japanese kanji have different readings, but in Chinese they have almost the same reading.\nExample: Words like \"大学 (daigaku)\", \"大阪 (ōsaka)\", \"大人 (otona)\" in Chinese use \"大 (dà)\" as the base: \"大学 (dàxué)\", \"大阪 (dàbǎn)\", \"大人 (dàrén)\"",
+          "Some Chinese words become the same sound when written in Japanese katakana, making it difficult to distinguish them using only Japanese pronunciation.\nExample: \"汉语 (hànyǔ) (Chinese)\" and \"韩语 (hányǔ) (Korean)\" both become \"ハンユー\" when written in katakana"
         ]
       },
       "english": {
