@@ -73,7 +73,7 @@
       "english": {
         "name": "English",
         "comment": "Can pick up sounds, but grammar is not sufficiently understood, and content comprehension is limited to word level.",
-        "detail": "Started learning English from junior high school, but didn't study seriously during student days. Now I listen to English more through English VTubers like NIJISANJI EN, but hardly study through textbooks, and the foundation is still not sufficient.",
+        "detail": "Started learning English from junior high school, but didn't study seriously during student days. Now I listen to English more through English-speaking VTubers like NIJISANJI EN, but hardly study through textbooks, and the foundation is still not sufficient.",
         "features": [
           "Japanese requires conversion to kanji or kana after romaji input, but English uses a typewriter method where input characters directly become text."
         ]
