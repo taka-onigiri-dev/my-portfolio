@@ -198,20 +198,6 @@
           <small v-if="t('skills.categories.languages.english.comment')" class="text-muted">{{
             t('skills.categories.languages.english.comment')
           }}</small>
-          <div v-if="tm('skills.categories.languages.english.features')" class="mt-2">
-            <small class="text-muted mb-1 d-block">
-              {{ t('skills.categories.languages.featuresTitle') }}
-            </small>
-            <ul class="list-unstyled ps-2 mb-0">
-              <li
-                v-for="(feature, index) in tm('skills.categories.languages.english.features')"
-                :key="index"
-                class="mb-2"
-              >
-                <small class="text-muted" v-html="`• ${feature.replace(/\n/g, '<br>')}`"></small>
-              </li>
-            </ul>
-          </div>
           <hr class="my-3" />
         </li>
       </ul>
