@@ -58,7 +58,7 @@ import ProjectTestDataTool from '@/components/projects/ProjectTestDataTool.vue'
 import ProjectReviewTool from '@/components/projects/ProjectReviewTool.vue'
 import ProjectChineseTool from '@/components/projects/ProjectChineseTool.vue'
 import languageAppThumbnail from '@/assets/language-app-thumbnail.PNG'
-import chineseToolThumbnail from '@/assets/chinese-tool-thumbnail.png'
+import chineseToolThumbnail from '@/assets/chinese-tool.png'
 
 const { t, tm } = useI18n()
 

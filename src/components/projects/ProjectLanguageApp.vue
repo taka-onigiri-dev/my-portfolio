@@ -18,7 +18,7 @@
     <hr class="my-5" />
 
     <div class="mb-5">
-      <img src="@/assets/demo.gif" alt="demo" class="img-fluid" />
+      <img src="@/assets/language-app.gif" alt="demo" class="img-fluid" />
     </div>
     <hr class="my-5" />
 
