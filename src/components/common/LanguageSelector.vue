@@ -35,14 +35,21 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { useRouter, useRoute } from 'vue-router'
 import { Language, languageLabel } from '@/LanguageEnum'
 
 const { locale } = useI18n()
+const router = useRouter()
+const route = useRoute()
 
 const setLocale = (lang: Language) => {
   locale.value = lang
   // ローカルストレージに言語設定を保存
   localStorage.setItem('preferred-language', lang)
+
+  // クエリパラメータを更新
+  const newQuery = { ...route.query, lang }
+  router.push({ query: newQuery })
 }
 </script>
 

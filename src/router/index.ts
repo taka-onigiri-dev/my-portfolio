@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import { Language } from '../LanguageEnum'
+import i18n from '../i18n'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -9,40 +10,14 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue'),
-    },
-    {
-      path: '/:lang',
-      name: 'home-with-lang',
-      component: HomeView,
       beforeEnter: (to, from, next) => {
-        const lang = to.params.lang as string
-        if (Object.values(Language).includes(lang as Language)) {
-          // 言語をローカルストレージに保存してリダイレクト
+        // クエリパラメータから言語を取得してi18nに設定
+        const lang = to.query.lang as string
+        if (lang && Object.values(Language).includes(lang as Language)) {
+          i18n.global.locale.value = lang as Language
           localStorage.setItem('preferred-language', lang)
-          next('/')
-        } else {
-          next('/')
         }
-      },
-    },
-    {
-      path: '/:lang/about',
-      name: 'about-with-lang',
-      component: () => import('../views/AboutView.vue'),
-      beforeEnter: (to, from, next) => {
-        const lang = to.params.lang as string
-        if (Object.values(Language).includes(lang as Language)) {
-          // 言語をローカルストレージに保存してリダイレクト
-          localStorage.setItem('preferred-language', lang)
-          next('/about')
-        } else {
-          next('/about')
-        }
+        next()
       },
     },
     {
