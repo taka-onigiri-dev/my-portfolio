@@ -41,6 +41,8 @@ const { locale } = useI18n()
 
 const setLocale = (lang: Language) => {
   locale.value = lang
+  // ローカルストレージに言語設定を保存
+  localStorage.setItem('preferred-language', lang)
 }
 </script>
 

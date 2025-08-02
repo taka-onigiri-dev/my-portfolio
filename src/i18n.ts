@@ -116,7 +116,7 @@ const messages = {
 
 const i18n = createI18n({
   legacy: false,
-  locale: Language.JAPANESE,
+  locale: Language.JAPANESE, // 初期値（App.vueで上書きされる）
   fallbackLocale: Language.ENGLISH,
   messages,
 })
