@@ -23,6 +23,6 @@ import Skills from '@/components/sections/Skills.vue'
 
 <style>
 body {
-  background-color: #f8f9fa;
+  background-color: var(--color-background-light);
 }
 </style>

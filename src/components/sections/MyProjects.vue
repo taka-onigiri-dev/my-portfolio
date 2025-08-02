@@ -151,12 +151,12 @@ const handleImageError = (event: Event) => {
   object-fit: contain;
   width: 100%;
   padding: 10px;
-  background-color: #f8f9fa;
+  background-color: var(--color-background-light);
 }
 
 .card-img-top-container {
   overflow: hidden;
-  background-color: #f8f9fa;
+  background-color: var(--color-background-light);
   display: flex;
   align-items: center;
   justify-content: center;
