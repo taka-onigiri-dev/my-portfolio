@@ -8,78 +8,13 @@
         style="width: 40px; height: 40px; object-fit: cover"
       />
       <h1 class="h3 mb-0 text-white">taka-onigiri-dev</h1>
-      <div class="dropdown ms-auto">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          id="langDropdown"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <i class="bi bi-translate me-1"></i>{{ languageLabel(locale) }}
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="langDropdown">
-          <li>
-            <a class="dropdown-item" href="#" @click.prevent="setLocale(Language.JAPANESE)"
-              >日本語</a
-            >
-          </li>
-          <li>
-            <a class="dropdown-item" href="#" @click.prevent="setLocale(Language.KOREAN)">한국어</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#" @click.prevent="setLocale(Language.ENGLISH)"
-              >English</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item"
-              href="#"
-              @click.prevent="setLocale(Language.CHINESE_SIMPLIFIED)"
-              >简体中文</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item"
-              href="#"
-              @click.prevent="setLocale(Language.CHINESE_TRADITIONAL)"
-              >繁體中文</a
-            >
-          </li>
-        </ul>
-      </div>
+      <LanguageSelector class="ms-auto" />
     </div>
   </header>
 </template>
 
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-import { Language } from '@/LanguageEnum'
-
-const { locale } = useI18n()
-
-const setLocale = (lang: Language) => {
-  locale.value = lang
-}
-
-const languageLabel = (lang: string) => {
-  switch (lang) {
-    case Language.JAPANESE:
-      return '日本語'
-    case Language.KOREAN:
-      return '한국어'
-    case Language.ENGLISH:
-      return 'English'
-    case Language.CHINESE_SIMPLIFIED:
-      return '简体中文'
-    case Language.CHINESE_TRADITIONAL:
-      return '繁體中文'
-    default:
-      return lang
-  }
-}
+import LanguageSelector from '@/components/common/LanguageSelector.vue'
 </script>
 
 <style scoped>
