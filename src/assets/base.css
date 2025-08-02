@@ -19,6 +19,16 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  /* プロジェクト固有の色 */
+  --color-base: #20b2aa;
+  --color-base-hover: #1a9a94;
+  --color-base-light: #e0f7fa;
+  --color-accent: #48cae4;
+  --color-accent-hover: #00b4d8;
+  --color-accent-light: #caf0f8;
+  --color-neutral: #008b8b;
+  --color-neutral-light: #023e8a;
 }
 
 /* semantic color variables for this project */

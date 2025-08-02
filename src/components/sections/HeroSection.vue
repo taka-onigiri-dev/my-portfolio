@@ -19,7 +19,7 @@
             >
               <i class="bi bi-github me-1"></i>GitHub
             </a>
-            <a href="mailto:taka.onigiri.dev@gmail.com" class="btn btn-outline-primary btn-sm mx-1">
+            <a href="mailto:taka.onigiri.dev@gmail.com" class="btn btn-outline-base btn-sm mx-1">
               <i class="bi bi-envelope me-1"></i>Email
             </a>
           </div>
@@ -34,5 +34,19 @@
 </script>
 
 <style scoped>
-/* ...existing code... */
+.btn-outline-base {
+  color: var(--color-base);
+  border-color: var(--color-base);
+  background-color: transparent;
+}
+
+.btn-outline-base:hover {
+  color: white;
+  background-color: var(--color-base);
+  border-color: var(--color-base);
+}
+
+.btn-outline-base:focus {
+  box-shadow: 0 0 0 0.2rem rgba(32, 178, 170, 0.25);
+}
 </style>

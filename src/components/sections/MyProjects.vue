@@ -131,11 +131,11 @@ const handleImageError = (event: Event) => {
 .project-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
-  border-color: #28a745 !important;
+  border-color: var(--color-base) !important;
 }
 
 .project-card:hover .card-title {
-  color: #28a745 !important;
+  color: var(--color-base) !important;
 }
 
 .project-card .text-muted {
@@ -143,7 +143,7 @@ const handleImageError = (event: Event) => {
 }
 
 .project-card:hover .text-muted {
-  color: #28a745 !important;
+  color: var(--color-base) !important;
 }
 
 .project-thumbnail {
