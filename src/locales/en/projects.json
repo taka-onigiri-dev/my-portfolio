@@ -1,5 +1,10 @@
 {
   "title": "Projects",
+  "portfolioSite": {
+    "title": "About this site",
+    "intro": "An explanation of this portfolio site's structure and technologies.",
+    "techStack": ["Vue.js", "Bootstrap", "GitHub Pages", "GitHub Actions", "Google Analytics"]
+  },
   "languageApp": {
     "title": "Multilingual Learning Support Web App using YouTube Subtitles and Generative AI",
     "intro": "A language learning site that utilizes otaku content, enabling subtitle comparison, AI explanation generation, and progress management and sharing.",

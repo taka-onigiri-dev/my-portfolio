@@ -1,5 +1,10 @@
 {
   "title": "作品列表",
+  "portfolioSite": {
+    "title": "關於本網站",
+    "intro": "對本作品集網站之結構與使用技術的說明。",
+    "techStack": ["Vue.js", "Bootstrap", "GitHub Pages", "GitHub Actions", "Google Analytics"]
+  },
   "languageApp": {
     "title": "利用YouTube字幕和生成AI的多語言學習支援Web應用",
     "intro": "利用御宅族內容，可以進行字幕比較、AI解說生成、進度管理・共享的語言學習網站。",

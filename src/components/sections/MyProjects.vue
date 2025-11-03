@@ -57,6 +57,7 @@ import ProjectLanguageApp from '@/components/projects/ProjectLanguageApp.vue'
 import ProjectTestDataTool from '@/components/projects/ProjectTestDataTool.vue'
 import ProjectReviewTool from '@/components/projects/ProjectReviewTool.vue'
 import ProjectChineseTool from '@/components/projects/ProjectChineseTool.vue'
+import ProjectPortfolioSite from '@/components/projects/ProjectPortfolioSite.vue'
 import languageAppThumbnail from '@/assets/language-app-thumbnail.PNG'
 import chineseToolThumbnail from '@/assets/chinese-tool.png'
 
@@ -67,9 +68,18 @@ const projectComponents = {
   testDataTool: ProjectTestDataTool,
   reviewTool: ProjectReviewTool,
   chineseTool: ProjectChineseTool,
+  portfolioSite: ProjectPortfolioSite,
 }
 
 const projects = computed(() => [
+  {
+    id: 'portfolio-site',
+    key: 'portfolioSite',
+    title: t('projects.portfolioSite.title'),
+    intro: t('projects.portfolioSite.intro'),
+    tags: tm('projects.portfolioSite.techStack') as string[],
+    modalComponent: projectComponents.portfolioSite,
+  },
   {
     id: 'language-app',
     key: 'languageApp',

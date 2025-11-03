@@ -1,0 +1,29 @@
+{
+  "overview": {
+    "title": "Overview",
+    "description": "This portfolio site is a static site built to showcase key projects. It is developed with Vue.js and Bootstrap, hosted on GitHub Pages, and deployed via CI/CD on GitHub Actions.",
+    "disclaimer": "URL: https://taka-onigiri-dev.github.io/my-portfolio/"
+  },
+  "techStack": {
+    "title": "Tech Stack",
+    "items": [
+      { "title": "Frontend: Vue.js" },
+      { "title": "Style: Bootstrap" },
+      { "title": "Hosting: GitHub Pages" },
+      { "title": "CI/CD: GitHub Actions" },
+      { "title": "Analytics: Google Analytics" }
+    ]
+  },
+  "features": {
+    "title": "Key Points",
+    "items": [
+      {
+        "title": "Multilingual",
+        "description": "Supports multiple languages and allows users to switch languages."
+      },
+      { "title": "Static Hosting", "description": "Delivered on GitHub Pages." },
+      { "title": "CI/CD", "description": "Automated build and deployment with GitHub Actions." },
+      { "title": "Analytics", "description": "Usage is visualized with Google Analytics." }
+    ]
+  }
+}

@@ -1,5 +1,10 @@
 {
   "title": "제작물 목록",
+  "portfolioSite": {
+    "title": "이 사이트에 대하여",
+    "intro": "포트폴리오 사이트 자체의 구조와 사용 기술에 대한 설명입니다.",
+    "techStack": ["Vue.js", "Bootstrap", "GitHub Pages", "GitHub Actions", "Google Analytics"]
+  },
   "languageApp": {
     "title": "YouTube 자막과 생성 AI를 활용한 다언어 학습 지원 웹 앱",
     "intro": "오타쿠 콘텐츠를 활용하여 자막 비교, AI 해설 생성, 진도 관리・공유가 가능한 언어 학습 사이트입니다.",

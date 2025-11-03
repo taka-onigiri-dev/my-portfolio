@@ -1,0 +1,29 @@
+{
+  "overview": {
+    "title": "개요",
+    "description": "이 포트폴리오 사이트는 주요 제작물을 소개하기 위해 구축한 정적 사이트입니다. Vue.js와 Bootstrap으로 개발되었으며, GitHub Pages에 호스팅되고 GitHub Actions로 CI/CD 배포를 수행합니다.",
+    "disclaimer": "URL: https://taka-onigiri-dev.github.io/my-portfolio/"
+  },
+  "techStack": {
+    "title": "사용 기술",
+    "items": [
+      { "title": "프런트엔드: Vue.js" },
+      { "title": "스타일: Bootstrap" },
+      { "title": "호스팅: GitHub Pages" },
+      { "title": "CI/CD: GitHub Actions" },
+      { "title": "분석: Google Analytics" }
+    ]
+  },
+  "features": {
+    "title": "주요 포인트",
+    "items": [
+      {
+        "title": "다국어 지원",
+        "description": "여러 언어를 지원하며, 사용자가 언어를 전환하여 볼 수 있습니다."
+      },
+      { "title": "정적 호스팅", "description": "GitHub Pages에서 제공됩니다." },
+      { "title": "CI/CD", "description": "GitHub Actions로 빌드와 배포를 자동화." },
+      { "title": "분석", "description": "Google Analytics로 사용 현황을 가시화." }
+    ]
+  }
+}

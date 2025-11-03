@@ -1,5 +1,10 @@
 {
   "title": "制作物一覧",
+  "portfolioSite": {
+    "title": "このサイトについて",
+    "intro": "ポートフォリオサイト自体の構成と使用技術の解説です。",
+    "techStack": ["Vue.js", "Bootstrap", "GitHub Pages", "GitHub Actions", "Google Analytics"]
+  },
   "languageApp": {
     "title": "YouTube 字幕と生成AIを活用した多言語学習支援 Web アプリ",
     "intro": "オタクコンテンツを活用し、字幕比較やAI解説生成、進捗管理・共有ができる語学学習サイトです。",

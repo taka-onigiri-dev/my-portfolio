@@ -1,0 +1,26 @@
+{
+  "overview": {
+    "title": "概述",
+    "description": "本作品集網站為展示主要專案而建置，屬於靜態網站。以 Vue.js 與 Bootstrap 開發，託管於 GitHub Pages，並透過 GitHub Actions 進行 CI/CD 部署。",
+    "disclaimer": "URL: https://taka-onigiri-dev.github.io/my-portfolio/"
+  },
+  "techStack": {
+    "title": "技術棧",
+    "items": [
+      { "title": "前端：Vue.js" },
+      { "title": "樣式：Bootstrap" },
+      { "title": "託管：GitHub Pages" },
+      { "title": "CI/CD：GitHub Actions" },
+      { "title": "分析：Google Analytics" }
+    ]
+  },
+  "features": {
+    "title": "重點",
+    "items": [
+      { "title": "多語言支援", "description": "支援多種語言，使用者可切換瀏覽。" },
+      { "title": "靜態託管", "description": "由 GitHub Pages 提供。" },
+      { "title": "CI/CD", "description": "使用 GitHub Actions 自動化建置與部署。" },
+      { "title": "分析", "description": "使用 Google Analytics 視覺化使用情況。" }
+    ]
+  }
+}

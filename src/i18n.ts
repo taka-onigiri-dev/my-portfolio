@@ -10,6 +10,7 @@ import jaLanguageApp from './locales/ja/languageApp.json'
 import jaChineseTool from './locales/ja/chineseTool.json'
 import jaReviewTool from './locales/ja/reviewTool.json'
 import jaTestDataTool from './locales/ja/testDataTool.json'
+import jaPortfolioSite from './locales/ja/portfolioSite.json'
 
 import enProfile from './locales/en/profile.json'
 import enProjects from './locales/en/projects.json'
@@ -19,6 +20,7 @@ import enLanguageApp from './locales/en/languageApp.json'
 import enChineseTool from './locales/en/chineseTool.json'
 import enReviewTool from './locales/en/reviewTool.json'
 import enTestDataTool from './locales/en/testDataTool.json'
+import enPortfolioSite from './locales/en/portfolioSite.json'
 
 import koProfile from './locales/ko/profile.json'
 import koProjects from './locales/ko/projects.json'
@@ -28,6 +30,7 @@ import koLanguageApp from './locales/ko/languageApp.json'
 import koChineseTool from './locales/ko/chineseTool.json'
 import koReviewTool from './locales/ko/reviewTool.json'
 import koTestDataTool from './locales/ko/testDataTool.json'
+import koPortfolioSite from './locales/ko/portfolioSite.json'
 
 import zhHansProfile from './locales/zh-Hans/profile.json'
 import zhHansProjects from './locales/zh-Hans/projects.json'
@@ -37,6 +40,7 @@ import zhHansLanguageApp from './locales/zh-Hans/languageApp.json'
 import zhHansChineseTool from './locales/zh-Hans/chineseTool.json'
 import zhHansReviewTool from './locales/zh-Hans/reviewTool.json'
 import zhHansTestDataTool from './locales/zh-Hans/testDataTool.json'
+import zhHansPortfolioSite from './locales/zh-Hans/portfolioSite.json'
 
 import zhHantProfile from './locales/zh-Hant/profile.json'
 import zhHantProjects from './locales/zh-Hant/projects.json'
@@ -46,6 +50,7 @@ import zhHantLanguageApp from './locales/zh-Hant/languageApp.json'
 import zhHantChineseTool from './locales/zh-Hant/chineseTool.json'
 import zhHantReviewTool from './locales/zh-Hant/reviewTool.json'
 import zhHantTestDataTool from './locales/zh-Hant/testDataTool.json'
+import zhHantPortfolioSite from './locales/zh-Hant/portfolioSite.json'
 
 // 日本語の統合データ
 const ja = {
@@ -57,6 +62,7 @@ const ja = {
   chineseTool: jaChineseTool,
   reviewTool: jaReviewTool,
   testDataTool: jaTestDataTool,
+  portfolioSite: jaPortfolioSite,
 }
 
 // 英語の統合データ
@@ -69,6 +75,7 @@ const en = {
   chineseTool: enChineseTool,
   reviewTool: enReviewTool,
   testDataTool: enTestDataTool,
+  portfolioSite: enPortfolioSite,
 }
 
 // 韓国語の統合データ
@@ -81,6 +88,7 @@ const ko = {
   chineseTool: koChineseTool,
   reviewTool: koReviewTool,
   testDataTool: koTestDataTool,
+  portfolioSite: koPortfolioSite,
 }
 
 // 簡体字中国語の統合データ
@@ -93,6 +101,7 @@ const zhHans = {
   chineseTool: zhHansChineseTool,
   reviewTool: zhHansReviewTool,
   testDataTool: zhHansTestDataTool,
+  portfolioSite: zhHansPortfolioSite,
 }
 // 繁体字中国語の統合データ
 const zhHant = {
@@ -104,6 +113,7 @@ const zhHant = {
   chineseTool: zhHantChineseTool,
   reviewTool: zhHantReviewTool,
   testDataTool: zhHantTestDataTool,
+  portfolioSite: zhHantPortfolioSite,
 }
 
 const messages = {

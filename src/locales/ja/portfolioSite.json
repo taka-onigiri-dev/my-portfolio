@@ -1,0 +1,40 @@
+{
+  "overview": {
+    "title": "概要",
+    "description": "このポートフォリオサイトは、主要な制作物を紹介するために構築した静的サイトです。Vue.js と Bootstrap を用いて開発し、GitHub Pages でホスティング、GitHub Actions による CI/CD を利用しています。",
+    "disclaimer": "URL: https://taka-onigiri-dev.github.io/my-portfolio/"
+  },
+
+  "techStack": {
+    "title": "使用技術",
+    "items": [
+      { "title": "フロントエンド: Vue.js" },
+      { "title": "スタイル: Bootstrap" },
+      { "title": "ホスティング: GitHub Pages" },
+      { "title": "CI/CD: GitHub Actions" },
+      { "title": "アクセス解析: Google Analytics" }
+    ]
+  },
+
+  "features": {
+    "title": "主なポイント",
+    "items": [
+      {
+        "title": "多言語対応",
+        "description": "複数の言語に対応しており、ユーザーが言語を切り替えて閲覧可能。"
+      },
+      {
+        "title": "静的ホスティング",
+        "description": "GitHub Pages 上で配信。"
+      },
+      {
+        "title": "CI/CD",
+        "description": "GitHub Actions により、ビルドからデプロイまでを自動化。"
+      },
+      {
+        "title": "アクセス解析",
+        "description": "Google Analytics を利用してサイトの利用状況を可視化。"
+      }
+    ]
+  }
+}
