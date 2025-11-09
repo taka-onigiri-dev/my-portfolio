@@ -100,104 +100,140 @@
         <i class="bi bi-translate me-2"></i>{{ t('skills.categories.languages.title') }}
       </h3>
       <ul class="list-group mb-3">
+        <!-- 日本語 -->
         <li class="list-group-item bg-white text-dark border-0" v-if="locale !== 'ja'">
           <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center">
               <span>{{ t('skills.categories.languages.japanese.name') }}</span>
-              <i
-                v-if="t('skills.categories.languages.japanese.detail')"
-                class="bi bi-info-circle ms-2 text-secondary"
-                style="cursor: pointer"
-                :title="t('skills.categories.languages.japanese.detail')"
-              ></i>
+              <!-- 条件を削除して常に表示 -->
+              <button
+                class="btn btn-link p-0 text-secondary ms-2"
+                type="button"
+                @click="openJa = true"
+                aria-label="詳細"
+              >
+                <i class="bi bi-info-circle"></i>
+              </button>
             </div>
             <StarLevel :level="5" />
           </div>
-          <small v-if="t('skills.categories.languages.japanese.comment')" class="text-muted">{{
-            t('skills.categories.languages.japanese.comment')
-          }}</small>
+
+          <!-- comment をリスト内に表示（元の位置に戻す） -->
+          <small v-if="t('skills.categories.languages.japanese.comment')" class="text-muted">
+            {{ t('skills.categories.languages.japanese.comment') }}
+          </small>
+
+          <!-- Modal: detail と features を表示（comment は上で表示） -->
+          <LanguageModal
+            modal-id="modal-ja"
+            :show="openJa"
+            @update:show="openJa = $event"
+            :title="t('skills.categories.languages.japanese.name')"
+            base-key="skills.categories.languages.japanese"
+          />
+
           <hr class="my-3" />
         </li>
+
+        <!-- 韓国語 -->
         <li class="list-group-item bg-white text-dark border-0">
           <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center">
               <span>{{ t('skills.categories.languages.korean.name') }}</span>
-              <i
-                v-if="t('skills.categories.languages.korean.detail')"
-                class="bi bi-info-circle ms-2 text-secondary"
-                style="cursor: pointer"
-                :title="t('skills.categories.languages.korean.detail')"
-              ></i>
+              <!-- 条件を削除して常に表示 -->
+              <button
+                class="btn btn-link p-0 text-secondary ms-2"
+                type="button"
+                @click="openKo = true"
+                aria-label="詳細"
+              >
+                <i class="bi bi-info-circle"></i>
+              </button>
             </div>
             <StarLevel :level="2" />
           </div>
-          <small v-if="t('skills.categories.languages.korean.comment')" class="text-muted">{{
-            t('skills.categories.languages.korean.comment')
-          }}</small>
-          <div v-if="tm('skills.categories.languages.korean.features')" class="mt-2">
-            <small class="text-muted mb-1 d-block">
-              {{ t('skills.categories.languages.featuresTitle') }}
-            </small>
-            <ul class="list-unstyled ps-2 mb-0">
-              <li
-                v-for="(feature, index) in tm('skills.categories.languages.korean.features')"
-                :key="index"
-                class="mb-2"
-              >
-                <small class="text-muted" v-html="`• ${feature.replace(/\n/g, '<br>')}`"></small>
-              </li>
-            </ul>
-          </div>
+
+          <!-- comment をリスト内に表示 -->
+          <small v-if="t('skills.categories.languages.korean.comment')" class="text-muted">
+            {{ t('skills.categories.languages.korean.comment') }}
+          </small>
+
+          <LanguageModal
+            modal-id="modal-ko"
+            :show="openKo"
+            @update:show="openKo = $event"
+            :title="t('skills.categories.languages.korean.name')"
+            base-key="skills.categories.languages.korean"
+          />
+
           <hr class="my-3" />
         </li>
+
+        <!-- 中国語 -->
         <li class="list-group-item bg-white text-dark border-0">
           <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center">
               <span>{{ t('skills.categories.languages.chinese.name') }}</span>
-              <i
-                v-if="t('skills.categories.languages.chinese.detail')"
-                class="bi bi-info-circle ms-2 text-secondary"
-                style="cursor: pointer"
-                :title="t('skills.categories.languages.chinese.detail')"
-              ></i>
+              <!-- 条件を削除して常に表示 -->
+              <button
+                class="btn btn-link p-0 text-secondary ms-2"
+                type="button"
+                @click="openZh = true"
+                aria-label="詳細"
+              >
+                <i class="bi bi-info-circle"></i>
+              </button>
             </div>
             <StarLevel :level="2" />
           </div>
-          <small v-if="t('skills.categories.languages.chinese.comment')" class="text-muted">{{
-            t('skills.categories.languages.chinese.comment')
-          }}</small>
-          <div v-if="tm('skills.categories.languages.chinese.features')" class="mt-2">
-            <small class="text-muted mb-1 d-block">
-              {{ t('skills.categories.languages.featuresTitle') }}
-            </small>
-            <ul class="list-unstyled ps-2 mb-0">
-              <li
-                v-for="(feature, index) in tm('skills.categories.languages.chinese.features')"
-                :key="index"
-                class="mb-2"
-              >
-                <small class="text-muted" v-html="`• ${feature.replace(/\n/g, '<br>')}`"></small>
-              </li>
-            </ul>
-          </div>
+
+          <!-- comment をリスト内に表示 -->
+          <small v-if="t('skills.categories.languages.chinese.comment')" class="text-muted">
+            {{ t('skills.categories.languages.chinese.comment') }}
+          </small>
+
+          <LanguageModal
+            modal-id="modal-zh"
+            :show="openZh"
+            @update:show="openZh = $event"
+            :title="t('skills.categories.languages.chinese.name')"
+            base-key="skills.categories.languages.chinese"
+          />
+
           <hr class="my-3" />
         </li>
+
+        <!-- 英語（features がないなら表示されません） -->
         <li class="list-group-item bg-white text-dark border-0">
           <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center">
               <span>{{ t('skills.categories.languages.english.name') }}</span>
-              <i
-                v-if="t('skills.categories.languages.english.detail')"
-                class="bi bi-info-circle ms-2 text-secondary"
-                style="cursor: pointer"
-                :title="t('skills.categories.languages.english.detail')"
-              ></i>
+              <!-- 条件を削除して常に表示 -->
+              <button
+                class="btn btn-link p-0 text-secondary ms-2"
+                type="button"
+                @click="openEn = true"
+                aria-label="詳細"
+              >
+                <i class="bi bi-info-circle"></i>
+              </button>
             </div>
             <StarLevel :level="1" />
           </div>
-          <small v-if="t('skills.categories.languages.english.comment')" class="text-muted">{{
-            t('skills.categories.languages.english.comment')
-          }}</small>
+
+          <!-- comment をリスト内に表示 -->
+          <small v-if="t('skills.categories.languages.english.comment')" class="text-muted">
+            {{ t('skills.categories.languages.english.comment') }}
+          </small>
+
+          <LanguageModal
+            modal-id="modal-en"
+            :show="openEn"
+            @update:show="openEn = $event"
+            :title="t('skills.categories.languages.english.name')"
+            base-key="skills.categories.languages.english"
+          />
+
           <hr class="my-3" />
         </li>
       </ul>
@@ -208,9 +244,16 @@
 <script setup lang="ts">
 import Section from '@/components/common/Section.vue'
 import StarLevel from '@/components/common/StarLevel.vue'
+import LanguageModal from '@/components/common/LanguageModal.vue'
 import { useI18n } from 'vue-i18n'
+import { ref } from 'vue'
 
 const { locale, t, tm } = useI18n()
+
+const openJa = ref(false)
+const openKo = ref(false)
+const openZh = ref(false)
+const openEn = ref(false)
 </script>
 
 <style scoped>
