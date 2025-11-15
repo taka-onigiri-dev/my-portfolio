@@ -25,7 +25,7 @@
         <li class="list-group-item bg-white text-dark border-0">
           <div class="d-flex justify-content-between align-items-center">
             <span>{{ t('skills.categories.programming.typescript.name') }}</span>
-            <StarLevel :level="3" />
+            <StarLevel :level="4" />
           </div>
           <small class="text-muted">{{
             t('skills.categories.programming.typescript.comment')
@@ -35,7 +35,7 @@
         <li class="list-group-item bg-white text-dark border-0">
           <div class="d-flex justify-content-between align-items-center">
             <span>{{ t('skills.categories.programming.rust.name') }}</span>
-            <StarLevel :level="2" />
+            <StarLevel :level="3" />
           </div>
           <small class="text-muted">{{ t('skills.categories.programming.rust.comment') }}</small>
         </li>
@@ -79,7 +79,7 @@
         <li class="list-group-item bg-white text-dark border-0">
           <div class="d-flex justify-content-between align-items-center">
             <span>{{ t('skills.categories.tools.docker.name') }}</span>
-            <StarLevel :level="3" />
+            <StarLevel :level="4" />
           </div>
           <small class="text-muted">{{ t('skills.categories.tools.docker.comment') }}</small>
         </li>
@@ -87,7 +87,7 @@
         <li class="list-group-item bg-white text-dark border-0">
           <div class="d-flex justify-content-between align-items-center">
             <span>{{ t('skills.categories.tools.aws.name') }}</span>
-            <StarLevel :level="2" />
+            <StarLevel :level="3" />
           </div>
           <small class="text-muted">{{ t('skills.categories.tools.aws.comment') }}</small>
         </li>
