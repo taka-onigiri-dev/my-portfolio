@@ -8,12 +8,6 @@
     <p class="mb-2">
       <strong>{{ t('profile.interests.title') }}</strong>
       <span class="badge bg-light text-dark border me-1">
-        <i class="bi bi-robot me-1"></i>{{ t('profile.interests.nlp') }}
-      </span>
-      <span class="badge bg-light text-dark border me-1">
-        <i class="bi bi-lightbulb me-1"></i>{{ t('profile.interests.ai') }}
-      </span>
-      <span class="badge bg-light text-dark border me-1">
         <i class="bi bi-translate me-1"></i>{{ t('profile.interests.language') }}
       </span>
       <span class="badge bg-light text-dark border me-1">
@@ -24,6 +18,12 @@
       </span>
       <span class="badge bg-light text-dark border me-1">
         <i class="bi bi-person-video3 me-1"></i>{{ t('profile.interests.vtuber') }}
+      </span>
+      <span class="badge bg-light text-dark border me-1">
+        <i class="bi bi-robot me-1"></i>{{ t('profile.interests.nlp') }}
+      </span>
+      <span class="badge bg-light text-dark border me-1">
+        <i class="bi bi-lightbulb me-1"></i>{{ t('profile.interests.ai') }}
       </span>
     </p>
   </Section>

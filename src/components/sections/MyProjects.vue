@@ -93,6 +93,15 @@ const projects = computed(() => [
     modalComponent: projectComponents.languageApp,
   },
   {
+    id: 'spark-ar-effects',
+    key: 'sparkAREffects',
+    title: t('projects.sparkAREffects.title'),
+    intro: t('projects.sparkAREffects.intro'),
+    tags: tm('projects.sparkAREffects.techStack') as string[],
+    image: sparkARThumbnail,
+    modalComponent: projectComponents.sparkAREffects,
+  },
+  {
     id: 'chinese-tool',
     key: 'chineseTool',
     title: t('projects.chineseTool.title'),
@@ -116,15 +125,6 @@ const projects = computed(() => [
     intro: t('projects.testDataTool.intro'),
     tags: tm('projects.testDataTool.techStack') as string[],
     modalComponent: projectComponents.testDataTool,
-  },
-  {
-    id: 'spark-ar-effects',
-    key: 'sparkAREffects',
-    title: t('projects.sparkAREffects.title'),
-    intro: t('projects.sparkAREffects.intro'),
-    tags: tm('projects.sparkAREffects.techStack') as string[],
-    image: sparkARThumbnail,
-    modalComponent: projectComponents.sparkAREffects,
   },
 ])
 
