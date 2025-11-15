@@ -1,0 +1,25 @@
+{
+  "sparkAREffects": {
+    "overview": {
+      "title": "概要",
+      "description": "Spark AR Studioを使用したInstagram向けARエフェクトの制作。現在はサービス終了により非公開です。"
+    },
+    "demoAlt": "Spark AR Demo",
+    "techStack": {
+      "title": "使用技術",
+      "items": ["Spark AR Studio"]
+    },
+    "omikuji": {
+      "title": "おみくじエフェクト",
+      "description": "画面タップで開始し、アニメーション開始後に瞬きでおみくじを表示。イラストも自身で描いて制作しました。"
+    },
+    "insights": {
+      "title": "実績（Instagram Insights）",
+      "items": ["インプレッション：約 1,000,000", "キャプチャ数：約 44,000", "シェア数：約 7,000"]
+    },
+    "reactions": {
+      "title": "反響",
+      "description": "Webライターの方に取り上げていただいたり、複数の方からDMでポジティブな感想をいただきました。"
+    }
+  }
+}

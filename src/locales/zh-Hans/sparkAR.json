@@ -1,0 +1,25 @@
+{
+  "sparkAREffects": {
+    "overview": {
+      "title": "概要",
+      "description": "使用Spark AR Studio制作的Instagram AR特效。由于服务终止，目前不可用。"
+    },
+    "demoAlt": "Spark AR Demo",
+    "techStack": {
+      "title": "使用技术",
+      "items": ["Spark AR Studio"]
+    },
+    "omikuji": {
+      "title": "抽签特效",
+      "description": "通过点击屏幕开始，动画开始后通过眨眼显示抽签结果。插画也是我自己绘制的。"
+    },
+    "insights": {
+      "title": "成果（Instagram Insights）",
+      "items": ["展示次数：约 1,000,000", "截图数：约 44,000", "分享数：约 7,000"]
+    },
+    "reactions": {
+      "title": "反响",
+      "description": "被网络写手介绍，并收到多位用户通过私信发送的积极反馈。"
+    }
+  }
+}

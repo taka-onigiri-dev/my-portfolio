@@ -4,6 +4,7 @@ import { Language } from './LanguageEnum'
 
 import jaProfile from './locales/ja/profile.json'
 import jaProjects from './locales/ja/projects.json'
+import jaSparkAR from './locales/ja/sparkAR.json'
 import jaSkills from './locales/ja/skills.json'
 import jaCommon from './locales/ja/common.json'
 import jaLanguageApp from './locales/ja/languageApp.json'
@@ -14,6 +15,7 @@ import jaPortfolioSite from './locales/ja/portfolioSite.json'
 
 import enProfile from './locales/en/profile.json'
 import enProjects from './locales/en/projects.json'
+import enSparkAR from './locales/en/sparkAR.json'
 import enSkills from './locales/en/skills.json'
 import enCommon from './locales/en/common.json'
 import enLanguageApp from './locales/en/languageApp.json'
@@ -24,6 +26,7 @@ import enPortfolioSite from './locales/en/portfolioSite.json'
 
 import koProfile from './locales/ko/profile.json'
 import koProjects from './locales/ko/projects.json'
+import koSparkAR from './locales/ko/sparkAR.json'
 import koSkills from './locales/ko/skills.json'
 import koCommon from './locales/ko/common.json'
 import koLanguageApp from './locales/ko/languageApp.json'
@@ -34,6 +37,7 @@ import koPortfolioSite from './locales/ko/portfolioSite.json'
 
 import zhHansProfile from './locales/zh-Hans/profile.json'
 import zhHansProjects from './locales/zh-Hans/projects.json'
+import zhHansSparkAR from './locales/zh-Hans/sparkAR.json'
 import zhHansSkills from './locales/zh-Hans/skills.json'
 import zhHansCommon from './locales/zh-Hans/common.json'
 import zhHansLanguageApp from './locales/zh-Hans/languageApp.json'
@@ -44,6 +48,7 @@ import zhHansPortfolioSite from './locales/zh-Hans/portfolioSite.json'
 
 import zhHantProfile from './locales/zh-Hant/profile.json'
 import zhHantProjects from './locales/zh-Hant/projects.json'
+import zhHantSparkAR from './locales/zh-Hant/sparkAR.json'
 import zhHantSkills from './locales/zh-Hant/skills.json'
 import zhHantCommon from './locales/zh-Hant/common.json'
 import zhHantLanguageApp from './locales/zh-Hant/languageApp.json'
@@ -56,6 +61,7 @@ import zhHantPortfolioSite from './locales/zh-Hant/portfolioSite.json'
 const ja = {
   profile: jaProfile,
   projects: jaProjects,
+  sparkAR: jaSparkAR,
   skills: jaSkills,
   common: jaCommon,
   languageApp: jaLanguageApp,
@@ -69,6 +75,7 @@ const ja = {
 const en = {
   profile: enProfile,
   projects: enProjects,
+  sparkAR: enSparkAR,
   skills: enSkills,
   common: enCommon,
   languageApp: enLanguageApp,
@@ -82,6 +89,7 @@ const en = {
 const ko = {
   profile: koProfile,
   projects: koProjects,
+  sparkAR: koSparkAR,
   skills: koSkills,
   common: koCommon,
   languageApp: koLanguageApp,
@@ -95,6 +103,7 @@ const ko = {
 const zhHans = {
   profile: zhHansProfile,
   projects: zhHansProjects,
+  sparkAR: zhHansSparkAR,
   skills: zhHansSkills,
   common: zhHansCommon,
   languageApp: zhHansLanguageApp,
@@ -107,6 +116,7 @@ const zhHans = {
 const zhHant = {
   profile: zhHantProfile,
   projects: zhHantProjects,
+  sparkAR: zhHantSparkAR,
   skills: zhHantSkills,
   common: zhHantCommon,
   languageApp: zhHantLanguageApp,

@@ -58,8 +58,10 @@ import ProjectTestDataTool from '@/components/projects/ProjectTestDataTool.vue'
 import ProjectReviewTool from '@/components/projects/ProjectReviewTool.vue'
 import ProjectChineseTool from '@/components/projects/ProjectChineseTool.vue'
 import ProjectPortfolioSite from '@/components/projects/ProjectPortfolioSite.vue'
+import ProjectSparkAREffects from '@/components/projects/ProjectSparkAREffects.vue'
 import languageAppThumbnail from '@/assets/language-app-thumbnail.PNG'
 import chineseToolThumbnail from '@/assets/chinese-tool.png'
+import sparkARThumbnail from '@/assets/spark-ar-omikuji.jpg'
 
 const { t, tm } = useI18n()
 
@@ -69,6 +71,7 @@ const projectComponents = {
   reviewTool: ProjectReviewTool,
   chineseTool: ProjectChineseTool,
   portfolioSite: ProjectPortfolioSite,
+  sparkAREffects: ProjectSparkAREffects,
 }
 
 const projects = computed(() => [
@@ -113,6 +116,15 @@ const projects = computed(() => [
     intro: t('projects.testDataTool.intro'),
     tags: tm('projects.testDataTool.techStack') as string[],
     modalComponent: projectComponents.testDataTool,
+  },
+  {
+    id: 'spark-ar-effects',
+    key: 'sparkAREffects',
+    title: t('projects.sparkAREffects.title'),
+    intro: t('projects.sparkAREffects.intro'),
+    tags: tm('projects.sparkAREffects.techStack') as string[],
+    image: sparkARThumbnail,
+    modalComponent: projectComponents.sparkAREffects,
   },
 ])
 

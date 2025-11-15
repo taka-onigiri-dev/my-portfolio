@@ -24,5 +24,10 @@
     "title": "Chinese Learning Tool",
     "intro": "A GUI application that enables efficient learning, confirmation, and recording of Chinese vocabulary.",
     "techStack": ["Python"]
+  },
+  "sparkAREffects": {
+    "title": "Instagram AR Effect Creation",
+    "intro": "Created AR effects for Instagram using Spark AR Studio.",
+    "techStack": ["Spark AR Studio"]
   }
 }

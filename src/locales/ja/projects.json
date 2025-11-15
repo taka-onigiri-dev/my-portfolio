@@ -24,5 +24,10 @@
     "title": "中国語学習ツール",
     "intro": "中国語単語の学習・確認・記録を効率的に行えるGUIアプリです。",
     "techStack": ["Python"]
+  },
+  "sparkAREffects": {
+    "title": "Instagram向けARエフェクト制作",
+    "intro": "Instagram向けに、Spark AR StudioでARエフェクトを制作しました。",
+    "techStack": ["Spark AR Studio"]
   }
 }

@@ -1,0 +1,25 @@
+{
+  "sparkAREffects": {
+    "overview": {
+      "title": "개요",
+      "description": "Spark AR Studio를 사용한 Instagram용 AR 이펙트 제작. 현재는 서비스 종료로 인해 비공개입니다."
+    },
+    "demoAlt": "Spark AR Demo",
+    "techStack": {
+      "title": "사용 기술",
+      "items": ["Spark AR Studio"]
+    },
+    "omikuji": {
+      "title": "오미쿠지 이펙트",
+      "description": "화면 탭으로 시작하며, 애니메이션 시작 후 눈 깜빡임으로 오미쿠지를 표시합니다. 일러스트도 직접 그려서 제작했습니다."
+    },
+    "insights": {
+      "title": "실적 (Instagram Insights)",
+      "items": ["노출: 약 1,000,000", "캡처 수: 약 44,000", "공유 수: 약 7,000"]
+    },
+    "reactions": {
+      "title": "반응",
+      "description": "웹 라이터 분께서 소개해 주시거나, 여러 분들로부터 DM으로 긍정적인 소감을 받았습니다."
+    }
+  }
+}

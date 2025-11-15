@@ -24,5 +24,10 @@
     "title": "中文学习工具",
     "intro": "可以高效进行中文单词学习・确认・记录的GUI应用。",
     "techStack": ["Python"]
+  },
+  "sparkAREffects": {
+    "title": "Instagram AR特效制作",
+    "intro": "使用Spark AR Studio为Instagram制作了AR特效。",
+    "techStack": ["Spark AR Studio"]
   }
 }

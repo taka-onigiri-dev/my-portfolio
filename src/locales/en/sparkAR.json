@@ -1,0 +1,25 @@
+{
+  "sparkAREffects": {
+    "overview": {
+      "title": "Overview",
+      "description": "Created AR effects for Instagram using Spark AR Studio. Currently unavailable due to service termination."
+    },
+    "demoAlt": "Spark AR Demo",
+    "techStack": {
+      "title": "Technologies Used",
+      "items": ["Spark AR Studio"]
+    },
+    "omikuji": {
+      "title": "Omikuji Effect",
+      "description": "Starts with a screen tap, and displays the omikuji after blinking when the animation begins. I also drew the illustrations myself."
+    },
+    "insights": {
+      "title": "Results (Instagram Insights)",
+      "items": ["Impressions: ~1,000,000", "Captures: ~44,000", "Shares: ~7,000"]
+    },
+    "reactions": {
+      "title": "Reactions",
+      "description": "Featured by web writers and received positive feedback via DMs from multiple users."
+    }
+  }
+}
